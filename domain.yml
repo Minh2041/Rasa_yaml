@@ -1,0 +1,412 @@
+version: "3.1"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+intents:
+  - chaoHoi
+  - tamBiet
+  - camOn
+  - thongTinTongQuan
+  - dieuKienXetTuyen
+  - tuyenSinhNam2022
+  - tuyenSinhNam2023
+  - tuyenSinhNam2024
+  - tuyenSinhNam2025
+  - phuongThucXetTuyen
+  - cacNganhDaoTao
+  - thongTinNganhCNTT
+  - thongTinNganhATTT
+  - thongTinNganhDTVT
+  - chuongTrinhHocCNTT
+  - chuongTrinhHocATTT
+  - chuongTrinhHocDTVT
+  - hocPhi
+  - hocBong
+  - kyTucXa
+  - cauLacBo
+  - tiengAnhDauVao
+  - coHoiViecLam
+  - coPhaiTruongQuanDoiKhong
+  - diemChuanCacNam
+  - diemChuanNam2022
+  - diemChuanNam2023
+  - diemChuanNam2024
+  - diemChuanNam2025
+  - diemChuanNganhCNTT
+  - diemChuanNganhATTT
+  - diemChuanNganhDTVT
+  - webVaFacebook_KMA
+  - hocCoKhoKhong
+  - maNganh
+  - chuanBiGiKhiNhapHoc
+  - cachTinhGPA
+  - cachXetHocLuc
+  - toHopMon
+  - uuTienXetTuyen
+  - chungChiTA
+  - coTuyenHeQuanKhong
+
+responses:
+  utter_chaoHoi:
+    - text: "Chào bạn! Mình là chatbot hỗ trợ tuyển sinh KMA. Mình có thể hỗ trợ gì cho bạn về thông tin tuyển sinh của Học viện Kỹ thuật Mật mã?"
+
+  utter_tamBiet:
+    - text: "Tạm biệt bạn nhé! Chúc bạn một ngày vui vẻ 🫶"
+
+  utter_camOn:
+    - text: "Cảm ơn bạn đã tin tưởng! Có gì cần cứ hỏi tiếp nhé!"
+
+  utter_thongTinTongQuan:
+    - text: |
+        Học viện Kỹ thuật Mật mã là cơ sở giáo dục đại học công lập  trực thuộc Ban Cơ yếu Chính phủ của Bộ Quốc phòng, được thành lập ngày 17 tháng 2 năm 1995 có chức năng đào tạo cán bộ có trình độ đại học, sau đại học và nghiên cứu khoa học kỹ thuật mật mã của ngành Cơ yếu Việt Nam. 
+        Học viện cũng được chính phủ Việt Nam lựa chọn là một trong tám cơ sở trọng điểm đào tạo nhân lực an toàn thông tin Việt Nam theo Đề án đào tạo và phát triển nguồn nhân lực an toàn, an ninh thông tin đến năm 2025
+        Học viện đào tạo các ngành liên quan đến An toàn thông tin, Công nghệ thông tin và Điện tử viễn thông.
+
+  utter_dieuKienXetTuyen:
+    - text: |
+        Hiện tại, Học viện xét tuyển dựa trên nhiều phương thức như điểm thi tốt nghiệp THPT và tuyển thẳng theo quy định . 
+        Điều kiện xét tuyển phụ thuộc vào từng phương thức, bạn cần đảm bảo tốt nghiệp THPT và đạt các yêu cầu cụ thể cho từng phương thức,
+          ví dụ như ngưỡng đảm bảo đầu vào, được công bố sau khi thi THPT.
+        Bạn có muốn biết thêm về các phương thức không ?
+
+  utter_tuyenSinhNam2022:
+    - text: |
+        Thông tin tuyển sinh năm 2022 (Cơ sở Hà Nội):
+
+        Ngành Công nghệ thông tin:
+        - Chỉ tiêu: 200
+        - Số nhập học: 194
+
+        Ngành An toàn thông tin:
+        - Chỉ tiêu: 300
+        - Số nhập học: 298
+
+        Ngành Kỹ thuật Điện tử - Viễn thông:
+        - Chỉ tiêu: 100
+        - Số nhập học: 97
+
+        Tổng chỉ tiêu năm 2022 là: 600
+
+  utter_tuyenSinhNam2023:
+    - text: |
+        Thông tin tuyển sinh năm 2023 (Cơ sở Hà Nội):
+
+        Ngành Công nghệ thông tin:
+        - Chỉ tiêu: 130
+        - Số nhập học: 125
+
+        Ngành An toàn thông tin:
+        - Chỉ tiêu: 270
+        - Số nhập học: 266
+
+        Ngành Kỹ thuật Điện tử - Viễn thông:
+        - Chỉ tiêu: 100
+        - Số nhập học: 101
+
+        Tổng chỉ tiêu năm 2023 là: 500
+
+  utter_tuyenSinhNam2024:
+    - text: |
+        Thông tin tuyển sinh năm 2024 (Cơ sở Hà Nội):
+
+        Ngành Công nghệ thông tin:
+        - Chỉ tiêu: 140
+        - Số nhập học: 150
+
+        Ngành An toàn thông tin:
+        - Chỉ tiêu: 280
+        - Số nhập học: 280
+
+        Ngành Kỹ thuật Điện tử - Viễn thông:
+        - Chỉ tiêu: 140
+        - Số nhập học: 155
+
+        Tổng chỉ tiêu năm 2024 là: 560
+
+  utter_tuyenSinhNam2025:
+    - text: |
+        Thông tin tuyển sinh dự kiến năm 2025 (Cơ sở Hà Nội):
+
+        Ngành An toàn thông tin (Mã ngành: 7480202KMA):
+        - Chỉ tiêu dự kiến: 240
+
+        Ngành Công nghệ thông tin (Mã ngành: 7480201KMA):
+        - Chỉ tiêu dự kiến: 140
+
+        Ngành Kỹ thuật Điện tử, Viễn thông (Mã ngành: 7520207):
+        - Chỉ tiêu dự kiến: 140
+
+        Tổng chỉ tiêu dự kiến năm 2025 là: 520
+        Lưu ý: Chỉ tiêu có thể thay đổi tùy theo quyết định của Học viện và Bộ Giáo dục và Đào tạo.
+
+  utter_diemChuanCacNam:
+    - text: "Bạn muốn biết điểm chuẩn của năm nào ?"
+
+  utter_diemChuanNam2022:
+    - text: |
+        Trong năm 2022, mức điểm chuẩn tại Học viện (cơ sở Hà Nội) cụ thể là:
+        - Công nghệ thông tin: 26.6  
+        - An toàn thông tin: 25.9  
+        - Kỹ thuật điện tử - viễn thông: 25.1
+
+  utter_diemChuanNam2023:
+    - text: |
+        Năm 2023, điểm chuẩn đầu vào của các ngành tại cơ sở Hà Nội như sau:
+        - Công nghệ thông tin: 26.2  
+        - An toàn thông tin: 25.6  
+        - Kỹ thuật điện tử - viễn thông: 25.0
+
+  utter_diemChuanNam2024:
+    - text: |
+        Dưới đây là điểm chuẩn năm 2024 (cơ sở Hà Nội):
+        - Công nghệ thông tin: 26.1  
+        - An toàn thông tin: 25.95  
+        - Kỹ thuật điện tử - viễn thông: 25.35
+
+  utter_diemChuanNam2025:
+    - text: |
+        Điểm chuẩn năm 2025 chưa có bạn nhé.
+        Bạn có thể hỏi về điểm chuẩn năm 2022, 2023 hoặc 2024.
+
+  utter_diemChuanNganhCNTT:
+    - text: |
+        Dưới đây là điểm chuẩn ngành Công nghệ thông tin (cơ sở Hà Nội) trong các năm gần đây:
+        - Năm 2021: 26.4  
+        - Năm 2022: 26.6  
+        - Năm 2023: 26.2  
+        - Năm 2024: 26.1
+
+  utter_diemChuanNganhATTT:
+    - text: |
+        Điểm chuẩn ngành An toàn thông tin tại cơ sở Hà Nội qua các năm:
+        - Năm 2021: 25.95  
+        - Năm 2022: 25.9  
+        - Năm 2023: 25.6  
+        - Năm 2024: 25.95
+
+  utter_diemChuanNganhDTVT:
+    - text: |
+        Điểm chuẩn ngành Kỹ thuật điện tử - viễn thông (cơ sở Hà Nội) qua các năm:
+        - Năm 2021: 25.5  
+        - Năm 2022: 25.1  
+        - Năm 2023: 25.0  
+        - Năm 2024: 25.35
+
+  utter_phuongThucXetTuyen:
+    - text: |
+        Hiện tại, Học viện áp dụng các phương thức xét tuyển sau:
+          1. Xét tuyển bằng kết quả kỳ thi THPT do Bộ GD&ĐT tổ chức. Điểm xét tuyển là tổng điểm của một trong các tổ hợp môn xét tuyển sau:
+            - Toán, Vật lý, Hoá học (A00)
+            - Toán, Vật lý, Tiếng Anh (A01)
+            - Toán, Tiếng anh, Tin học
+            - Toán, Vật lý, Tin học
+          2. Xét tuyển thẳng theo quy định của Bộ GD&DT
+
+  utter_cacNganhDaoTao:
+    - text: |
+        Hiện tại, Học viện Kỹ thuật Mật mã đang đào tạo 3 ngành chính:
+        1. An toàn thông tin (ATTT)
+        2. Công nghệ thông tin (CNTT)
+        3. Kỹ thuật điện tử viễn thông (ĐTVT)
+        Mỗi ngành có chương trình học và định hướng riêng phù hợp với nhu cầu thực tiễn.
+
+  utter_thongTinNganh_ATTT:
+    - text: |
+        Ngành An toàn thông tin (ATTT) là lĩnh vực quan trọng trong thời đại số hóa, giúp bảo vệ thông tin và hệ thống khỏi các mối đe dọa mạng.
+        Sinh viên sẽ được đào tạo chuyên sâu về các giải pháp bảo mật, thiết kế hệ thống an toàn, và xử lý các sự cố an toàn thông tin. 
+        Các chuyên ngành của ATTT bao gồm: 
+        1. An toàn hệ thống thông tin.
+        2. Công nghệ phần mềm an toàn.
+        3. Kỹ nghệ an toàn mạng.
+
+  utter_thongTinNganh_CNTT:
+    - text: |
+        Ngành Công nghệ thông tin (CNTT) là ngành học phát triển nhanh chóng trong thế kỷ 21, bao gồm việc sử dụng hệ thống máy tính, phần mềm và mạng để quản lý thông tin. 
+        CNTT cung cấp giải pháp công nghệ giúp tăng cường hiệu quả công việc và hỗ trợ quyết định trong các tổ chức.
+        Các chuyên ngành tại Học viện Kỹ thuật Mật mã gồm:
+        1. Kỹ thuật phần mềm nhúng và di động (từ 2014 đến 2023)
+        2. Kỹ thuật phần mềm di động (từ 2024)
+        3. Trí tuệ nhân tạo ứng dụng (bắt đầu từ 2025)
+
+  utter_thongTinNganh_DTVT:
+    - text: |
+        Ngành Kỹ thuật Điện tử Viễn thông là ngành quan trọng trong thời đại công nghệ hiện nay, nghiên cứu và phát triển các hệ thống điện tử và viễn thông.
+        Ngành này cung cấp các giải pháp công nghệ để cải thiện hiệu quả công việc và kết nối thông tin.
+        Các chuyên ngành tại Học viện Kỹ thuật Mật mã gồm:
+        1. Hệ thống nhúng và điều khiển tự động (từ 2015 đến 2024)
+        2. Hệ thống nhúng và thiết kế vi mạch (từ 2025)
+
+  utter_chuongTrinhHoc_ATTT:
+    - text: |
+        Chương trình đào tạo ngành An toàn thông tin kéo dài 4,5 năm với tổng cộng 165 tín chỉ. Sinh viên sẽ được trang bị kiến thức đại cương, cơ sở ngành, chuyên sâu theo từng chuyên ngành như:
+        - An toàn hệ thống thông tin
+        - Kỹ nghệ an toàn mạng
+        - Công nghệ phần mềm an toàn
+
+        Mục tiêu đào tạo là giúp sinh viên:
+        - Hiểu rõ về cấu trúc và hoạt động của các hệ thống công nghệ thông tin.
+        - Nắm bắt được các hiểm họa an toàn và cách phòng chống.
+        - Có kiến thức và kỹ năng chuyên sâu để thiết kế, triển khai, vận hành và bảo vệ hệ thống thông tin khỏi các rủi ro an ninh mạng.
+
+  utter_chuongTrinhHoc_CNTT:
+    - text: |
+        Ngành Công nghệ Thông tin có thời gian đào tạo 4,5 năm với tổng cộng 163 tín chỉ. 
+        Sinh viên sẽ được đào tạo theo định hướng Kỹ thuật phần mềm nhúng và di động, hoặc Trí tuệ nhân tạo ứng dụng tập trung vào:
+        - Lập trình phần mềm trên desktop, mobile (Android/iOS), web
+        - Phát triển ứng dụng IoT, bảo mật phần mềm
+        - Phát triển ứng dụng tích hợp AI
+        Mục tiêu đào tạo là giúp sinh viên có phẩm chất đạo đức tốt, năng lực nghiên cứu, phát triển sản phẩm và làm việc hiệu quả trong môi trường công nghệ hiện đại. Sinh viên được chuẩn bị để làm việc trong doanh nghiệp công nghệ, hoặc tiếp tục học sau đại học.
+
+  utter_chuongTrinhHoc_DTVT:
+    - text: |
+        Ngành Kỹ thuật Điện tử Viễn thông có thời gian đào tạo 4,5 năm với tổng cộng 168 tín chỉ. 
+        Sinh viên được đào tạo kiến thức nền tảng về điện tử - viễn thông - vi mạch, đồng thời có thể định hướng theo 2 chuyên ngành:
+        - Hệ thống nhúng và điều khiển tự động
+        - Thiết kế vi mạch
+        Mục tiêu đào tạo là trang bị cho sinh viên kỹ năng thiết kế, triển khai, lập trình và tối ưu các hệ thống nhúng, mạch điện tử; có khả năng nghiên cứu, phát triển sản phẩm và làm chủ công nghệ hiện đại trong lĩnh vực điện tử viễn thông.
+
+  utter_hocPhi:
+    - text: |
+        Hiện nay, học phí của Học viện là 450.000đ/ tín chỉ, tương đương với khoảng 16-18 triệu đồng/ năm học (mỗi kì khoảng 18-21 tín chỉ).
+        Mỗi năm, học viện đều tăng học phí với mức tăng khoảng 10%/ năm.
+        - Đối với khóa 22 (2K7) học phí sẽ là 525.000đ/ tín chỉ.
+        Học phí là thống nhất giữa các ngành học, ngoài ra học viện còn có chế độ miễn giảm học phí cho sinh viên hộ nghèo, khuyết tật, vượt khó,...
+
+  utter_hocBong:
+    - text: |
+        Hiện nay học viện có cấp học bổng khuyến khích học tập cho sinh viên, tính theo kỳ và xét dựa trên GPA (điểm trung bình hệ 4 của kỳ đó).
+        Có các mức học bổng sau : 
+          - Loại khá : Số tiền học bổng = 15 tín chỉ * số tiền của 1 tín chỉ
+          - Loại giỏi : Số tiền học bổng = Loại khá * 1.1
+          - Loại xuất sắc : Số tiền học bổng = Loại khá * 1.2
+        Điểm rèn luyện được đánh giá trên thang điểm 100 và sẽ được dùng như một tiêu chí đánh giá, xếp loại học bổng cùng với GPA. Điểm rèn luyện sinh viên có các mức sau :
+          - Loại khá : 65 - 79 điểm
+          - Loại giỏi : 80 - 89 điểm
+          - Loại xuất sắc : 90 - 100 điểm
+
+  utter_kyTucXa:
+    - text: |
+        Hiện nay trường chỉ có ký túc xá dành cho hệ quân sự. Đối với sinh viên hệ dân sự, các bạn sẽ phải tự túc tìm trọ / chỗ ở.
+
+  utter_cauLacBo:
+    - text: |
+        Học viện có rất nhiều câu lạc bộ hiện đang hoạt động, thuộc nhiều lĩnh vực khác nhau.
+        - Các câu lạc bộ học thuật gồm :
+          + Câu lạc bộ ATTT KMA (KCSC)
+          + Câu lạc bộ Điện tử viễn thông (KETC)
+        - Các câu lạc bộ văn hóa - văn nghệ gồm :
+          + Ban âm nhạc Hội sinh viên Mật mã (KMG)
+          + Câu lạc bộ Thanh niên Xung kích KMA
+          + Đội Thanh niên vận động hiến máu KMA
+          + Câu lạc bộ Giai Điệu Xanh KMA 
+        - Ngoài ra còn có các câu lạc bộ như : 
+          + Câu lạc bộ Thể thao điện tử KMA (eACT)
+          + Các câu lạc bộ Bóng chuyền, bóng bàn, cờ vua,...
+
+  utter_tiengAnhDauVao:
+    - text: |
+        Hiện nay trường đã thôi việc kiểm tra tiếng Anh đầu vào. Bạn không cần có chứng chỉ tiếng Anh để vào học ở trường, nhưng nếu có sẽ là một điểm ưu tiên
+
+  utter_coHoiViecLam:
+    - text: |
+        Việc ra trường có việc làm đúng ngành hay không còn phụ thuộc vào năng lực và khả năng học tập của bạn tại Học viện. Tuy chưa có con số chính xác về tỉ lệ
+        sinh viên ra trường có việc làm, nhưng nếu bạn cố gắng thì ắt sẽ có kết quả tốt. 
+        Học viện cũng thường xuyên tổ chức các buổi hội thảo, hướng nghiệp, liên kết các doanh nghiệp lớn như Samsung, Viettel, FPT,... với sinh viên, tăng cơ hội việc làm.
+
+  utter_coPhaiTruongQuanDoiKhong:
+    - text: |
+        Học viện Kỹ thuật mật mã là trường công lập trực thuộc Ban Cơ yếu Chính phủ của Bộ Quốc phòng. Trường là trường quân đội, do có đào tạo Kỹ thuật mật mã cho Ban Cơ Yếu Chính phủ.
+        Tuy nhiên, trường chỉ xét tuyển hệ Dân sự (các ngành phục vụ Kinh tế - Xã hội), được đào tạo như các trường khác, sau khi học xong bạn sẽ tự tìm việc cho mình.
+
+  utter_webVaFacebook_KMA:
+    - text: |
+        Đây là các trang web và fanpage chính thức của Học viện Kỹ thuật mật mã (KMA), bạn có thể theo dõi để cập nhật được các thông tin mới nhất !
+        - Web : https://actvn.edu.vn/
+        - Facebook : https://www.facebook.com/hocvienkythuatmatma
+
+  utter_hocCoKhoKhong:
+    - text: |
+        Chương trình học có mức độ khó phù hợp, tất nhiên còn phụ thuộc vào khả năng tiếp thu của bạn, nhưng nếu bạn chăm chỉ và theo kịp thì hoàn toàn có thể học tốt nhé !
+
+  utter_maNganh:
+    - text: |
+        Mã ngành của các ngành học:
+        - An toàn thông tin (ATTT): 7480202
+        - Công nghệ thông tin (CNTT): 7480201
+        - Kỹ thuật Điện tử Viễn thông (ĐTVT): 7520207
+
+  utter_chuanBiGiKhiNhapHoc:
+    - text: |
+        Bạn cần chuẩn bị các giấy tờ sau khi nhập học : 
+
+        1. Bản sao Giấy báo trúng tuyển kèm Giấy báo nhập học.  
+        2. Bản sao có công chứng Học bạ THPT hoặc Bổ túc văn hóa.  
+        3. Bản sao có công chứng Bằng THPT (hoặc THCN và tương đương) hoặc Giấy chứng nhận tốt nghiệp tạm thời.  
+        4. Bản sao Giấy Khai sinh.  
+        5. Bản sao Chứng minh thư hoặc Thẻ căn cước công dân.  
+        6. Sơ yếu lý lịch sinh viên (02 bản).  
+        7. Phiếu sinh viên.  
+        8. Bản sao công chứng chứng chỉ Tiếng Anh (với thí sinh trúng tuyển có sử dụng chứng chỉ tiếng Anh để được cộng điểm ưu tiên).  
+        9. Giấy Di chuyển Nghĩa vụ Quân sự (đối với sinh viên nam).  
+
+        Bạn có thể xem chi tiết quy trình nhập học ở đây : "https://drive.google.com/file/d/1pFT8f4EX_1aae-b6Qe0CuUzzciYZlZh0/view?fbclid=IwY2xjawJvYgRleHRuA2FlbQIxMAABHr_CV3j5vmRPNG4Fywel4zieyvK27oAJWf-puE9CKkjn7pxcfPmPfQRf8GtG_aem_wQnSqU9sYbRfw96A4KwB4Q"
+
+  utter_cachTinhGPA:
+    - text: |
+        GPA là điểm trung bình tích lũy, được tính theo hệ 4.0, dựa trên điểm trung bình các môn học trong một kỳ theo tín chỉ. 
+        Công thức tính GPA như sau : 
+                GPA = Tổng (Điểm hệ 4 của môn học * số tín chỉ của môn học đó ) của các môn / (Tổng số tín chỉ trong kỳ học)
+        Như vậy, GPA có mức từ 0-4, cao nhất là 4.0.
+
+  utter_cachXetHocLuc:
+    - text: |
+        Học lực được xếp loại dựa trên GPA (theo từng kỳ) hoặc xét theo toàn khóa học như sau:
+        - Xuất sắc: GPA ≥ 3.6
+        - Giỏi: 3.2 ≤ GPA < 3.6
+        - Khá: 2.5 ≤ GPA < 3.2
+        - Trung bình: 2.0 ≤ GPA < 2.5
+        - Yếu: GPA < 2.0
+        Học lực là yếu tố quan trọng để đánh giá một sinh viên
+
+  utter_toHopMon:
+    - text: |
+        Hiện nay, có các tổ hợp môn thi THPT sau được xét tuyển vào Học viện Kỹ thuật mật mã : 
+            - Toán, Vật lý, Hoá học (A00)
+            - Toán, Vật lý, Tiếng Anh (A01)
+            - Toán, Tiếng anh, Tin học
+            - Toán, Vật lý, Tin học
+
+  utter_uuTienXetTuyen:
+    - text: |
+        Các ưu tiên trong xét tuyển hiện tại của Học viện bao gồm : 
+        - Xét tuyển thẳng: Thí sinh đoạt giải nhất, nhì, ba trong kỳ thi chọn học sinh giỏi Quốc gia (điều kiện: môn được giải là Toán hoặc Tin học hoặc giải thưởng sáng tạo về khoa học công nghệ cấp Quốc gia), đã tốt nghiệp Trung học phổ thông.
+        - Ưu tiên xét tuyển: Thí sinh đã trúng tuyển vào Học viện Kỹ thuật mật mã nhưng ngay năm đó có lệnh điều động đi nghĩa vụ quân sự hoặc thanh niên xung phong, nay đã hoàn thành nghĩa vụ được xuất ngũ, phục viên. 
+          Nếu có đầy đủ điều kiện và tiêu chuẩn sức khỏe, có các giấy tờ hợp lệ thì được nhận vào học tại Học viện theo đúng chuyên ngành trước đây đã trúng tuyển.
+        - Ngoài điểm ưu tiên theo quy chế tuyển sinh hiện hành, Học viện cộng thêm điểm ưu tiên với thí sinh (sử dụng kết quả kỳ thi THPT để xét tuyển) có chứng chỉ tiếng Anh quốc tế (còn giá trị sử dụng tính đến ngày xét tuyển), theo 3 mức ưu tiên như sau:
+
+            + Chứng chỉ IELTS từ 5.5 - 6.0 hoặc TOEIC từ 650 đến dưới 750 hoặc TOEFL iBT từ 65 đến dưới 80 : 1,0 điểm;
+
+            + Chứng chỉ IELTS từ 6.5 - 7.0  hoặc TOEIC từ 750 đến dưới 850 hoặc TOEFL iBT từ 80 đến dưới 95: 1,5 điểm;
+
+            + Chứng chỉ IELTS từ 7.5 trở lên hoặc TOEIC từ 850 trở lên hoặc TOEFL iBT từ 95 trở lên: 2,0 điểm.
+
+        - Ngoài ra, các ưu tiên khác do bộ GD&DT quy định.
+
+  utter_chungChiTA:
+    - text: |
+        Hiện tại, Học viện không yêu cầu chứng chỉ tiếng Anh hay đánh giá năng lực tiếng Anh đầu vào. Tuy nhiên, nếu có chứng chỉ tiếng Anh, bạn sẽ có lợi thế hơn trong việc xét tuyển.
+        Cụ thể, các chứng chỉ được công nhận gồm : IELTS, TOEIC, TOEFL iBT. Quy định cộng cụ thể như sau : 
+            + Chứng chỉ IELTS từ 5.5 - 6.0 hoặc TOEIC từ 650 đến dưới 750 hoặc TOEFL iBT từ 65 đến dưới 80 : 1,0 điểm;
+
+            + Chứng chỉ IELTS từ 6.5 - 7.0  hoặc TOEIC từ 750 đến dưới 850 hoặc TOEFL iBT từ 80 đến dưới 95: 1,5 điểm;
+
+            + Chứng chỉ IELTS từ 7.5 trở lên hoặc TOEIC từ 850 trở lên hoặc TOEFL iBT từ 95 trở lên: 2,0 điểm.
+
+  utter_coTuyenHeQuanKhong:
+    - text: |
+        Trường có đào tạo hệ quân nhưng theo hệ cử tuyển, không phải xét tuyển. Vì vậy bạn không thể đăng kí vào học hệ quân sự. 
+        Hiện tại, Học viện chỉ tuyển sinh đối với Hệ dân sự, với 3 chuyên ngành là : An toàn thông tin, Công nghệ thông tin và Điện tử viễn thông.
+  utter_fallback:
+    - text: |
+        Xin lỗi, mình chưa hiểu ý của bạn. Bạn có thể hỏi rõ hơn được không ?
