@@ -1,0 +1,7 @@
+version: "3.1"
+
+rules:
+  - rule: Phản hồi khi không hiểu người dùng
+    steps:
+      - intent: nlu_fallback
+      - action: utter_fallback
