@@ -1,96 +1,127 @@
 version: "3.1"
 stories:
-  - story: Hỏi thông tin tổng quan rồi hỏi trường quân đội
+
+  # ==== Nhóm chào hỏi và dẫn dắt ====
+  - story: Chào hỏi rồi hỏi tổng quan
     steps:
+      - intent: chaoHoi
+      - action: utter_chaoHoi
       - intent: thongTinTongQuan
       - action: utter_thongTinTongQuan
-      - intent: coPhaiTruongQuanDoiKhong
-      - action: utter_coPhaiTruongQuanDoiKhong
 
-  - story: Người dùng hỏi điều kiện xét tuyển rồi đến phương thức xét tuyển
+  - story: Chào hỏi rồi hỏi về ngành ATTT
     steps:
-      - intent: dieuKienXetTuyen
-      - action: utter_dieuKienXetTuyen
-      - intent: phuongThucXetTuyen
-      - action: utter_phuongThucXetTuyen
+      - intent: chaoHoi
+      - action: utter_chaoHoi
+      - intent: thongTinNganhATTT
+      - action: utter_thongTinNganh_ATTT
 
-  - story: Người dùng hỏi phương thức xét tuyển rồi đến tuyển sinh 2022
+  - story: Chào hỏi rồi hỏi học phí và học bổng
     steps:
-      - intent: phuongThucXetTuyen
-      - action: utter_phuongThucXetTuyen
-      - intent: tuyenSinhNam2022
-      - action: utter_tuyenSinhNam2022
-
-  - story: Người dùng hỏi phương thức xét tuyển rồi đến tuyển sinh 2023
-    steps:
-      - intent: phuongThucXetTuyen
-      - action: utter_phuongThucXetTuyen
-      - intent: tuyenSinhNam2023
-      - action: utter_tuyenSinhNam2023
-
-  - story: Người dùng hỏi phương thức xét tuyển rồi đến tuyển sinh 2024
-    steps:
-      - intent: phuongThucXetTuyen
-      - action: utter_phuongThucXetTuyen
-      - intent: tuyenSinhNam2024
-      - action: utter_tuyenSinhNam2024
-
-  - story: Người dùng hỏi phương thức xét tuyển rồi đến tuyển sinh 2025
-    steps:
-      - intent: phuongThucXetTuyen
-      - action: utter_phuongThucXetTuyen
-      - intent: tuyenSinhNam2025
-      - action: utter_tuyenSinhNam2025
-  - story: Hỏi thông tin tổng quan rồi hỏi trường quân đội
-    steps:
-      - intent: thongTinTongQuan
-      - action: utter_thongTinTongQuan
-      - intent: coPhaiTruongQuanDoiKhong
-      - action: utter_coPhaiTruongQuanDoiKhong
-
-  - story: Người dùng hỏi điều kiện xét tuyển rồi đến phương thức xét tuyển
-    steps:
-      - intent: dieuKienXetTuyen
-      - action: utter_dieuKienXetTuyen
-      - intent: phuongThucXetTuyen
-      - action: utter_phuongThucXetTuyen
-
-  - story: Người dùng hỏi phương thức xét tuyển rồi đến tuyển sinh 2022
-    steps:
-      - intent: phuongThucXetTuyen
-      - action: utter_phuongThucXetTuyen
-      - intent: tuyenSinhNam2022
-      - action: utter_tuyenSinhNam2022
-
-  - story: Người dùng hỏi phương thức xét tuyển rồi đến tuyển sinh 2023
-    steps:
-      - intent: phuongThucXetTuyen
-      - action: utter_phuongThucXetTuyen
-      - intent: tuyenSinhNam2023
-      - action: utter_tuyenSinhNam2023
-
-  - story: Người dùng hỏi phương thức xét tuyển rồi đến tuyển sinh 2024
-    steps:
-      - intent: phuongThucXetTuyen
-      - action: utter_phuongThucXetTuyen
-      - intent: tuyenSinhNam2024
-      - action: utter_tuyenSinhNam2024
-
-  - story: Người dùng hỏi phương thức xét tuyển rồi đến tuyển sinh 2025
-    steps:
-      - intent: phuongThucXetTuyen
-      - action: utter_phuongThucXetTuyen
-      - intent: tuyenSinhNam2025
-      - action: utter_tuyenSinhNam2025
-
-  - story: Người dùng hỏi điểm chuẩn, học phí và học bổng
-    steps:
-      - intent: diemChuanNam2024
-      - action: utter_diemChuanNam2024
+      - intent: chaoHoi
+      - action: utter_chaoHoi
       - intent: hocPhi
       - action: utter_hocPhi
       - intent: hocBong
       - action: utter_hocBong
+
+  # ==== Nhóm hội thoại theo lộ trình tìm hiểu tuyển sinh ====
+  - story: Tìm hiểu tổng quan đến ngành CNTT rồi điểm chuẩn
+    steps:
+      - intent: thongTinTongQuan
+      - action: utter_thongTinTongQuan
+      - intent: thongTinNganhCNTT
+      - action: utter_thongTinNganh_CNTT
+      - intent: diemChuanNganhCNTT
+      - action: utter_diemChuanNganhCNTT
+
+  - story: Hỏi điều kiện xét tuyển, phương thức rồi tổ hợp môn
+    steps:
+      - intent: dieuKienXetTuyen
+      - action: utter_dieuKienXetTuyen
+      - intent: phuongThucXetTuyen
+      - action: utter_phuongThucXetTuyen
+      - intent: toHopMon
+      - action: utter_toHopMon
+
+  - story: Hỏi ngành học, chương trình học và cơ hội việc làm
+    steps:
+      - intent: cacNganhDaoTao
+      - action: utter_cacNganhDaoTao
+      - intent: chuongTrinhHocCNTT
+      - action: utter_chuongTrinhHoc_CNTT
+      - intent: coHoiViecLam
+      - action: utter_coHoiViecLam
+
+  - story: Người dùng hỏi điều kiện xét tuyển rồi đến phương thức xét tuyển
+    steps:
+      - intent: dieuKienXetTuyen
+      - action: utter_dieuKienXetTuyen
+      - intent: phuongThucXetTuyen
+      - action: utter_phuongThucXetTuyen
+
+  - story: Hỏi điều kiện, phương thức, ưu tiên xét tuyển
+    steps:
+      - intent: dieuKienXetTuyen
+      - action: utter_dieuKienXetTuyen
+      - intent: phuongThucXetTuyen
+      - action: utter_phuongThucXetTuyen
+      - intent: uuTienXetTuyen
+      - action: utter_uuTienXetTuyen
+
+
+  # ==== Nhóm hỏi thông tin trường ====
+  - story: Hỏi thông tin tổng quan rồi hỏi trường quân đội
+    steps:
+      - intent: thongTinTongQuan
+      - action: utter_thongTinTongQuan
+      - intent: coPhaiTruongQuanDoiKhong
+      - action: utter_coPhaiTruongQuanDoiKhong
+
+  - story: Người dùng hỏi phương thức xét tuyển rồi đến tuyển sinh 2022
+    steps:
+      - intent: phuongThucXetTuyen
+      - action: utter_phuongThucXetTuyen
+      - intent: tuyenSinhNam2022
+      - action: utter_tuyenSinhNam2022
+
+  - story: Người dùng hỏi phương thức xét tuyển rồi đến tuyển sinh 2023
+    steps:
+      - intent: phuongThucXetTuyen
+      - action: utter_phuongThucXetTuyen
+      - intent: tuyenSinhNam2023
+      - action: utter_tuyenSinhNam2023
+
+  - story: Người dùng hỏi phương thức xét tuyển rồi đến tuyển sinh 2024
+    steps:
+      - intent: phuongThucXetTuyen
+      - action: utter_phuongThucXetTuyen
+      - intent: tuyenSinhNam2024
+      - action: utter_tuyenSinhNam2024
+
+  - story: Người dùng hỏi phương thức xét tuyển rồi đến tuyển sinh 2025
+    steps:
+      - intent: phuongThucXetTuyen
+      - action: utter_phuongThucXetTuyen
+      - intent: tuyenSinhNam2025
+      - action: utter_tuyenSinhNam2025
+
+  # ==== Nhóm hỗ trợ sinh viên đầu vào ====
+  - story: Hỏi chuẩn bị nhập học, ký túc xá, câu lạc bộ
+    steps:
+      - intent: chuanBiGiKhiNhapHoc
+      - action: utter_chuanBiGiKhiNhapHoc
+      - intent: kyTucXa
+      - action: utter_kyTucXa
+      - intent: cauLacBo
+      - action: utter_cauLacBo
+
+  - story: Hỏi đầu vào tiếng Anh rồi hỏi chứng chỉ tiếng Anh
+    steps:
+      - intent: tiengAnhDauVao
+      - action: utter_tiengAnhDauVao
+      - intent: chungChiTA
+      - action: utter_chungChiTA
 
   - story: Người dùng hỏi thông tin tổng quan rồi chọn ngành CNTT
     steps:
@@ -101,11 +132,179 @@ stories:
       - intent: thongTinNganhCNTT
       - action: utter_thongTinNganh_CNTT
 
-  - story: Người dùng hỏi chuẩn bị nhập học và đời sống sinh viên
+  # ==== Nhóm hỏi tìm hiểu ngành học ====
+  - story: Tìm hiểu ngành DTVT rồi hỏi điểm chuẩn
     steps:
-      - intent: chuanBiGiKhiNhapHoc
-      - action: utter_chuanBiGiKhiNhapHoc
-      - intent: kyTucXa
-      - action: utter_kyTucXa
-      - intent: cauLacBo
-      - action: utter_cauLacBo
+      - intent: thongTinNganhDTVT
+      - action: utter_thongTinNganh_DTVT
+      - intent: diemChuanNganhDTVT
+      - action: utter_diemChuanNganhDTVT
+
+  - story: Tìm hiểu ngành DTVT rồi hỏi chương trình học
+    steps:
+      - intent: thongTinNganhDTVT
+      - action: utter_thongTinNganh_DTVT
+      - intent: chuongTrinhHocDTVT
+      - action: utter_chuongTrinhHoc_DTVT
+  - story: Tìm hiểu ngành DTVT rồi hỏi cơ hội việc làm
+    steps:
+      - intent: thongTinNganhDTVT
+      - action: utter_thongTinNganh_DTVT
+      - intent: coHoiViecLam
+      - action: utter_coHoiViecLam
+
+  - story: Tìm hiểu ngành DTVT rồi hỏi học có khó không
+    steps:
+      - intent: thongTinNganhDTVT
+      - action: utter_thongTinNganh_DTVT
+      - intent: hocCoKhoKhong
+      - action: utter_hocCoKhoKhong
+  - story: Tìm hiểu ngành DTVT rồi hỏi học phí
+    steps:
+      - intent: thongTinNganhDTVT
+      - action: utter_thongTinNganh_DTVT
+      - intent: hocPhi
+      - action: utter_hocPhi
+  - story: Tìm hiểu ngành DTVT rồi hỏi học bổng
+    steps:
+      - intent: thongTinNganhDTVT
+      - action: utter_thongTinNganh_DTVT
+      - intent: hocBong
+      - action: utter_hocBong
+  - story: Tìm hiểu ngành DTVT rồi hỏi mã ngành
+    steps:
+      - intent: thongTinNganhDTVT
+      - action: utter_thongTinNganh_DTVT
+      - intent: maNganh
+      - action: utter_maNganh
+
+  - story: Tìm hiểu ngành CNTT rồi hỏi chương trình học
+    steps:
+      - intent: thongTinNganhCNTT
+      - action: utter_thongTinNganh_CNTT
+      - intent: chuongTrinhHocCNTT
+      - action: utter_chuongTrinhHoc_CNTT
+  - story: Tìm hiểu ngành CNTT rồi hỏi cơ hội việc làm
+    steps:
+      - intent: thongTinNganhCNTT
+      - action: utter_thongTinNganh_CNTT
+      - intent: coHoiViecLam
+      - action: utter_coHoiViecLam
+  - story: Tìm hiểu ngành CNTT rồi hỏi học có khó không
+    steps:
+      - intent: thongTinNganhCNTT
+      - action: utter_thongTinNganh_CNTT
+      - intent: hocCoKhoKhong
+      - action: utter_hocCoKhoKhong
+  - story: Tìm hiểu ngành CNTT rồi hỏi học phí
+    steps:
+      - intent: thongTinNganhCNTT
+      - action: utter_thongTinNganh_CNTT
+      - intent: hocPhi
+      - action: utter_hocPhi
+  - story: Tìm hiểu ngành CNTT rồi hỏi học bổng
+    steps:
+      - intent: thongTinNganhCNTT
+      - action: utter_thongTinNganh_CNTT
+      - intent: hocBong
+      - action: utter_hocBong
+  - story: Tìm hiểu ngành ATTT rồi hỏi chương trình học
+    steps:
+      - intent: thongTinNganhATTT
+      - action: utter_thongTinNganh_ATTT
+      - intent: chuongTrinhHocATTT
+      - action: utter_chuongTrinhHoc_ATTT
+  - story: Tìm hiểu ngành ATTT rồi hỏi cơ hội việc làm
+    steps:
+      - intent: thongTinNganhATTT
+      - action: utter_thongTinNganh_ATTT
+      - intent: coHoiViecLam
+      - action: utter_coHoiViecLam
+  - story: Tìm hiểu ngành ATTT rồi hỏi học có khó không
+    steps:
+      - intent: thongTinNganhATTT
+      - action: utter_thongTinNganh_ATTT
+      - intent: hocCoKhoKhong
+      - action: utter_hocCoKhoKhong
+  - story: Tìm hiểu ngành ATTT rồi hỏi học phí
+    steps:
+      - intent: thongTinNganhATTT
+      - action: utter_thongTinNganh_ATTT
+      - intent: hocPhi
+      - action: utter_hocPhi
+  - story: Tìm hiểu ngành ATTT rồi hỏi học bổng
+    steps:
+      - intent: thongTinNganhATTT
+      - action: utter_thongTinNganh_ATTT
+      - intent: hocBong
+      - action: utter_hocBong
+  - story: Tìm hiểu ngành ATTT rồi hỏi mã ngành
+    steps:
+      - intent: thongTinNganhATTT
+      - action: utter_thongTinNganh_ATTT
+      - intent: maNganh
+      - action: utter_maNganh
+
+  # ==== Nhóm GPA và học lực ====
+  - story: Hỏi GPA rồi hỏi cách xét học lực
+    steps:
+      - intent: cachTinhGPA
+      - action: utter_cachTinhGPA
+      - intent: cachXetHocLuc
+      - action: utter_cachXetHocLuc
+
+  - story: Người dùng hỏi điểm chuẩn, học phí và học bổng
+    steps:
+      - intent: diemChuanNam2024
+      - action: utter_diemChuanNam2024
+      - intent: hocPhi
+      - action: utter_hocPhi
+      - intent: hocBong
+      - action: utter_hocBong
+
+  # ==== Tình huống kết thúc lịch sự ====
+
+  - story: Hỏi thông tin và cảm ơn
+    steps:
+      - intent: thongTinTongQuan
+      - action: utter_thongTinTongQuan
+      - intent: camOn
+      - action: utter_camOn
+
+  - story: Hỏi điểm chuẩn và chào tạm biệt
+    steps:
+      - intent: diemChuanNam2024
+      - action: utter_diemChuanNam2024
+      - intent: tamBiet
+      - action: utter_tamBiet
+
+  - story: Hỏi học có khó không rồi tạm biệt
+    steps:
+      - intent: hocCoKhoKhong
+      - action: utter_hocCoKhoKhong
+      - intent: tamBiet
+      - action: utter_tamBiet
+
+  - story: Hỏi mã ngành và điểm chuẩn rồi cảm ơn
+    steps:
+      - intent: maNganh
+      - action: utter_maNganh
+      - intent: diemChuanNganhDTVT
+      - action: utter_diemChuanNganhDTVT
+      - intent: camOn
+      - action: utter_camOn
+  
+  - story: Hỏi học bổng rồi cảm ơn
+    steps:
+      - intent: hocBong
+      - action: utter_hocBong
+      - intent: camOn
+      - action: utter_camOn
+
+  - story: Hỏi điểm chuẩn ngành CNTT rồi tạm biệt
+    steps:
+      - intent: diemChuanNganhCNTT
+      - action: utter_diemChuanNganhCNTT
+      - intent: tamBiet
+      - action: utter_tamBiet
+
