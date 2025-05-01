@@ -1,216 +1,111 @@
 version: "3.1"
 stories:
-  - story: Người dùng chào hỏi
-    steps:
-      - intent: chaoHoi
-      - action: utter_chaoHoi
-
-  - story: Người dùng tạm biệt
-    steps:
-      - intent: tamBiet
-      - action: utter_tamBiet
-
-  - story: Người dùng cảm ơn
-    steps:
-      - intent: camOn
-      - action: utter_camOn
-
-  - story: Người dùng hỏi thông tin tổng quan
+  - story: Hỏi thông tin tổng quan rồi hỏi trường quân đội
     steps:
       - intent: thongTinTongQuan
       - action: utter_thongTinTongQuan
-
-  - story: Người dùng hỏi điều kiện xét tuyển
-    steps:
-      - intent: dieuKienXetTuyen
-      - action: utter_dieuKienXetTuyen
-
-  - story: Người dùng hỏi tuyển sinh năm 2022
-    steps:
-      - intent: tuyenSinhNam2022
-      - action: utter_tuyenSinhNam2022
-
-  - story: Người dùng hỏi tuyển sinh năm 2023
-    steps:
-      - intent: tuyenSinhNam2023
-      - action: utter_tuyenSinhNam2023
-
-  - story: Người dùng hỏi tuyển sinh năm 2024
-    steps:
-      - intent: tuyenSinhNam2024
-      - action: utter_tuyenSinhNam2024
-
-  - story: Người dùng hỏi tuyển sinh năm 2025
-    steps:
-      - intent: tuyenSinhNam2025
-      - action: utter_tuyenSinhNam2025
-
-  - story: Người dùng hỏi điểm chuẩn các năm
-    steps:
-      - intent: diemChuanCacNam
-      - action: utter_diemChuanCacNam
-
-  - story: Người dùng hỏi điểm chuẩn năm 2022
-    steps:
-      - intent: diemChuanNam2022
-      - action: utter_diemChuanNam2022
-
-  - story: Người dùng hỏi điểm chuẩn năm 2023
-    steps:
-      - intent: diemChuanNam2023
-      - action: utter_diemChuanNam2023
-
-  - story: Người dùng hỏi điểm chuẩn năm 2024
-    steps:
-      - intent: diemChuanNam2024
-      - action: utter_diemChuanNam2024
-
-  - story: Người dùng hỏi điểm chuẩn năm 2025
-    steps:
-      - intent: diemChuanNam2025
-      - action: utter_diemChuanNam2025
-
-  - story: Người dùng hỏi điểm chuẩn ngành ATTT
-    steps:
-      - intent: diemChuanNganhATTT
-      - action: utter_diemChuanNganhATTT
-
-  - story: Người dùng hỏi điểm chuẩn ngành CNTT
-    steps:
-      - intent: diemChuanNganhCNTT
-      - action: utter_diemChuanNganhCNTT
-
-  - story: Người dùng hỏi điểm chuẩn ngành DTVT
-    steps:
-      - intent: diemChuanNganhDTVT
-      - action: utter_diemChuanNganhDTVT
-
-  - story: Người dùng hỏi phương thức xét tuyển
-    steps:
-      - intent: phuongThucXetTuyen
-      - action: utter_phuongThucXetTuyen
-
-  - story: Trả lời câu hỏi về các ngành đào tạo
-    steps:
-      - intent: cacNganhDaoTao
-      - action: utter_cacNganhDaoTao
-
-  - story: thông tin ngành ATTT
-    steps:
-      - intent: thongTinNganhATTT
-      - action: utter_thongTinNganh_ATTT
-
-  - story: thông tin ngành CNTT
-    steps:
-      - intent: thongTinNganhCNTT
-      - action: utter_thongTinNganh_CNTT
-
-  - story: thông tin ngành DTVT
-    steps:
-      - intent: thongTinNganhDTVT
-      - action: utter_thongTinNganh_DTVT
-
-  - story: chương trình học ATTT
-    steps:
-      - intent: chuongTrinhHocATTT
-      - action: utter_chuongTrinhHoc_ATTT
-
-  - story: chương trình học CNTT
-    steps:
-      - intent: chuongTrinhHocCNTT
-      - action: utter_chuongTrinhHoc_CNTT
-
-  - story: chương trình học DTVT
-    steps:
-      - intent: chuongTrinhHocDTVT
-      - action: utter_chuongTrinhHoc_DTVT
-
-  - story: Người dùng hỏi học phí
-    steps:
-      - intent: hocPhi
-      - action: utter_hocPhi
-
-  - story: Người dùng hỏi học bổng
-    steps:
-      - intent: hocBong
-      - action: utter_hocBong
-
-  - story: Người dùng hỏi ký túc xá
-    steps:
-      - intent: kyTucXa
-      - action: utter_kyTucXa
-
-  - story: Người dùng hỏi câu lạc bộ
-    steps:
-      - intent: cauLacBo
-      - action: utter_cauLacBo
-
-  - story: Người dùng hỏi tiếng Anh đầu vào
-    steps:
-      - intent: tiengAnhDauVao
-      - action: utter_tiengAnhDauVao
-
-  - story: Người dùng hỏi cơ hội việc làm
-    steps:
-      - intent: coHoiViecLam
-      - action: utter_coHoiViecLam
-
-  - story: Người dùng hỏi trường có phải quân đội không
-    steps:
       - intent: coPhaiTruongQuanDoiKhong
       - action: utter_coPhaiTruongQuanDoiKhong
 
-  - story: Người dùng hỏi điểm chuẩn các năm
+  - story: Người dùng hỏi điều kiện xét tuyển rồi đến phương thức xét tuyển
     steps:
-      - intent: diemChuanCacNam
-      - action: utter_diemChuanCacNam
+      - intent: dieuKienXetTuyen
+      - action: utter_dieuKienXetTuyen
+      - intent: phuongThucXetTuyen
+      - action: utter_phuongThucXetTuyen
 
-  - story: Người dùng hỏi web và fanpage
+  - story: Người dùng hỏi phương thức xét tuyển rồi đến tuyển sinh 2022
     steps:
-      - intent: webVaFacebook_KMA
-      - action: utter_webVaFacebook_KMA
+      - intent: phuongThucXetTuyen
+      - action: utter_phuongThucXetTuyen
+      - intent: tuyenSinhNam2022
+      - action: utter_tuyenSinhNam2022
 
-  - story: Người dùng hỏi học có khó không
+  - story: Người dùng hỏi phương thức xét tuyển rồi đến tuyển sinh 2023
     steps:
-      - intent: hocCoKhoKhong
-      - action: utter_hocCoKhoKhong
+      - intent: phuongThucXetTuyen
+      - action: utter_phuongThucXetTuyen
+      - intent: tuyenSinhNam2023
+      - action: utter_tuyenSinhNam2023
 
-  - story: Người dùng hỏi mã ngành
+  - story: Người dùng hỏi phương thức xét tuyển rồi đến tuyển sinh 2024
     steps:
-      - intent: maNganh
-      - action: utter_maNganh
+      - intent: phuongThucXetTuyen
+      - action: utter_phuongThucXetTuyen
+      - intent: tuyenSinhNam2024
+      - action: utter_tuyenSinhNam2024
 
-  - story: Người dùng hỏi chuẩn bị gì khi nhập học
+  - story: Người dùng hỏi phương thức xét tuyển rồi đến tuyển sinh 2025
+    steps:
+      - intent: phuongThucXetTuyen
+      - action: utter_phuongThucXetTuyen
+      - intent: tuyenSinhNam2025
+      - action: utter_tuyenSinhNam2025
+  - story: Hỏi thông tin tổng quan rồi hỏi trường quân đội
+    steps:
+      - intent: thongTinTongQuan
+      - action: utter_thongTinTongQuan
+      - intent: coPhaiTruongQuanDoiKhong
+      - action: utter_coPhaiTruongQuanDoiKhong
+
+  - story: Người dùng hỏi điều kiện xét tuyển rồi đến phương thức xét tuyển
+    steps:
+      - intent: dieuKienXetTuyen
+      - action: utter_dieuKienXetTuyen
+      - intent: phuongThucXetTuyen
+      - action: utter_phuongThucXetTuyen
+
+  - story: Người dùng hỏi phương thức xét tuyển rồi đến tuyển sinh 2022
+    steps:
+      - intent: phuongThucXetTuyen
+      - action: utter_phuongThucXetTuyen
+      - intent: tuyenSinhNam2022
+      - action: utter_tuyenSinhNam2022
+
+  - story: Người dùng hỏi phương thức xét tuyển rồi đến tuyển sinh 2023
+    steps:
+      - intent: phuongThucXetTuyen
+      - action: utter_phuongThucXetTuyen
+      - intent: tuyenSinhNam2023
+      - action: utter_tuyenSinhNam2023
+
+  - story: Người dùng hỏi phương thức xét tuyển rồi đến tuyển sinh 2024
+    steps:
+      - intent: phuongThucXetTuyen
+      - action: utter_phuongThucXetTuyen
+      - intent: tuyenSinhNam2024
+      - action: utter_tuyenSinhNam2024
+
+  - story: Người dùng hỏi phương thức xét tuyển rồi đến tuyển sinh 2025
+    steps:
+      - intent: phuongThucXetTuyen
+      - action: utter_phuongThucXetTuyen
+      - intent: tuyenSinhNam2025
+      - action: utter_tuyenSinhNam2025
+
+  - story: Người dùng hỏi điểm chuẩn, học phí và học bổng
+    steps:
+      - intent: diemChuanNam2024
+      - action: utter_diemChuanNam2024
+      - intent: hocPhi
+      - action: utter_hocPhi
+      - intent: hocBong
+      - action: utter_hocBong
+
+  - story: Người dùng hỏi thông tin tổng quan rồi chọn ngành CNTT
+    steps:
+      - intent: thongTinTongQuan
+      - action: utter_thongTinTongQuan
+      - intent: cacNganhDaoTao
+      - action: utter_cacNganhDaoTao
+      - intent: thongTinNganhCNTT
+      - action: utter_thongTinNganh_CNTT
+
+  - story: Người dùng hỏi chuẩn bị nhập học và đời sống sinh viên
     steps:
       - intent: chuanBiGiKhiNhapHoc
       - action: utter_chuanBiGiKhiNhapHoc
-
-  - story: Người dùng hỏi cách tính GPA
-    steps:
-      - intent: cachTinhGPA
-      - action: utter_cachTinhGPA
-
-  - story: Người dùng hỏi cách xét học lực
-    steps:
-      - intent: cachXetHocLuc
-      - action: utter_cachXetHocLuc
-
-  - story: Người dùng hỏi tổ hợp môn xét tuyển
-    steps:
-      - intent: toHopMon
-      - action: utter_toHopMon
-
-  - story: Người dùng hỏi chính sách ưu tiên xét tuyển
-    steps:
-      - intent: uuTienXetTuyen
-      - action: utter_uuTienXetTuyen
-
-  - story: Người dùng hỏi về chứng chỉ tiếng Anh
-    steps:
-      - intent: chungChiTA
-      - action: utter_chungChiTA
-
-  - story: Người dùng hỏi về hệ quân sự
-    steps:
-      - intent: coTuyenHeQuanKhong
-      - action: utter_coTuyenHeQuanKhong
+      - intent: kyTucXa
+      - action: utter_kyTucXa
+      - intent: cauLacBo
+      - action: utter_cauLacBo
