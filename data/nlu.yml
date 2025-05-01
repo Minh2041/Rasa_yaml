@@ -18,6 +18,26 @@ nlu:
       - Hello
       - ê
       - alo
+      - chào nhé
+      - wassup
+      - Good morning
+      - Good afternoon
+      - Good day
+      - ơi
+      - a lô
+      - Trực không
+      - Dạ
+      - Em hỏi
+      - Ni hao
+      - Mình hỏi
+      - Bạn là ai
+      - Tên bạn là
+      - Cái gì đây
+      - Cô xin chào ad
+      - Chú xin chào ad
+      - Tôi xin chào
+      - Tôi chào bạn
+      - Tôi chào nhé
 
   - intent: tamBiet
     examples: |
@@ -37,7 +57,28 @@ nlu:
       - Kết thúc
       - Dừng trò chuyện 
       - Dừng lại
-
+      - Thôi nhé
+      - Mình xin phép
+      - Mình bận, nói chuyện sau
+      - Bận rồi
+      - bái bai
+      - Anh/chị đã rất hữu ích
+      - Bạn đã rất hữu ích
+      - Mình cảm ơn, mình chào ạ
+      - Tôi cảm ơn
+      - Tôi chào nhé
+      - Chat cũng hết rồi
+      - Thôi chat đến đây
+      - Chat thế thôi
+      - Chat thế này thôi, cảm ơn nhé
+      - Chat tạm thế này
+      - Thế thôi
+      - Thoát
+      - Thời gian chat hết
+      - Peace out
+      - Chú chat đến đây thôi
+      - Cô chat đến đây thôi
+      
   - intent: camOn
     examples: |
       - Cảm ơn bạn
@@ -57,6 +98,21 @@ nlu:
       - Cảm ơn đã giải đáp
       - Cảm ơn chatbot
       - Cảm ơn rất nhiều
+      - Thank you very much
+      - TYVM
+      - Hữu ích thật đó, cảm ơn nhé
+      - Thông minh thật, cảm ơn rất nhiều
+      - rất cảm ơn
+      - Chúc sức khỏe
+      - Chúc thật nhiều niềm vui
+      - Cảm ơn bạn đã luôn ở bên cạnh tôi
+      - Cảm ơn vì đã không ngại khó khăn
+      - Cảm ơn vì đã hỗ trợ chúng tôi
+      - Cảm ơn bạn đã làm cho mọi thứ trở nên dễ dàng
+      - Lời cảm ơn dành cho bạn
+      - Lời thán phục dành cho bạn
+      - Bạn làm mọi chuyện dễ hơn
+      - Tuyệt vời quá
 
   - intent: thongTinTongQuan
     examples: |
@@ -74,6 +130,22 @@ nlu:
       - Giới thiệu Học viện
       - Thông tin chung về KMA
       - Thông tin KMA
+      - Info KMA
+      - admin cho em thông tin trường
+      - Trường là gì
+      - Trường
+      - School
+      - Học viện kỹ thuật mật mã
+      - học viện kĩ thuật mật mã
+      - học viện KTMM
+      - kĩ thuật mật mã
+      - học viện ACTVN
+      - học viện actvn
+      - Hiểu biết về trường
+      - Bạn biết gì về trường
+      - Viết tắt ACTVN
+      - KMA viết tắt cho cái gì
+      
 
   - intent: dieuKienXetTuyen
     examples: |
@@ -86,6 +158,22 @@ nlu:
       - Cần gì để xét vào trường
       - ĐK xét tuyển
       - Điều kiện
+      - ĐK
+      - Cho mình hỏi về điều kiện xét tuyển
+      - Vào trường có tiêu chí gì
+      - Làm thế nào vào được trường
+      - Đầu vào thế nào
+      - Tiêu chí vào
+      - Làm thế nào vào được trường
+      - Có bao nhiêu phương thức thi vào
+      - Phương thức xét tuyển
+      - Làm gì để xét vào trường
+      - Cho chú hỏi xét tuyển thế nào
+      - Cho cô xem xét tuyển như nào
+      - Phương thức xét tuyển thế nào
+      - Mình xin cách vào được KMA
+      - Phương thức như nào
+      - Học viện có yêu cầu riêng đối với từng tổ hợp xét tuyển không?
 
   - intent: tuyenSinhNam2022
     examples: |
@@ -96,6 +184,27 @@ nlu:
       - Tuyển sinh 2022 gồm những phương thức nào?
       - Tuyển sinh năm 2022 điểm chuẩn bao nhiêu?
       - Cho em hỏi về tuyển sinh năm 2022
+      - Mình hỏi về tuyển sinh 2022
+      - Chú hỏi về tuyển sinh năm 2022
+      - Chỉ tiêu năm 2022
+      - Chỉ tiêu nhập học 2022
+      - Số nhập học năm 2022
+      - Nhập học năm 2022
+      - Cơ sở Hà Nội nhập học thế nào năm 2022
+      - Cơ sở Hà Nội chỉ tiêu năm 2022
+      - Học viện có chỉ tiêu thế nào 2022
+      - Chỉ tiêu năm 2022 như nào
+      - Mình muốn xem chỉ tiêu năm 2022
+      - Xem tuyển sinh năm 2022
+      - Có thông tin tuyển sinh năm 2022 không
+      - Lấy thông tin tuyển sinh năm 2022
+      - Xin tuyển sinh 2022
+      - Tuyển sinh 2022
+      - Nhập học 2022
+      - Mình xin tuyển sinh 2022
+      - Tôi xem tuyển sinh 2022
+      - Tôi xem 2022 tuyển thế nào
+      - 2022 chỉ tiêu ra sao
 
   - intent: tuyenSinhNam2023
     examples: |
@@ -106,6 +215,28 @@ nlu:
       - Tuyển sinh 2023 gồm những phương thức nào?
       - Tuyển sinh năm 2023 điểm chuẩn bao nhiêu?
       - Tôi muốn hỏi về tuyển sinh năm 2023
+      - Mình hỏi về tuyển sinh 2023
+      - Chú hỏi về tuyển sinh năm 2023
+      - Chỉ tiêu năm 2023
+      - Chỉ tiêu nhập học 2023
+      - Số nhập học năm 2023
+      - Nhập học năm 2023
+      - Cơ sở Hà Nội nhập học thế nào năm 2023
+      - Cơ sở Hà Nội chỉ tiêu năm 2023
+      - Học viện có chỉ tiêu thế nào 2023
+      - Chỉ tiêu năm 2023 như nào
+      - Mình muốn xem chỉ tiêu năm 2023
+      - Xem tuyển sinh năm 2023
+      - Có thông tin tuyển sinh năm 2023 không
+      - Lấy thông tin tuyển sinh năm 2023
+      - Xin tuyển sinh 2023
+      - Tuyển sinh 2023
+      - Nhập học 2023
+      - Mình xin tuyển sinh 2023
+      - Tôi xem tuyển sinh 2023
+      - Tôi xem 2023 tuyển thế nào
+      - 2023 chỉ tiêu ra sao
+      - Có sự khác biệt với tuyển sinh năm 2023
 
   - intent: tuyenSinhNam2024
     examples: |
@@ -117,6 +248,27 @@ nlu:
       - Tuyển sinh năm 2024 điểm chuẩn bao nhiêu?
       - Tôi muốn hỏi về tuyển sinh năm 2024
       - Năm 2024 có thay đổi gì trong xét tuyển?
+      - Mình hỏi về tuyển sinh 2024
+      - Chú hỏi về tuyển sinh năm 2024
+      - Chỉ tiêu năm 2024
+      - Chỉ tiêu nhập học 2024
+      - Số nhập học năm 2024
+      - Nhập học năm 2024
+      - Cơ sở Hà Nội nhập học thế nào năm 2024
+      - Cơ sở Hà Nội chỉ tiêu năm 2024
+      - Học viện có chỉ tiêu thế nào 2024
+      - Chỉ tiêu năm 2024 như nào
+      - Mình muốn xem chỉ tiêu năm 2024
+      - Xem tuyển sinh năm 2024
+      - Có thông tin tuyển sinh năm 2024 không
+      - Lấy thông tin tuyển sinh năm 2024
+      - Xin tuyển sinh 2024
+      - Tuyển sinh 2024
+      - Nhập học 2024
+      - Mình xin tuyển sinh 2024
+      - Tôi xem tuyển sinh 2024
+      - Tôi xem 2024 tuyển thế nào
+      - 2024 chỉ tiêu ra sao
 
   - intent: tuyenSinhNam2025
     examples: |
@@ -128,6 +280,28 @@ nlu:
       - Tuyển sinh năm 2025 điểm chuẩn bao nhiêu?
       - Tôi muốn hỏi về tuyển sinh năm 2025
       - Năm 2025 có thay đổi gì trong xét tuyển?
+      - Mình hỏi về tuyển sinh 2025
+      - Chú hỏi về tuyển sinh năm 2025
+      - Chỉ tiêu dự kiến năm 2025
+      - Chỉ tiêu nhập học 2025
+      - Số nhập học năm 2025
+      - Nhập học năm 2025
+      - Cơ sở Hà Nội nhập học thế nào năm 2025
+      - Cơ sở Hà Nội chỉ tiêu năm 2025
+      - Học viện có chỉ tiêu thế nào 2025
+      - Chỉ tiêu năm 2025 như nào
+      - Mình muốn xem chỉ tiêu năm 2025
+      - Xem tuyển sinh năm 2025
+      - Có thông tin tuyển sinh năm 2025 không
+      - Lấy thông tin tuyển sinh năm 2025
+      - Xin tuyển sinh 2025
+      - Tuyển sinh dự kiến 2025
+      - Nhập học dự kiến 2025
+      - Mình xin tuyển sinh 2025
+      - Tôi xem tuyển sinh 2025
+      - Tôi xem 2025 tuyển dự kiến bao nhiêu
+      - 2025 dự kiến chỉ tiêu ra sao
+    
 
   - intent: phuongThucXetTuyen
     examples: |
@@ -142,6 +316,19 @@ nlu:
       - Xét tuyển
       - Có những phương thức tuyển sinh nào
       - Phương thức tuyển sinh
+      - Phương thức xét tuyển như nào
+      - PTXT thế nào
+      - Hiện nay, Học viện Kỹ thuật Mật mã sử dụng bao nhiêu phương thức xét tuyển
+      - Mỗi ngành học của Học viện xét tuyển theo tổ hợp môn nào
+      - Tổ hợp A00 (Toán, Lý, Hóa) có phải là tổ hợp chính được sử dụng không
+      - Tổ hợp A01 (Toán, Lý, Anh) có phải là tổ hợp chính được sử dụng không?
+      - Có được xét tuyển thẳng
+      - Toán, Tiếng anh, Tin học có được sử dụng làm xét tuyển
+      - Học viện có xét tuyển thẳng theo quy chế của Bộ GD&ĐT
+      - Có phương thức xét học bạ THPT
+      - Cho tôi xem các phương thức xét tuyển vào trường
+      - Chú xem các phương thức xét tuyển vào trường
+      - Cô xin info các phương thức xét tuyển vào trường
 
   - intent: cacNganhDaoTao
     examples: |
@@ -156,6 +343,22 @@ nlu:
       - Ngành đào tạo
       - Các ngành của trường
       - Ngoài ATTT còn những ngành gì nữa
+      - Những ngành nào thuộc khối công nghệ kỹ thuật đang được đào tạo tại Học viện?
+      - Có ngành gì
+      - Đào tạo ngành
+      - Học về gì
+      - Học viện đào tạo ngành gì
+      - Học viện đào tạo ATTT không
+      - Học viện đào tạo CNTT không
+      - Học viện đào tạo ĐTVT không
+      - Bao nhiêu ngành đào tạo
+      - Đào tạo bao nhiêu ngành
+      - Bn ngành đào tạo
+      - Cho mình xem bao nhiêu ngành
+      - Tôi xin bao nhiêu ngành đào tạo
+      - Tôi xem ngành có bn
+      - Chú xem bao nhiêu ngành
+      - Cô xem bao nhiêu ngành
 
   - intent: thongTinNganhCNTT
     examples: |
@@ -171,6 +374,22 @@ nlu:
       - Ngành công nghệ thông tin có gì hay?
       - CNTT là ngành gì vậy?
       - Công nghệ thông tin đào tạo những gì?
+      - Thông tin về CNTT
+      - CNTT chuyên ngành học gì
+      - công nghệ thông tin có bao nhiêu chuyên ngành
+      - Ngành công nghệ thông tin tại KMA có gì đặc biệt?
+      - Ngành CNTT ở KMA là gì?
+      - Học viện Kỹ thuật Mật mã đào tạo ngành Công nghệ thông tin như thế nào?
+      - Ngành CNTT ở KMA có đào tạo về trí tuệ nhân tạo không
+      - Ngành CNTT ở KMA đào tạo ra sao
+      - Cho chú hỏi về ngành CNTT ở trường mình
+      - Cho cô xem về ngành CNTT ở trường mình
+      - Info về ngành CNTT ở trường
+      - Có đào tạo kỹ thuật phần mềm di động không?
+      - Học viện Kỹ thuật Mật mã đào tạo ngành Công nghệ thông tin như thế nào?
+      - Cho tôi biết về ngành CNTT tại Học viện Kỹ thuật Mật mã.
+      - Ngành CNTT tại KMA có đào tạo về trí tuệ nhân tạo/AI không?
+      - xin cái info về cntt
 
   - intent: thongTinNganhATTT
     examples: |
@@ -184,6 +403,22 @@ nlu:
       - Học ngành ATTT sẽ học gì?
       - Ngành an toàn thông tin có khó không?
       - Ngành ATTT học những gì?
+      - Thông tin về ATTT
+      - ATTT chuyên ngành học gì
+      - an toàn thông tin có bao nhiêu chuyên ngành
+      - Ngành an toàn thông tin tại KMA có gì đặc biệt?
+      - Ngành ATTT ở KMA là gì?
+      - Học viện Kỹ thuật Mật mã đào tạo ngành An toàn thông tin như thế nào?
+      - Ngành ATTT ở KMA có đào tạo về bảo mật hệ thống không
+      - Ngành ATTT ở KMA đào tạo ra sao
+      - Cho chú hỏi về ngành ATTT ở trường mình
+      - Cho cô xem về ngành ATTT ở trường mình
+      - Info về ngành ATTT ở trường
+      - Có đào tạo kỹ thuật an toàn mạng không?
+      - KMA đào tạo gì về ATTT?
+      - Cho tôi biết về ngành ATTT tại Học viện Kỹ thuật Mật mã.
+      - Ngành ATTT có bao nhiêu chuyên ngành
+      - xin cái info về ATTT
 
   - intent: thongTinNganhDTVT
     examples: |
@@ -197,6 +432,22 @@ nlu:
       - Ngành DTVT đào tạo ra sao?
       - Học ĐTVT thì ra làm gì?
       - Ngành điện tử viễn thông học như thế nào?
+      - Thông tin về ĐTVT
+      - ĐTVT chuyên ngành học gì
+      - điện tử có bao nhiêu chuyên ngành
+      - Ngành ĐTVT tại KMA có gì đặc biệt?
+      - Ngành ĐTVT ở KMA là gì?
+      - Học viện Kỹ thuật Mật mã đào tạo ngành điện tử viễn thông như thế nào?
+      - Ngành điện tử viễn thông ở KMA có đào tạo về robot không
+      - Ngành điện tử ở KMA đào tạo ra sao
+      - Cho chú hỏi về ngành ĐTVT ở trường mình
+      - Cho cô xem về ngành ĐTVT ở trường mình
+      - Info về ngành ĐTVT ở trường
+      - Có đào tạo kỹ thuật an toàn mạng không?
+      - KMA đào tạo gì về ĐTVT?
+      - Cho tôi biết về ngành ĐTVT tại Học viện Kỹ thuật Mật mã.
+      - Ngành ĐTVT có bao nhiêu chuyên ngành
+      - xin cái info về ĐTVT
 
   - intent: chuongTrinhHocCNTT
     examples: |

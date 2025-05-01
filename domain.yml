@@ -218,7 +218,7 @@ responses:
         Các chuyên ngành của ATTT bao gồm: 
         1. An toàn hệ thống thông tin.
         2. Công nghệ phần mềm an toàn.
-        3. Kỹ nghệ an toàn mạng.
+        3. Bảo đảm an toàn không gian mạng
 
   utter_thongTinNganh_CNTT:
     - text: |
@@ -241,7 +241,7 @@ responses:
     - text: |
         Chương trình đào tạo ngành An toàn thông tin kéo dài 4,5 năm với tổng cộng 165 tín chỉ. Sinh viên sẽ được trang bị kiến thức đại cương, cơ sở ngành, chuyên sâu theo từng chuyên ngành như:
         - An toàn hệ thống thông tin
-        - Kỹ nghệ an toàn mạng
+        - Bảo đảm an toàn không gian mạng
         - Công nghệ phần mềm an toàn
 
         Mục tiêu đào tạo là giúp sinh viên:
