@@ -37,7 +37,6 @@ nlu:
       - Chú xin chào ad
       - Tôi xin chào
       - Tôi chào bạn
-      - Tôi chào nhé
 
   - intent: tamBiet
     examples: |
@@ -78,7 +77,7 @@ nlu:
       - Peace out
       - Chú chat đến đây thôi
       - Cô chat đến đây thôi
-      
+
   - intent: camOn
     examples: |
       - Cảm ơn bạn
@@ -145,7 +144,6 @@ nlu:
       - Bạn biết gì về trường
       - Viết tắt ACTVN
       - KMA viết tắt cho cái gì
-      
 
   - intent: dieuKienXetTuyen
     examples: |
@@ -165,14 +163,10 @@ nlu:
       - Đầu vào thế nào
       - Tiêu chí vào
       - Làm thế nào vào được trường
-      - Có bao nhiêu phương thức thi vào
-      - Phương thức xét tuyển
       - Làm gì để xét vào trường
       - Cho chú hỏi xét tuyển thế nào
       - Cho cô xem xét tuyển như nào
-      - Phương thức xét tuyển thế nào
       - Mình xin cách vào được KMA
-      - Phương thức như nào
       - Học viện có yêu cầu riêng đối với từng tổ hợp xét tuyển không?
 
   - intent: tuyenSinhNam2022
@@ -301,7 +295,6 @@ nlu:
       - Tôi xem tuyển sinh 2025
       - Tôi xem 2025 tuyển dự kiến bao nhiêu
       - 2025 dự kiến chỉ tiêu ra sao
-    
 
   - intent: phuongThucXetTuyen
     examples: |
@@ -443,7 +436,8 @@ nlu:
       - Cho chú hỏi về ngành ĐTVT ở trường mình
       - Cho cô xem về ngành ĐTVT ở trường mình
       - Info về ngành ĐTVT ở trường
-      - Có đào tạo kỹ thuật an toàn mạng không?
+      - Có đào tạo kỹ thuật điện tử viễn thông không?
+      - Đào tạo vi mạch
       - KMA đào tạo gì về ĐTVT?
       - Cho tôi biết về ngành ĐTVT tại Học viện Kỹ thuật Mật mã.
       - Ngành ĐTVT có bao nhiêu chuyên ngành
@@ -475,8 +469,6 @@ nlu:
       - Mô tả về chuyên ngành kỹ thuật phần mềm di động
       - Mô tả về chuyên ngành trí tuệ nhân tạo ứng dụng
 
-
-
   - intent: chuongTrinhHocATTT
     examples: |
       - Chương trình học ngành ATTT như thế nào
@@ -503,8 +495,7 @@ nlu:
       - Mô tả về chuyên ngành an toàn hệ thống thông tin
       - Mô tả về chuyên ngành bảo đảm an toàn không gian mạng
       - Mô tả về chuyên ngành công nghệ phần mềm an toàn
-      
-    
+
   - intent: chuongTrinhHocDTVT
     examples: |
       - Chương trình đào tạo ngành điện tử viễn thông
@@ -632,7 +623,6 @@ nlu:
       - Những yêu cầu để tham gia vào 1 CLB
       - Trường có CLB về thể thao điện tử không?
 
-
   - intent: tiengAnhDauVao
     examples: |
       - Trường có kiểm tra tiếng Anh đầu vào không?
@@ -757,7 +747,7 @@ nlu:
       - Điểm chuẩn ngành ATTT năm 2022
       - Điểm chuẩn ngành CNTT năm 2022
       - Điểm chuẩn ngành ĐTVT năm 2022
-      - Năm 2023 bao nhiêu điểm thì đỗ vào trường mình
+      - Năm 2022 bao nhiêu điểm thì đỗ vào trường mình
 
   - intent: diemChuanNam2023
     examples: |
@@ -1010,7 +1000,6 @@ nlu:
       - Trường có đào tạo sĩ quan không?
       - Đăng ký hệ quân sự cần làm gì?
       - Trường có tổ chức tuyển sinh riêng cho quân đội không?
-  
 
 synonyms:
   trường:
