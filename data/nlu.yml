@@ -37,7 +37,8 @@ nlu:
       - Chú xin chào ad
       - Tôi xin chào
       - Tôi chào bạn
-      - Tôi chào nhé
+      - Tôi chào
+      - Mình chào
 
   - intent: tamBiet
     examples: |
@@ -145,7 +146,9 @@ nlu:
       - Bạn biết gì về trường
       - Viết tắt ACTVN
       - KMA viết tắt cho cái gì
-      
+      - ACTVN viết tắt
+      - ACTVN
+      - KMA
 
   - intent: dieuKienXetTuyen
     examples: |
@@ -174,6 +177,8 @@ nlu:
       - Mình xin cách vào được KMA
       - Phương thức như nào
       - Học viện có yêu cầu riêng đối với từng tổ hợp xét tuyển không?
+      - Điều kiện xét tuyển như nào
+      - Xét tuyển điều kiện thế nào
 
   - intent: tuyenSinhNam2022
     examples: |
@@ -301,6 +306,7 @@ nlu:
       - Tôi xem tuyển sinh 2025
       - Tôi xem 2025 tuyển dự kiến bao nhiêu
       - 2025 dự kiến chỉ tiêu ra sao
+      - Dự kiến bao nhiêu chỉ tiêu năm 2025
     
 
   - intent: phuongThucXetTuyen
@@ -321,7 +327,7 @@ nlu:
       - Hiện nay, Học viện Kỹ thuật Mật mã sử dụng bao nhiêu phương thức xét tuyển
       - Mỗi ngành học của Học viện xét tuyển theo tổ hợp môn nào
       - Tổ hợp A00 (Toán, Lý, Hóa) có phải là tổ hợp chính được sử dụng không
-      - Tổ hợp A01 (Toán, Lý, Anh) có phải là tổ hợp chính được sử dụng không?
+      - Tổ hợp A01 (Toán, Lý, Anh) có phải là tổ hợp chính được sử dụng không
       - Có được xét tuyển thẳng
       - Toán, Tiếng anh, Tin học có được sử dụng làm xét tuyển
       - Học viện có xét tuyển thẳng theo quy chế của Bộ GD&ĐT
@@ -329,6 +335,14 @@ nlu:
       - Cho tôi xem các phương thức xét tuyển vào trường
       - Chú xem các phương thức xét tuyển vào trường
       - Cô xin info các phương thức xét tuyển vào trường
+      - Xét tuyển thế nào
+      - Toán, Vật lý, Tin học có dùng làm xét tuyển
+      - Trường có dùng tổ hợp A00 để xét tuyển
+      - Trường có dùng tổ hợp A01 để xét tuyển
+      - Học viện có bao nhiêu phương thức
+      - Học viện có mấy phương thức
+      - Phương thức xét tuyển sinh vào trường
+      - Tuyển vào thế nào
 
   - intent: cacNganhDaoTao
     examples: |
@@ -359,6 +373,12 @@ nlu:
       - Tôi xem ngành có bn
       - Chú xem bao nhiêu ngành
       - Cô xem bao nhiêu ngành
+      - Bao gồm những ngành nào
+      - Học viện đào tạo bao nhiêu ngành
+      - Học viện bao nhiêu ngành
+      - Ngành nghề gì
+      - Ngoài ngành ATTT ra còn dạy về ngành gì nữa
+      - Ngoài ATTT thì còn gì nữa
 
   - intent: thongTinNganhCNTT
     examples: |
@@ -390,6 +410,11 @@ nlu:
       - Cho tôi biết về ngành CNTT tại Học viện Kỹ thuật Mật mã.
       - Ngành CNTT tại KMA có đào tạo về trí tuệ nhân tạo/AI không?
       - xin cái info về cntt
+      - cntt ở trường có dạy về web
+      - cntt có dạy về AI không
+      - cntt có dạy về nhúng
+      - cntt đào tạo như thế nào
+      - Có bao nhiêu nhánh vào cntt
 
   - intent: thongTinNganhATTT
     examples: |
@@ -419,6 +444,14 @@ nlu:
       - Cho tôi biết về ngành ATTT tại Học viện Kỹ thuật Mật mã.
       - Ngành ATTT có bao nhiêu chuyên ngành
       - xin cái info về ATTT
+      - ATTT theo bao nhiêu phân nhánh
+      - ATTT có bao nhiêu nhánh
+      - Mình sẽ có những nhánh nào về ATTT
+      - Có bao nhiêu nhánh vào ATTT
+      - Học ATTT là học về gì
+      - Học ATTT có hack được web
+      - Học AT có làm hacker
+      - Có bao nhiêu nhánh trong at
 
   - intent: thongTinNganhDTVT
     examples: |
@@ -443,11 +476,18 @@ nlu:
       - Cho chú hỏi về ngành ĐTVT ở trường mình
       - Cho cô xem về ngành ĐTVT ở trường mình
       - Info về ngành ĐTVT ở trường
-      - Có đào tạo kỹ thuật an toàn mạng không?
+      - Có đào tạo về robot không
       - KMA đào tạo gì về ĐTVT?
       - Cho tôi biết về ngành ĐTVT tại Học viện Kỹ thuật Mật mã.
       - Ngành ĐTVT có bao nhiêu chuyên ngành
       - xin cái info về ĐTVT
+      - Ngành ĐTVT có đào tạo về vi mạch xử lí
+      - Học ĐTVT có hướng thiết kế thiết bị mạng
+      - Mình xin các hướng theo ĐTVT
+      - ĐTVT theo bao nhiêu phân nhánh
+      - ĐTVT có bao nhiêu nhánh
+      - Mình sẽ có những nhánh nào về ĐTVT
+      - Có bao nhiêu nhánh vào ĐTVT
 
   - intent: chuongTrinhHocCNTT
     examples: |
@@ -872,12 +912,16 @@ synonyms:
     - KMA
     - Học viện Kỹ thuật mật mã
     - trường mình
+    - ACTVN
+    - Academy of Cryptographic Techniques
 
   ATTT:
     - An toàn thông tin
     - attt
     - An toàn
     - AT
+    - At
+    - at
 
   CNTT:
     - Công nghệ thông tin
@@ -885,6 +929,7 @@ synonyms:
     - IT
     - CT
     - Công nghệ
+    - Ct
 
   DTVT:
     - ĐTVT
@@ -892,6 +937,7 @@ synonyms:
     - DT
     - dtvt
     - Điện tử viễn thông
+    - Đt
 
   "2025":
     - Năm nay
@@ -901,3 +947,5 @@ synonyms:
 
   "2023":
     - Năm kia
+  "2022":
+    - Năm kia nữa

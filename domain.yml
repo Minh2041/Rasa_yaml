@@ -218,7 +218,7 @@ responses:
         Các chuyên ngành của ATTT bao gồm: 
         1. An toàn hệ thống thông tin.
         2. Công nghệ phần mềm an toàn.
-        3. Bảo đảm an toàn không gian mạng
+        3. Bảo đảm an toàn không gian mạng.
 
   utter_thongTinNganh_CNTT:
     - text: |
