@@ -461,6 +461,21 @@ nlu:
       - CNTT có học lập trình không?
       - Học CNTT có học về AI không?
       - Khung chương trình đào tạo CNTT
+      - Học CNTT ở trường mình thì cần học những ngôn ngữ nào?
+      - Ngành CNTT thì học mấy năm?
+      - Muốn giỏi ngành CNTT thì cần học giỏi môn nào?
+      - Học CNTT có học nhiều toán không?
+      - Học ngành CNTT năm nhất có cần sử dụng laptop riêng hay không?
+      - Các chuyên ngành của ngành CNTT tại trường mình là gì?
+      - Tất cả các môn học của ngành CNTT tại trường mình?
+      - Học CNTT môn nào là khó nhất?
+      - Lộ trình giúp học tốt ngành CNTT?
+      - Chương trình học CNTT có khó không?
+      - Học ngành CNTT thì nên thi chứng chỉ gì?
+      - Mô tả về chuyên ngành kỹ thuật phần mềm di động
+      - Mô tả về chuyên ngành trí tuệ nhân tạo ứng dụng
+
+
 
   - intent: chuongTrinhHocATTT
     examples: |
@@ -472,7 +487,24 @@ nlu:
       - Học ATTT có lập trình không?
       - Những môn học ngành an toàn thông tin
       - Chương trình ngành ATTT kéo dài bao lâu?
-
+      - Mình muốn biết về ATTT?
+      - Ngành ATTT có bao nhiêu chuyên ngành chính?
+      - Học ngành ATTT môn nào là khó nhất?
+      - Học ngành ATTT có khó không?
+      - Học ngành ATTT cần học những ngôn ngữ lập trình nào?
+      - Học ngành ATTT thì nên thi chứng chỉ gì?
+      - Học ngành ATTT năm nhất có cần mua laptop riêng hay không?
+      - Ngành ATTT có bao nhiêu tín chỉ?
+      - Tất cả các môn của ngành ATTT là gì?
+      - Ngành ATTT ở trường mình chủ yếu học về gì?
+      - Ngành ATTT có dạy làm hacker không?
+      - Muốn trở thành chuyên gia an ninh mạng thì nên học chuyên ngành ATTT nào?
+      - Học ATTT có liên quan đến AI hay không?
+      - Mô tả về chuyên ngành an toàn hệ thống thông tin
+      - Mô tả về chuyên ngành bảo đảm an toàn không gian mạng
+      - Mô tả về chuyên ngành công nghệ phần mềm an toàn
+      
+    
   - intent: chuongTrinhHocDTVT
     examples: |
       - Chương trình đào tạo ngành điện tử viễn thông
@@ -483,6 +515,19 @@ nlu:
       - Ngành ĐTVT học trong bao lâu?
       - Ngành điện tử viễn thông học môn gì?
       - Chương trình ngành ĐTVT có học thực hành không?
+      - Học ĐTVT có học thực hành nhiều không?
+      - Học ĐTVT có cần học lập trình không?
+      - Điểm khác nhau giữa ngành ĐTVT và ngành CNTT
+      - Ngành ĐTVT có bao nhiêu tín chỉ
+      - Ngành ĐTVT có bao nhiêu chuyên ngành?
+      - Ngành ĐTVT có những môn nào?
+      - Học ĐTVT môn nào là khó nhất?
+      - Học ngành ĐTVT cần chuẩn bị những gì?
+      - Bí quyết học giỏi ngành ĐTVT?
+      - Mô tả về chuyên ngành hệ thống nhúng và thiết kế vi mạch
+      - Mô tả về chuyên ngành hệ thống nhúng và điều khiển tự động
+      - Học ĐTVT năm nhất có cần laptop riêng hay không?
+      - Học ĐTVT có học về chip bán dẫn hay không?
 
   - intent: hocPhi
     examples: |
@@ -501,6 +546,14 @@ nlu:
       - Học phí có bao gồm các khoản phụ khác không?
       - Trường có miễn học phí cho sinh viên giỏi không?
       - Cho em xin thông tin chi tiết về học phí nhé
+      - Học phí ngành CNTT là bao nhiêu?
+      - Học phí ngành ĐTVT là bao nhiêu?
+      - Trường có hỗ trợ học phí cho sinh viên nghèo hay không ạ?
+      - Những đối tượng nào được xét miễn giảm học phí vậy ạ?
+      - Học phí trường mình bao nhiêu tiền 1 tín
+      - Một năm sẽ đóng bao nhiêu học phí thế ạ?
+      - Ngành nào học phí rẻ nhất
+      - Học phí các năm học gần đây
 
   - intent: hocBong
     examples: |
@@ -519,6 +572,14 @@ nlu:
       - Có xét học bổng theo điểm rèn luyện không?
       - Học bổng có áp dụng cho tất cả ngành không?
       - Xin thông tin học bổng năm nay
+      - Cho em xin thông tin về học bổng trường mình
+      - Điều kiện để được học bổng
+      - Làm thế nào để được học bổng
+      - Thông tin về học bổng 
+      - Chỉ tiêu học bổng mỗi kì là bao nhiêu vậy ạ?
+      - Học bổng trị giá bao nhiêu tiền
+      - Nếu trượt môn thì có được học bổng không?
+      - Có học bổng cho sinh viên nghèo không?
 
   - intent: kyTucXa
     examples: |
@@ -537,6 +598,14 @@ nlu:
       - Ký túc xá gần trường không?
       - Có camera an ninh không?
       - Ký túc xá có sạch sẽ không?
+      - Ký túc xá có cho nấu ăn không?
+      - Quy định của ký túc xá
+      - Cách đăng ký vào ký túc xá
+      - Có được chọn phòng khi đăng ký ký túc xá hay không?
+      - Ký túc xá có hỗ trợ chi phí cho sinh viên có hoàn cảnh khó khăn không?
+      - Những điều cần lưu ý khi ở ký túc xá
+      - Ở ký túc xá có được cho người thân vào thăm hay không?
+      - Trường có ký túc xá cho hệ dân sự không?
 
   - intent: cauLacBo
     examples: |
@@ -553,6 +622,16 @@ nlu:
       - CLB có được hỗ trợ từ trường không?
       - CLB nào nổi bật nhất?
       - Em muốn tham gia CLB
+      - Trường có CLB về ATTT hay không?
+      - Tham gia CLB có những ưu điểm gì?
+      - Em là sinh viên năm nhất thì nên tham gia các CLB nào ạ?
+      - CLB liên quan đến nghệ thuật
+      - Có CLB tiếng anh hay không?
+      - Tham gia CLB có được cộng điểm rèn luyện hay không?
+      - Cần chuẩn bị gì trước khi đi phỏng vấn CLB
+      - Những yêu cầu để tham gia vào 1 CLB
+      - Trường có CLB về thể thao điện tử không?
+
 
   - intent: tiengAnhDauVao
     examples: |
@@ -571,6 +650,12 @@ nlu:
       - Có khóa học tiếng Anh miễn phí không?
       - Chứng chỉ tiếng Anh có cần thiết không?
       - Bao giờ kiểm tra đầu vào tiếng Anh?
+      - Lộ trình ôn luyện thi tiếng anh đầu vào
+      - Cần bao nhiêu điểm thi để đạt tiếng anh đầu vào?
+      - Nếu không đỗ tiếng anh đầu vào có được thi lại không?
+      - Chi phí thi lại tiếng anh đầu vào
+      - Nên ôn thi tiếng anh đầu vào ở đâu?
+      - Thi tiếng anh đầu vào gồm những kỹ năng nào?
 
   - intent: coHoiViecLam
     examples: |
@@ -589,6 +674,14 @@ nlu:
       - Em muốn đi làm sớm, trường có hỗ trợ không?
       - Việc làm sau khi tốt nghiệp có ổn định không?
       - Học ngành này dễ ra nước ngoài không?
+      - Học ngành ĐTVT sau này ra làm gì?
+      - Học ngành nào ra dễ xin việc nhất?
+      - Học ngành ATTT sau này ra có thể làm những công việc gì?
+      - Các công ty có về trường mình để tuyển người không?
+      - Ngành nào có tỉ lệ sinh viên ra trường có việc làm cao nhất?
+      - Trường có liên kết với doanh nghiệp nào không?
+      - Ra trường có được làm trong Ban Cơ yếu Chính phủ không?
+      - Sinh viên trường mình chủ yếu làm ở những doanh nghiệp nào?
 
   - intent: coPhaiTruongQuanDoiKhong
     examples: |
@@ -609,6 +702,13 @@ nlu:
       - Em là nữ, có bị huấn luyện quân sự không?
       - Có được cấp quân hàm sau khi học không
       - Có được vào nhà nước sau khi học không
+      - Học trường mình có được hỗ trợ sinh hoạt phí hằng tháng hay không?
+      - Có phải trường mình đào tạo sĩ quan an ninh mạng hay không?
+      - Tuyển sinh trường mình có phải khám sức khỏe không?
+      - Em học hệ dân sự muốn chuyển sang hệ quân có được không?
+      - Học trường mình xong có phải tham gia nghĩa vụ quân sự nữa không?
+      - Ra trường có phải vào làm luôn cho quân đội không?
+      - Học viện kỹ thuật mật mã trực thuộc cơ quan nào?
 
   - intent: diemChuanCacNam
     examples: |
@@ -627,6 +727,16 @@ nlu:
       - Bạn có thể nói sơ về điểm chuẩn các năm không?
       - Học viện lấy điểm thế nào theo từng năm?
       - Cho mình cái tổng hợp điểm chuẩn học viện qua các năm
+      - Điểm chuẩn các năm gần đây có tăng không?
+      - Điểm chuẩn các năm gần đây có cao không?
+      - Ngành nào có điểm chuẩn cao nhất
+      - Ngành nào có điểm chuẩn thấp nhất
+      - Cách tính điểm chuẩn trường mình
+      - Điểm chuẩn các ngành các năm gần đây
+      - Các năm gần đây năm nào lấy điểm cao nhất
+      - Điểm ngành ATTT các năm gần đây
+      - Điểm ngành CNTT các năm gần đây
+      - Điểm ngành ĐTVT các năm gần đây
 
   - intent: diemChuanNam2022
     examples: |
@@ -636,6 +746,18 @@ nlu:
       - Năm 2022 có điểm chuẩn chưa?
       - Điểm chuẩn 2022 Học viện mình thế nào?
       - 2022 thì điểm cao không?
+      - Năm 2022 điểm ngành nào cao nhất
+      - Năm 2022 điểm ngành nào thấp nhất
+      - Điểm chuẩn các ngành năm 2022
+      - Năm 2022 bao nhiêu điểm thì đỗ ngành ATTT
+      - Năm 2022 bao nhiêu điểm thì đỗ ngành CNTT
+      - Năm 2022 bao nhiêu điểm thì đỗ ngành ĐTVT
+      - Em muốn biết điểm chuẩn trường mình năm 2022 
+      - Điểm năm 2022 có chênh lệch nhiều so với năm trước không
+      - Điểm chuẩn ngành ATTT năm 2022
+      - Điểm chuẩn ngành CNTT năm 2022
+      - Điểm chuẩn ngành ĐTVT năm 2022
+      - Năm 2023 bao nhiêu điểm thì đỗ vào trường mình
 
   - intent: diemChuanNam2023
     examples: |
@@ -646,6 +768,18 @@ nlu:
       - 2023 có phải lấy điểm cao không?
       - Điểm năm 2023 so với các năm trước thì sao?
       - Có bảng điểm chuẩn năm 2023 không?
+      - Năm 2023 điểm ngành nào cao nhất
+      - Năm 2023 điểm ngành nào thấp nhất
+      - Điểm chuẩn các ngành năm 2023
+      - Năm 2023 bao nhiêu điểm thì đỗ ngành ATTT
+      - Năm 2023 bao nhiêu điểm thì đỗ ngành CNTT
+      - Năm 2023 bao nhiêu điểm thì đỗ ngành ĐTVT
+      - Em muốn biết điểm chuẩn trường mình năm 2023
+      - Điểm năm 2023 có chênh lệch nhiều so với năm trước không
+      - Điểm chuẩn ngành ATTT năm 2023
+      - Điểm chuẩn ngành CNTT năm 2023
+      - Điểm chuẩn ngành ĐTVT năm 2023
+      - Năm 2023 bao nhiêu điểm thì đỗ vào trường mình
 
   - intent: diemChuanNam2024
     examples: |
@@ -656,6 +790,18 @@ nlu:
       - Chuẩn đầu vào năm 2024 là bao nhiêu?
       - 2024 thi tầm mấy điểm thì vào được?
       - Năm 2024 điểm có giảm không?
+      - Năm 2024 điểm ngành nào cao nhất
+      - Năm 2024 điểm ngành nào thấp nhất
+      - Điểm chuẩn các ngành năm 2024
+      - Năm 2024 bao nhiêu điểm thì đỗ ngành ATTT
+      - Năm 2024 bao nhiêu điểm thì đỗ ngành CNTT
+      - Năm 2024 bao nhiêu điểm thì đỗ ngành ĐTVT
+      - Em muốn biết điểm chuẩn trường mình năm 2024
+      - Điểm năm 2024 có chênh lệch nhiều so với năm trước không
+      - Điểm chuẩn ngành ATTT năm 2024
+      - Điểm chuẩn ngành CNTT năm 2024
+      - Điểm chuẩn ngành ĐTVT năm 2024
+      - Năm 2024 bao nhiêu điểm thì đỗ vào trường mình
 
   - intent: diemChuanNam2025
     examples: |
@@ -864,6 +1010,7 @@ nlu:
       - Trường có đào tạo sĩ quan không?
       - Đăng ký hệ quân sự cần làm gì?
       - Trường có tổ chức tuyển sinh riêng cho quân đội không?
+  
 
 synonyms:
   trường:
