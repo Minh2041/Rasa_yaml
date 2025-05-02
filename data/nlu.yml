@@ -113,6 +113,22 @@ nlu:
       - Bạn làm mọi chuyện dễ hơn
       - Tuyệt vời quá
 
+  - intent: ok
+    examples: |
+      - ok
+      - tiếp
+      - tiếp đi
+      - thêm
+      - ừ
+      - oke
+      - oki
+      - uki
+      - vâng
+      - dạ
+      - có
+      - yes
+      - thêm nữa
+
   - intent: thongTinTongQuan
     examples: |
       - Cho em hỏi thông tin trường mình ạ

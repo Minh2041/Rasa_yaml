@@ -1,6 +1,5 @@
 version: "3.1"
 stories:
-
   # ==== Nhóm chào hỏi và dẫn dắt ====
   - story: Chào hỏi rồi hỏi tổng quan
     steps:
@@ -35,11 +34,20 @@ stories:
       - intent: diemChuanNganhCNTT
       - action: utter_diemChuanNganhCNTT
 
-  - story: Hỏi điều kiện xét tuyển, phương thức rồi tổ hợp môn
+  - story: Hỏi điều kiện xét tuyển → phương thức xét tuyển → tổ hợp môn
     steps:
       - intent: dieuKienXetTuyen
       - action: utter_dieuKienXetTuyen
       - intent: phuongThucXetTuyen
+      - action: utter_phuongThucXetTuyen
+      - intent: toHopMon
+      - action: utter_toHopMon
+
+  - story: Hỏi điều kiện xét tuyển → tiếp tục (ok) → tổ hợp môn
+    steps:
+      - intent: dieuKienXetTuyen
+      - action: utter_dieuKienXetTuyen
+      - intent: ok
       - action: utter_phuongThucXetTuyen
       - intent: toHopMon
       - action: utter_toHopMon
@@ -68,7 +76,6 @@ stories:
       - action: utter_phuongThucXetTuyen
       - intent: uuTienXetTuyen
       - action: utter_uuTienXetTuyen
-
 
   # ==== Nhóm hỏi thông tin trường ====
   - story: Hỏi thông tin tổng quan rồi hỏi trường quân đội
@@ -293,7 +300,7 @@ stories:
       - action: utter_diemChuanNganhDTVT
       - intent: camOn
       - action: utter_camOn
-  
+
   - story: Hỏi học bổng rồi cảm ơn
     steps:
       - intent: hocBong
@@ -307,4 +314,3 @@ stories:
       - action: utter_diemChuanNganhCNTT
       - intent: tamBiet
       - action: utter_tamBiet
-
