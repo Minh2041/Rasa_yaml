@@ -48,6 +48,37 @@ intents:
   - chungChiTA
   - coTuyenHeQuanKhong
 
+entities:
+  - truong
+  - nam
+  - nganh
+
+slots:
+  truong:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: truong
+
+  nam:
+    type: float
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: nam
+
+  nganh:
+    type: categorical
+    values:
+      - DTVT
+      - ATTT
+      - CNTT
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: nganh
+
 responses:
   utter_chaoHoi:
     - text: "Chào bạn! Mình là chatbot hỗ trợ tuyển sinh KMA. Mình có thể hỗ trợ gì cho bạn về thông tin tuyển sinh của Học viện Kỹ thuật Mật mã?"
