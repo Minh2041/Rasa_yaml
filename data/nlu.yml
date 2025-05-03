@@ -37,6 +37,25 @@ nlu:
       - Chú xin chào ad
       - Tôi xin chào
       - Tôi chào bạn
+      - chào nhé
+      - wassup
+      - Good morning
+      - Good afternoon
+      - Good day
+      - ơi
+      - a lô
+      - Trực không
+      - Dạ
+      - Em hỏi
+      - Ni hao
+      - Mình hỏi
+      - Bạn là ai
+      - Tên bạn là
+      - Cái gì đây
+      - Cô xin chào ad
+      - Chú xin chào ad
+      - Tôi xin chào
+      - Tôi chào bạn
 
   - intent: tamBiet
     examples: |
@@ -128,23 +147,69 @@ nlu:
       - có
       - yes
       - thêm nữa
+      - Thank you very much
+      - TYVM
+      - Hữu ích thật đó, cảm ơn nhé
+      - Thông minh thật, cảm ơn rất nhiều
+      - rất cảm ơn
+      - Chúc sức khỏe
+      - Chúc thật nhiều niềm vui
+      - Cảm ơn bạn đã luôn ở bên cạnh tôi
+      - Cảm ơn vì đã không ngại khó khăn
+      - Cảm ơn vì đã hỗ trợ chúng tôi
+      - Cảm ơn bạn đã làm cho mọi thứ trở nên dễ dàng
+      - Lời cảm ơn dành cho bạn
+      - Lời thán phục dành cho bạn
+      - Bạn làm mọi chuyện dễ hơn
+      - Tuyệt vời quá
+
+  - intent: ok
+    examples: |
+      - ok
+      - tiếp
+      - tiếp đi
+      - thêm
+      - ừ
+      - oke
+      - oki
+      - uki
+      - vâng
+      - dạ
+      - có
+      - yes
+      - thêm nữa
 
   - intent: thongTinTongQuan
     examples: |
-      - Cho em hỏi thông tin trường mình ạ
-      - Thông tin trường
-      - Thông tin KMA
-      - Cho biết về trường
-      - Thông tin về Học viện Kỹ thuật mật mã
-      - Thông tin về Học viện
-      - Thông tin Học viện
-      - Tổng quan về Học viện Kỹ thuật mật mã
-      - Tổng quan trường
-      - Tổng quan KMA
-      - Giới thiệu trường
-      - Giới thiệu Học viện
-      - Thông tin chung về KMA
-      - Thông tin KMA
+      - Cho em hỏi thông tin [trường](truong) mình ạ
+      - Thông tin [trường](truong)
+      - Thông tin [KMA](truong)
+      - Cho biết về [trường](truong)
+      - Thông tin về [Học viện Kỹ thuật mật mã](truong)
+      - Thông tin về [Học viện](truong)
+      - Thông tin [Học viện](truong)
+      - Tổng quan về [Học viện Kỹ thuật mật mã](truong)
+      - Tổng quan [trường](truong)
+      - Tổng quan [KMA](truong)
+      - Giới thiệu [trường](truong)
+      - Giới thiệu [Học viện](truong)
+      - Thông tin chung về [KMA](truong)
+      - Thông tin [KMA](truong)
+      - Info [KMA](truong)
+      - admin cho em thông tin [trường](truong)
+      - [Trường](truong) là gì
+      - [Trường](truong)
+      - [School](truong)
+      - [Học viện kỹ thuật mật mã](truong)
+      - [học viện kĩ thuật mật mã](truong)
+      - [học viện KTMM](truong)
+      - [kĩ thuật mật mã](truong)
+      - [học viện ACTVN](truong)
+      - [học viện actvn](truong)
+      - Hiểu biết về [trường](truong)
+      - Bạn biết gì về [trường](truong)
+      - Viết tắt [ACTVN](truong)
+      - [KMA](truong) viết tắt cho cái gì
       - Info KMA
       - admin cho em thông tin trường
       - Trường là gì
@@ -184,16 +249,49 @@ nlu:
       - Cho cô xem xét tuyển như nào
       - Mình xin cách vào được KMA
       - Học viện có yêu cầu riêng đối với từng tổ hợp xét tuyển không?
+      - ĐK
+      - Cho mình hỏi về điều kiện xét tuyển
+      - Vào trường có tiêu chí gì
+      - Làm thế nào vào được trường
+      - Đầu vào thế nào
+      - Tiêu chí vào
+      - Làm thế nào vào được trường
+      - Làm gì để xét vào trường
+      - Cho chú hỏi xét tuyển thế nào
+      - Cho cô xem xét tuyển như nào
+      - Mình xin cách vào được KMA
+      - Học viện có yêu cầu riêng đối với từng tổ hợp xét tuyển không?
 
   - intent: tuyenSinhNam2022
     examples: |
-      - Tuyển sinh năm 2022 có gì mới?
-      - Năm 2022 trường có tuyển sinh không?
-      - Trường tuyển sinh như thế nào vào năm 2022?
-      - Thông tin tuyển sinh năm 2022
-      - Tuyển sinh 2022 gồm những phương thức nào?
-      - Tuyển sinh năm 2022 điểm chuẩn bao nhiêu?
-      - Cho em hỏi về tuyển sinh năm 2022
+      - Tuyển sinh năm [2022](nam) có gì mới?
+      - Năm [2022](nam) trường có tuyển sinh không?
+      - Trường tuyển sinh như thế nào vào năm [2022](nam)?
+      - Thông tin tuyển sinh năm [2022](nam)
+      - Tuyển sinh năm[2022](nam) gồm những phương thức nào?
+      - Tuyển sinh năm [2022](nam) điểm chuẩn bao nhiêu?
+      - Cho em hỏi về tuyển sinh năm [2022](nam)
+      - Mình hỏi về tuyển sinh [2022](nam)
+      - Chú hỏi về tuyển sinh năm [2022](nam)
+      - Chỉ tiêu năm [2022](nam)
+      - Chỉ tiêu nhập học năm[2022](nam)
+      - Số nhập học năm [2022](nam)
+      - Nhập học năm [2022](nam)
+      - Cơ sở Hà Nội nhập học thế nào năm [2022](nam)
+      - Cơ sở Hà Nội chỉ tiêu năm [2022](nam)
+      - Học viện có chỉ tiêu thế nào năm [2022](nam)
+      - Chỉ tiêu năm [2022](nam) như nào
+      - Mình muốn xem chỉ tiêu năm [2022](nam)
+      - Xem tuyển sinh năm [2022](nam)
+      - Có thông tin tuyển sinh năm [2022](nam) không
+      - Lấy thông tin tuyển sinh năm [2022](nam)
+      - Xin tuyển sinh [2022](nam)
+      - Tuyển sinh năm [2022](nam)
+      - Nhập học năm [2022](nam)
+      - Mình xin thông tin tuyển sinh năm [2022](nam)
+      - Tôi xem tuyển sinh [2022](nam)
+      - Tôi muốn xem năm [2022](nam) tuyển thế nào
+      - Năm [2022](nam) chỉ tiêu ra sao?
       - Mình hỏi về tuyển sinh 2022
       - Chú hỏi về tuyển sinh năm 2022
       - Chỉ tiêu năm 2022
@@ -218,13 +316,35 @@ nlu:
 
   - intent: tuyenSinhNam2023
     examples: |
-      - Tuyển sinh năm 2023 có gì mới?
-      - Năm 2023 trường có tuyển sinh không?
-      - Trường tuyển sinh như thế nào vào năm 2023?
-      - Thông tin tuyển sinh năm 2023
-      - Tuyển sinh 2023 gồm những phương thức nào?
-      - Tuyển sinh năm 2023 điểm chuẩn bao nhiêu?
-      - Tôi muốn hỏi về tuyển sinh năm 2023
+      - Tuyển sinh năm [2023](nam) có gì mới?
+      - Năm [2023](nam) trường có tuyển sinh không?
+      - Trường tuyển sinh như thế nào vào năm [2023](nam)?
+      - Thông tin tuyển sinh năm [2023](nam)
+      - Tuyển sinh [2023](nam) gồm những phương thức nào?
+      - Tuyển sinh năm [2023](nam) điểm chuẩn bao nhiêu?
+      - Tôi muốn hỏi về tuyển sinh năm [2023](nam)
+      - Mình hỏi về tuyển sinh [2023](nam)
+      - Chú hỏi về tuyển sinh năm [2023](nam)
+      - Chỉ tiêu năm [2023](nam)
+      - Chỉ tiêu nhập học [2023](nam)
+      - Số nhập học năm [2023](nam)
+      - Nhập học năm [2023](nam)
+      - Cơ sở Hà Nội nhập học thế nào năm [2023](nam)
+      - Cơ sở Hà Nội chỉ tiêu năm [2023](nam)
+      - Học viện có chỉ tiêu thế nào [2023](nam)
+      - Chỉ tiêu năm [2023](nam) như nào
+      - Mình muốn xem chỉ tiêu năm [2023](nam)
+      - Xem tuyển sinh năm [2023](nam)
+      - Có thông tin tuyển sinh năm [2023](nam) không
+      - Lấy thông tin tuyển sinh năm [2023](nam)
+      - Xin tuyển sinh [2023](nam)
+      - Tuyển sinh [2023](nam)
+      - Nhập học [2023](nam)
+      - Mình xin tuyển sinh [2023](nam)
+      - Tôi xem tuyển sinh [2023](nam)
+      - Tôi xem [2023](nam) tuyển thế nào
+      - [2023](nam) chỉ tiêu ra sao
+      - Có sự khác biệt với tuyển sinh năm [2023](nam)
       - Mình hỏi về tuyển sinh 2023
       - Chú hỏi về tuyển sinh năm 2023
       - Chỉ tiêu năm 2023
@@ -250,14 +370,14 @@ nlu:
 
   - intent: tuyenSinhNam2024
     examples: |
-      - Tuyển sinh năm 2024 có gì mới?
-      - Năm 2024 trường có tuyển sinh không?
-      - Trường tuyển sinh như thế nào vào năm 2024?
-      - Thông tin tuyển sinh năm 2024
-      - Tuyển sinh 2024 gồm những phương thức nào?
-      - Tuyển sinh năm 2024 điểm chuẩn bao nhiêu?
-      - Tôi muốn hỏi về tuyển sinh năm 2024
-      - Năm 2024 có thay đổi gì trong xét tuyển?
+      - Tuyển sinh năm [2024](nam) có gì mới?
+      - Năm [2024](nam) trường có tuyển sinh không?
+      - Trường tuyển sinh như thế nào vào năm [2024](nam)?
+      - Thông tin tuyển sinh năm [2024](nam)
+      - Tuyển sinh [2024](nam) gồm những phương thức nào?
+      - Tuyển sinh năm [2024](nam) điểm chuẩn bao nhiêu?
+      - Tôi muốn hỏi về tuyển sinh năm [2024](nam)
+      - Năm [2024](nam) có thay đổi gì trong xét tuyển?
       - Mình hỏi về tuyển sinh 2024
       - Chú hỏi về tuyển sinh năm 2024
       - Chỉ tiêu năm 2024
@@ -279,17 +399,37 @@ nlu:
       - Tôi xem tuyển sinh 2024
       - Tôi xem 2024 tuyển thế nào
       - 2024 chỉ tiêu ra sao
+      - Mình hỏi về tuyển sinh [2024](nam)
+      - Chú hỏi về tuyển sinh năm [2024](nam)
+      - Chỉ tiêu năm [2024](nam)
+      - Chỉ tiêu nhập học [2024](nam)
+      - Số nhập học năm [2024](nam)
+      - Nhập học năm [2024](nam)
+      - Cơ sở Hà Nội nhập học thế nào năm [2024](nam)
+      - Cơ sở Hà Nội chỉ tiêu năm [2024](nam)
+      - Học viện có chỉ tiêu thế nào [2024](nam)
+      - Chỉ tiêu năm [2024](nam) như nào
+      - Mình muốn xem chỉ tiêu năm [2024](nam)
+      - Xem tuyển sinh năm [2024](nam)
+      - Có thông tin tuyển sinh năm [2024](nam) không
+      - Lấy thông tin tuyển sinh năm [2024](nam)
+      - Xin tuyển sinh [2024](nam)
+      - Thông tin tuyển sinh năm [2024](nam)
+      - Thông tin nhập học năm [2024](nam)
+      - Mình muốn xin thông tin tuyển sinh năm [2024](nam)
+      - Tôi muốn xem tuyển sinh năm [2024](nam) thế nào?
+      - Năm [2024](nam) chỉ tiêu ra sao?
 
   - intent: tuyenSinhNam2025
     examples: |
-      - Cho em hỏi thông tin tuyển sinh năm 2025
-      - Tuyển sinh năm 2025 có gì mới?
-      - Năm 2025 trường có tuyển sinh không?
-      - Trường tuyển sinh như thế nào vào năm 2025?
-      - Thông tin tuyển sinh năm 2025
-      - Tuyển sinh năm 2025 điểm chuẩn bao nhiêu?
-      - Tôi muốn hỏi về tuyển sinh năm 2025
-      - Năm 2025 có thay đổi gì trong xét tuyển?
+      - Cho em hỏi thông tin tuyển sinh năm [2025](nam)
+      - Tuyển sinh năm [2025](nam) có gì mới?
+      - Năm [2025](nam) trường có tuyển sinh không?
+      - Trường tuyển sinh như thế nào vào năm [2025](nam)?
+      - Thông tin tuyển sinh năm [2025](nam)
+      - Tuyển sinh năm [2025](nam) điểm chuẩn bao nhiêu?
+      - Tôi muốn hỏi về tuyển sinh năm [2025](nam)
+      - Năm [2025](nam) có thay đổi gì trong xét tuyển?
       - Mình hỏi về tuyển sinh 2025
       - Chú hỏi về tuyển sinh năm 2025
       - Chỉ tiêu dự kiến năm 2025
@@ -311,6 +451,27 @@ nlu:
       - Tôi xem tuyển sinh 2025
       - Tôi xem 2025 tuyển dự kiến bao nhiêu
       - 2025 dự kiến chỉ tiêu ra sao
+      - Mình hỏi về tuyển sinh [2025](nam)
+      - Chú hỏi về tuyển sinh năm [2025](nam)
+      - Chỉ tiêu dự kiến năm [2025](nam)
+      - Chỉ tiêu nhập học [2025](nam)
+      - Số nhập học năm [2025](nam)
+      - Nhập học năm [2025](nam)
+      - Cơ sở Hà Nội nhập học thế nào năm [2025](nam)
+      - Cơ sở Hà Nội chỉ tiêu năm [2025](nam)
+      - Học viện có chỉ tiêu thế nào [2025](nam)
+      - Chỉ tiêu năm [2025](nam) như nào
+      - Mình muốn xem chỉ tiêu năm [2025](nam)
+      - Xem tuyển sinh năm [2025](nam)
+      - Có thông tin tuyển sinh năm [2025](nam) không
+      - Lấy thông tin tuyển sinh năm [2025](nam)
+      - Xin tuyển sinh [2025](nam)
+      - Tuyển sinh dự kiến [2025](nam)
+      - Nhập học dự kiến [2025](nam)
+      - Mình xin tuyển sinh [2025](nam)
+      - Tôi xem tuyển sinh [2025](nam)
+      - Tôi xem [2025](nam) tuyển dự kiến bao nhiêu
+      - Năm [2025](nam) dự kiến chỉ tiêu ra sao?
 
   - intent: phuongThucXetTuyen
     examples: |
@@ -325,6 +486,19 @@ nlu:
       - Xét tuyển
       - Có những phương thức tuyển sinh nào
       - Phương thức tuyển sinh
+      - Phương thức xét tuyển như nào
+      - PTXT thế nào
+      - Hiện nay, Học viện Kỹ thuật Mật mã sử dụng bao nhiêu phương thức xét tuyển
+      - Mỗi ngành học của Học viện xét tuyển theo tổ hợp môn nào
+      - Tổ hợp A00 (Toán, Lý, Hóa) có phải là tổ hợp chính được sử dụng không
+      - Tổ hợp A01 (Toán, Lý, Anh) có phải là tổ hợp chính được sử dụng không?
+      - Có được xét tuyển thẳng
+      - Toán, Tiếng anh, Tin học có được sử dụng làm xét tuyển
+      - Học viện có xét tuyển thẳng theo quy chế của Bộ GD&ĐT
+      - Có phương thức xét học bạ THPT
+      - Cho tôi xem các phương thức xét tuyển vào trường
+      - Chú xem các phương thức xét tuyển vào trường
+      - Cô xin info các phương thức xét tuyển vào trường
       - Phương thức xét tuyển như nào
       - PTXT thế nào
       - Hiện nay, Học viện Kỹ thuật Mật mã sử dụng bao nhiêu phương thức xét tuyển
@@ -368,21 +542,37 @@ nlu:
       - Tôi xem ngành có bn
       - Chú xem bao nhiêu ngành
       - Cô xem bao nhiêu ngành
+      - Những ngành nào thuộc khối công nghệ kỹ thuật đang được đào tạo tại Học viện?
+      - Có ngành gì
+      - Đào tạo ngành
+      - Học về gì
+      - Học viện đào tạo ngành gì
+      - Học viện đào tạo ATTT không
+      - Học viện đào tạo CNTT không
+      - Học viện đào tạo ĐTVT không
+      - Bao nhiêu ngành đào tạo
+      - Đào tạo bao nhiêu ngành
+      - Bn ngành đào tạo
+      - Cho mình xem bao nhiêu ngành
+      - Tôi xin bao nhiêu ngành đào tạo
+      - Tôi xem ngành có bn
+      - Chú xem bao nhiêu ngành
+      - Cô xem bao nhiêu ngành
 
   - intent: thongTinNganhCNTT
     examples: |
-      - Giới thiệu về ngành công nghệ thông tin
-      - Cho hỏi thông tin ngành công nghệ thông tin
-      - Ngành công nghệ thông tin học gì
-      - Ngành CNTT
-      - Ngành cntt
-      - Cho em biết về ngành công nghệ thông tin
-      - Thông tin ngành công nghệ thông tin
-      - Chi tiết ngành công nghệ thông tin
-      - Ngành CNTT học như thế nào?
-      - Ngành công nghệ thông tin có gì hay?
-      - CNTT là ngành gì vậy?
-      - Công nghệ thông tin đào tạo những gì?
+      - Giới thiệu về ngành [Công nghệ thông tin](nganh)
+      - Cho hỏi thông tin ngành [Công nghệ thông tin](nganh)
+      - Ngành [Công nghệ thông tin](nganh) học gì
+      - Ngành [CNTT](nganh)
+      - Ngành [cntt](nganh)
+      - Cho em biết về ngành [Công nghệ thông tin](nganh)
+      - Thông tin ngành [Công nghệ thông tin](nganh)
+      - Chi tiết ngành [Công nghệ thông tin](nganh)
+      - Ngành [CNTT](nganh) học như thế nào?
+      - Ngành [Công nghệ thông tin](nganh) có gì hay?
+      - [CNTT](nganh) là ngành gì vậy?
+      - [Công nghệ thông tin](nganh) đào tạo những gì?
       - Thông tin về CNTT
       - CNTT chuyên ngành học gì
       - công nghệ thông tin có bao nhiêu chuyên ngành
@@ -399,19 +589,35 @@ nlu:
       - Cho tôi biết về ngành CNTT tại Học viện Kỹ thuật Mật mã.
       - Ngành CNTT tại KMA có đào tạo về trí tuệ nhân tạo/AI không?
       - xin cái info về cntt
+      - Thông tin về [CNTT](nganh)
+      - [CNTT](nganh) chuyên ngành học gì
+      - [Công nghệ thông tin](nganh) có bao nhiêu chuyên ngành
+      - Ngành [Công nghệ thông tin](nganh) tại KMA có gì đặc biệt?
+      - Ngành [CNTT](nganh) ở KMA là gì?
+      - Học viện Kỹ thuật Mật mã đào tạo ngành [Công nghệ thông tin](nganh) như thế nào?
+      - Ngành [CNTT](nganh) ở KMA có đào tạo về trí tuệ nhân tạo không
+      - Ngành [CNTT](nganh) ở KMA đào tạo ra sao
+      - Cho chú hỏi về ngành [CNTT](nganh) ở trường mình
+      - Cho cô xem về ngành [CNTT](nganh) ở trường mình
+      - Info về ngành [CNTT](nganh) ở trường
+      - Có đào tạo kỹ thuật phần mềm di động không?
+      - Học viện Kỹ thuật Mật mã đào tạo ngành [Công nghệ thông tin](nganh) như thế nào?
+      - Cho tôi biết về ngành [CNTT](nganh) tại Học viện Kỹ thuật Mật mã.
+      - Ngành [CNTT](nganh) tại KMA có đào tạo về trí tuệ nhân tạo/AI không?
+      - xin cái info về [CNTT](nganh)
 
   - intent: thongTinNganhATTT
     examples: |
-      - Giới thiệu về ngành an toàn thông tin
-      - Cho hỏi thông tin ngành an toàn thông tin
-      - Ngành an toàn thông tin học gì
-      - Ngành ATTT
-      - Ngành attt
-      - Chi tiết ngành an toàn thông tin
-      - ATTT là ngành gì?
-      - Học ngành ATTT sẽ học gì?
-      - Ngành an toàn thông tin có khó không?
-      - Ngành ATTT học những gì?
+      - Giới thiệu về ngành [An toàn thông tin](nganh)
+      - Cho hỏi thông tin ngành [An toàn thông tin](nganh)
+      - Ngành [An toàn thông tin](nganh) học gì
+      - Ngành [ATTT](nganh)
+      - Ngành [attt](nganh)
+      - Chi tiết ngành [An toàn thông tin](nganh)
+      - [ATTT](nganh) là ngành gì?
+      - Học ngành [ATTT](nganh) sẽ học gì?
+      - Ngành [An toàn thông tin](nganh) có khó không?
+      - Ngành [ATTT](nganh) học những gì?
       - Thông tin về ATTT
       - ATTT chuyên ngành học gì
       - an toàn thông tin có bao nhiêu chuyên ngành
@@ -428,19 +634,35 @@ nlu:
       - Cho tôi biết về ngành ATTT tại Học viện Kỹ thuật Mật mã.
       - Ngành ATTT có bao nhiêu chuyên ngành
       - xin cái info về ATTT
+      - Thông tin về [ATTT](nganh)
+      - [ATTT](nganh) chuyên ngành học gì
+      - [An toàn thông tin](nganh) có bao nhiêu chuyên ngành
+      - Ngành [An toàn thông tin](nganh) tại KMA có gì đặc biệt?
+      - Ngành [ATTT](nganh) ở KMA là gì?
+      - Học viện Kỹ thuật Mật mã đào tạo ngành [An toàn thông tin](nganh) như thế nào?
+      - Ngành [ATTT](nganh) ở KMA có đào tạo về bảo mật hệ thống không
+      - Ngành [ATTT](nganh) ở KMA đào tạo ra sao
+      - Cho chú hỏi về ngành [ATTT](nganh) ở trường mình
+      - Cho cô xem về ngành [ATTT](nganh) ở trường mình
+      - Info về ngành [ATTT](nganh) ở trường
+      - Có đào tạo kỹ thuật an toàn mạng không?
+      - KMA đào tạo gì về [ATTT](nganh)?
+      - Cho tôi biết về ngành [ATTT](nganh) tại Học viện Kỹ thuật Mật mã.
+      - Ngành [ATTT](nganh) có bao nhiêu chuyên ngành
+      - xin cái info về [ATTT](nganh)
 
   - intent: thongTinNganhDTVT
     examples: |
-      - Giới thiệu về ngành điện tử viễn thông
-      - Cho hỏi thông tin ngành điện tử viễn thông
-      - Ngành điện tử viễn thông học gì
-      - Ngành ĐTVT
-      - Ngành dtvt
-      - Thông tin ngành điện tử viễn thông
-      - Chi tiết ngành điện tử viễn thông
-      - Ngành DTVT đào tạo ra sao?
-      - Học ĐTVT thì ra làm gì?
-      - Ngành điện tử viễn thông học như thế nào?
+      - Giới thiệu về ngành [Điện tử viễn thông](nganh)
+      - Cho hỏi thông tin ngành [Điện tử viễn thông](nganh)
+      - Ngành [Điện tử viễn thông](nganh) học gì
+      - Ngành [ĐTVT](nganh)
+      - Ngành [dtvt](nganh)
+      - Thông tin ngành [Điện tử viễn thông](nganh)
+      - Chi tiết ngành [Điện tử viễn thông](nganh)
+      - Ngành [DTVT](nganh) đào tạo ra sao?
+      - Học [ĐTVT](nganh) thì ra làm gì?
+      - Ngành [Điện tử viễn thông](nganh) học như thế nào?
       - Thông tin về ĐTVT
       - ĐTVT chuyên ngành học gì
       - điện tử có bao nhiêu chuyên ngành
@@ -458,19 +680,49 @@ nlu:
       - Cho tôi biết về ngành ĐTVT tại Học viện Kỹ thuật Mật mã.
       - Ngành ĐTVT có bao nhiêu chuyên ngành
       - xin cái info về ĐTVT
+      - Thông tin về [ĐTVT](nganh)
+      - [ĐTVT](nganh) chuyên ngành học gì
+      - điện tử có bao nhiêu chuyên ngành
+      - Ngành [ĐTVT](nganh) tại KMA có gì đặc biệt?
+      - Ngành [ĐTVT](nganh) ở KMA là gì?
+      - Học viện Kỹ thuật Mật mã đào tạo ngành [Điện tử viễn thông](nganh) như thế nào?
+      - Ngành [Điện tử viễn thông](nganh) ở KMA có đào tạo về robot không
+      - Ngành [Điện tử](nganh) ở KMA đào tạo ra sao
+      - Cho chú hỏi về ngành [ĐTVT](nganh) ở trường mình
+      - Cho cô xem về ngành [ĐTVT](nganh) ở trường mình
+      - Info về ngành [ĐTVT](nganh) ở trường
+      - Có đào tạo kỹ thuật điện tử viễn thông không?
+      - Đào tạo vi mạch
+      - KMA đào tạo gì về [ĐTVT](nganh)?
+      - Cho tôi biết về ngành [ĐTVT](nganh) tại Học viện Kỹ thuật Mật mã.
+      - Ngành [ĐTVT](nganh) có bao nhiêu chuyên ngành
+      - xin cái info về [ĐTVT](nganh)
 
   - intent: chuongTrinhHocCNTT
     examples: |
-      - Ngành CNTT học những môn gì
-      - Chương trình đào tạo của ngành công nghệ thông tin
-      - Chương trình học ngành CNTT
-      - Chương trình học ngành công nghệ thông tin
-      - Cho em hỏi lộ trình học công nghệ thông tin
-      - Chi tiết đào tạo công nghệ thông tin
-      - Các môn học ngành CNTT gồm gì?
-      - CNTT có học lập trình không?
-      - Học CNTT có học về AI không?
-      - Khung chương trình đào tạo CNTT
+      - Ngành [CNTT](nganh) học những môn gì
+      - Chương trình đào tạo của ngành [Công nghệ thông tin](nganh)
+      - Chương trình học ngành [CNTT](nganh)
+      - Chương trình học ngành [Công nghệ thông tin](nganh)
+      - Cho em hỏi lộ trình học [Công nghệ thông tin](nganh)
+      - Chi tiết đào tạo [Công nghệ thông tin](nganh)
+      - Các môn học ngành [CNTT](nganh) gồm gì?
+      - [CNTT](nganh) có học lập trình không?
+      - Học [CNTT](nganh) có học về AI không?
+      - Khung chương trình đào tạo [CNTT](nganh)
+      - Học [CNTT](nganh) ở trường mình thì cần học những ngôn ngữ nào?
+      - Ngành [CNTT](nganh) thì học mấy năm?
+      - Muốn giỏi ngành [CNTT](nganh) thì cần học giỏi môn nào?
+      - Học [CNTT](nganh) có học nhiều toán không?
+      - Học ngành [CNTT](nganh) năm nhất có cần sử dụng laptop riêng hay không?
+      - Các chuyên ngành của ngành [CNTT](nganh) tại trường mình là gì?
+      - Tất cả các môn học của ngành [CNTT](nganh) tại trường mình?
+      - Học [CNTT](nganh) môn nào là khó nhất?
+      - Lộ trình giúp học tốt ngành [CNTT](nganh)?
+      - Chương trình học [CNTT](nganh) có khó không?
+      - Học ngành [CNTT](nganh) thì nên thi chứng chỉ gì?
+      - Mô tả về chuyên ngành kỹ thuật phần mềm di động
+      - Mô tả về chuyên ngành trí tuệ nhân tạo ứng dụng
       - Học CNTT ở trường mình thì cần học những ngôn ngữ nào?
       - Ngành CNTT thì học mấy năm?
       - Muốn giỏi ngành CNTT thì cần học giỏi môn nào?
@@ -487,14 +739,14 @@ nlu:
 
   - intent: chuongTrinhHocATTT
     examples: |
-      - Chương trình học ngành ATTT như thế nào
-      - Chương trình đào tạo của ngành an toàn thông tin
-      - Chương trình học ngành ATTT
-      - Cho em hỏi lộ trình học an toàn thông tin
-      - Ngành ATTT có học về bảo mật không?
-      - Học ATTT có lập trình không?
-      - Những môn học ngành an toàn thông tin
-      - Chương trình ngành ATTT kéo dài bao lâu?
+      - Chương trình học ngành [ATTT](nganh) như thế nào
+      - Chương trình đào tạo của ngành [An toàn thông tin](nganh)
+      - Chương trình học ngành [ATTT](nganh)
+      - Cho em hỏi lộ trình học [An toàn thông tin](nganh)
+      - Ngành [ATTT](nganh) có học về bảo mật không?
+      - Học [ATTT](nganh) có lập trình không?
+      - Những môn học ngành [An toàn thông tin](nganh)
+      - Chương trình ngành [ATTT](nganh) kéo dài bao lâu?
       - Mình muốn biết về ATTT?
       - Ngành ATTT có bao nhiêu chuyên ngành chính?
       - Học ngành ATTT môn nào là khó nhất?
@@ -511,17 +763,33 @@ nlu:
       - Mô tả về chuyên ngành an toàn hệ thống thông tin
       - Mô tả về chuyên ngành bảo đảm an toàn không gian mạng
       - Mô tả về chuyên ngành công nghệ phần mềm an toàn
+      - Mình muốn biết về [ATTT](nganh)?
+      - Ngành [ATTT](nganh) có bao nhiêu chuyên ngành chính?
+      - Học ngành [ATTT](nganh) môn nào là khó nhất?
+      - Học ngành [ATTT](nganh) có khó không?
+      - Học ngành [ATTT](nganh) cần học những ngôn ngữ lập trình nào?
+      - Học ngành [ATTT](nganh) thì nên thi chứng chỉ gì?
+      - Học ngành [ATTT](nganh) năm nhất có cần mua laptop riêng hay không?
+      - Ngành [ATTT](nganh) có bao nhiêu tín chỉ?
+      - Tất cả các môn của ngành [ATTT](nganh) là gì?
+      - Ngành [ATTT](nganh) ở trường mình chủ yếu học về gì?
+      - Ngành [ATTT](nganh) có dạy làm hacker không?
+      - Muốn trở thành chuyên gia an ninh mạng thì nên học chuyên ngành [ATTT](nganh) nào?
+      - Học [ATTT](nganh) có liên quan đến AI hay không?
+      - Mô tả về chuyên ngành an toàn hệ thống thông tin
+      - Mô tả về chuyên ngành bảo đảm an toàn không gian mạng
+      - Mô tả về chuyên ngành công nghệ phần mềm an toàn
 
   - intent: chuongTrinhHocDTVT
     examples: |
-      - Chương trình đào tạo ngành điện tử viễn thông
-      - Chương trình học ngành điện tử viễn thông
-      - Cho em hỏi lộ trình học điện tử viễn thông
-      - Đào tạo điện tử viễn thông gồm những gì
-      - Học ĐTVT có học mạch điện không?
-      - Ngành ĐTVT học trong bao lâu?
-      - Ngành điện tử viễn thông học môn gì?
-      - Chương trình ngành ĐTVT có học thực hành không?
+      - Chương trình đào tạo ngành [Điện tử viễn thông](nganh)
+      - Chương trình học ngành [Điện tử viễn thông](nganh)
+      - Cho em hỏi lộ trình học [Điện tử viễn thông](nganh)
+      - Đào tạo [Điện tử viễn thông](nganh) gồm những gì
+      - Học [ĐTVT](nganh) có học mạch điện không?
+      - Ngành [ĐTVT](nganh) học trong bao lâu?
+      - Ngành [Điện tử viễn thông](nganh) học môn gì?
+      - Chương trình ngành [ĐTVT](nganh) có học thực hành không?
       - Học ĐTVT có học thực hành nhiều không?
       - Học ĐTVT có cần học lập trình không?
       - Điểm khác nhau giữa ngành ĐTVT và ngành CNTT
@@ -535,6 +803,19 @@ nlu:
       - Mô tả về chuyên ngành hệ thống nhúng và điều khiển tự động
       - Học ĐTVT năm nhất có cần laptop riêng hay không?
       - Học ĐTVT có học về chip bán dẫn hay không?
+      - Học [ĐTVT](nganh) có học thực hành nhiều không?
+      - Học [ĐTVT](nganh) có cần học lập trình không?
+      - Điểm khác nhau giữa ngành [ĐTVT](nganh) và ngành [CNTT](nganh)
+      - Ngành [ĐTVT](nganh) có bao nhiêu tín chỉ
+      - Ngành [ĐTVT](nganh) có bao nhiêu chuyên ngành?
+      - Ngành [ĐTVT](nganh) có những môn nào?
+      - Học [ĐTVT](nganh) môn nào là khó nhất?
+      - Học ngành [ĐTVT](nganh) cần chuẩn bị những gì?
+      - Bí quyết học giỏi ngành [ĐTVT](nganh)?
+      - Mô tả về chuyên ngành hệ thống nhúng và thiết kế vi mạch
+      - Mô tả về chuyên ngành hệ thống nhúng và điều khiển tự động
+      - Học [ĐTVT](nganh) năm nhất có cần laptop riêng hay không?
+      - Học [ĐTVT](nganh) có học về chip bán dẫn hay không?
 
   - intent: hocPhi
     examples: |
@@ -553,6 +834,14 @@ nlu:
       - Học phí có bao gồm các khoản phụ khác không?
       - Trường có miễn học phí cho sinh viên giỏi không?
       - Cho em xin thông tin chi tiết về học phí nhé
+      - Học phí ngành CNTT là bao nhiêu?
+      - Học phí ngành ĐTVT là bao nhiêu?
+      - Trường có hỗ trợ học phí cho sinh viên nghèo hay không ạ?
+      - Những đối tượng nào được xét miễn giảm học phí vậy ạ?
+      - Học phí trường mình bao nhiêu tiền 1 tín
+      - Một năm sẽ đóng bao nhiêu học phí thế ạ?
+      - Ngành nào học phí rẻ nhất
+      - Học phí các năm học gần đây
       - Học phí ngành CNTT là bao nhiêu?
       - Học phí ngành ĐTVT là bao nhiêu?
       - Trường có hỗ trợ học phí cho sinh viên nghèo hay không ạ?
@@ -587,6 +876,14 @@ nlu:
       - Học bổng trị giá bao nhiêu tiền
       - Nếu trượt môn thì có được học bổng không?
       - Có học bổng cho sinh viên nghèo không?
+      - Cho em xin thông tin về học bổng trường mình
+      - Điều kiện để được học bổng
+      - Làm thế nào để được học bổng
+      - Thông tin về học bổng 
+      - Chỉ tiêu học bổng mỗi kì là bao nhiêu vậy ạ?
+      - Học bổng trị giá bao nhiêu tiền
+      - Nếu trượt môn thì có được học bổng không?
+      - Có học bổng cho sinh viên nghèo không?
 
   - intent: kyTucXa
     examples: |
@@ -605,6 +902,14 @@ nlu:
       - Ký túc xá gần trường không?
       - Có camera an ninh không?
       - Ký túc xá có sạch sẽ không?
+      - Ký túc xá có cho nấu ăn không?
+      - Quy định của ký túc xá
+      - Cách đăng ký vào ký túc xá
+      - Có được chọn phòng khi đăng ký ký túc xá hay không?
+      - Ký túc xá có hỗ trợ chi phí cho sinh viên có hoàn cảnh khó khăn không?
+      - Những điều cần lưu ý khi ở ký túc xá
+      - Ở ký túc xá có được cho người thân vào thăm hay không?
+      - Trường có ký túc xá cho hệ dân sự không?
       - Ký túc xá có cho nấu ăn không?
       - Quy định của ký túc xá
       - Cách đăng ký vào ký túc xá
@@ -638,6 +943,15 @@ nlu:
       - Cần chuẩn bị gì trước khi đi phỏng vấn CLB
       - Những yêu cầu để tham gia vào 1 CLB
       - Trường có CLB về thể thao điện tử không?
+      - Trường có CLB về ATTT hay không?
+      - Tham gia CLB có những ưu điểm gì?
+      - Em là sinh viên năm nhất thì nên tham gia các CLB nào ạ?
+      - CLB liên quan đến nghệ thuật
+      - Có CLB tiếng anh hay không?
+      - Tham gia CLB có được cộng điểm rèn luyện hay không?
+      - Cần chuẩn bị gì trước khi đi phỏng vấn CLB
+      - Những yêu cầu để tham gia vào 1 CLB
+      - Trường có CLB về thể thao điện tử không?
 
   - intent: tiengAnhDauVao
     examples: |
@@ -662,6 +976,12 @@ nlu:
       - Chi phí thi lại tiếng anh đầu vào
       - Nên ôn thi tiếng anh đầu vào ở đâu?
       - Thi tiếng anh đầu vào gồm những kỹ năng nào?
+      - Lộ trình ôn luyện thi tiếng anh đầu vào
+      - Cần bao nhiêu điểm thi để đạt tiếng anh đầu vào?
+      - Nếu không đỗ tiếng anh đầu vào có được thi lại không?
+      - Chi phí thi lại tiếng anh đầu vào
+      - Nên ôn thi tiếng anh đầu vào ở đâu?
+      - Thi tiếng anh đầu vào gồm những kỹ năng nào?
 
   - intent: coHoiViecLam
     examples: |
@@ -680,6 +1000,14 @@ nlu:
       - Em muốn đi làm sớm, trường có hỗ trợ không?
       - Việc làm sau khi tốt nghiệp có ổn định không?
       - Học ngành này dễ ra nước ngoài không?
+      - Học ngành ĐTVT sau này ra làm gì?
+      - Học ngành nào ra dễ xin việc nhất?
+      - Học ngành ATTT sau này ra có thể làm những công việc gì?
+      - Các công ty có về trường mình để tuyển người không?
+      - Ngành nào có tỉ lệ sinh viên ra trường có việc làm cao nhất?
+      - Trường có liên kết với doanh nghiệp nào không?
+      - Ra trường có được làm trong Ban Cơ yếu Chính phủ không?
+      - Sinh viên trường mình chủ yếu làm ở những doanh nghiệp nào?
       - Học ngành ĐTVT sau này ra làm gì?
       - Học ngành nào ra dễ xin việc nhất?
       - Học ngành ATTT sau này ra có thể làm những công việc gì?
@@ -715,6 +1043,13 @@ nlu:
       - Học trường mình xong có phải tham gia nghĩa vụ quân sự nữa không?
       - Ra trường có phải vào làm luôn cho quân đội không?
       - Học viện kỹ thuật mật mã trực thuộc cơ quan nào?
+      - Học trường mình có được hỗ trợ sinh hoạt phí hằng tháng hay không?
+      - Có phải trường mình đào tạo sĩ quan an ninh mạng hay không?
+      - Tuyển sinh trường mình có phải khám sức khỏe không?
+      - Em học hệ dân sự muốn chuyển sang hệ quân có được không?
+      - Học trường mình xong có phải tham gia nghĩa vụ quân sự nữa không?
+      - Ra trường có phải vào làm luôn cho quân đội không?
+      - Học viện kỹ thuật mật mã trực thuộc cơ quan nào?
 
   - intent: diemChuanCacNam
     examples: |
@@ -743,15 +1078,25 @@ nlu:
       - Điểm ngành ATTT các năm gần đây
       - Điểm ngành CNTT các năm gần đây
       - Điểm ngành ĐTVT các năm gần đây
+      - Điểm chuẩn các năm gần đây có tăng không?
+      - Điểm chuẩn các năm gần đây có cao không?
+      - Ngành nào có điểm chuẩn cao nhất
+      - Ngành nào có điểm chuẩn thấp nhất
+      - Cách tính điểm chuẩn trường mình
+      - Điểm chuẩn các ngành các năm gần đây
+      - Các năm gần đây năm nào lấy điểm cao nhất
+      - Điểm ngành ATTT các năm gần đây
+      - Điểm ngành CNTT các năm gần đây
+      - Điểm ngành ĐTVT các năm gần đây
 
   - intent: diemChuanNam2022
     examples: |
-      - Năm 2022 thì chuẩn đầu vào bao nhiêu vậy?
-      - Học viện mình lấy điểm năm 2022 là bao nhiêu nhỉ?
-      - Điểm xét tuyển năm 2022 bao nhiêu?
-      - Năm 2022 có điểm chuẩn chưa?
-      - Điểm chuẩn 2022 Học viện mình thế nào?
-      - 2022 thì điểm cao không?
+      - Năm [2022](nam) thì chuẩn đầu vào bao nhiêu vậy?
+      - Học viện mình lấy điểm năm [2022](nam) là bao nhiêu nhỉ?
+      - Điểm xét tuyển năm [2022](nam) bao nhiêu?
+      - Năm [2022](nam) có điểm chuẩn chưa?
+      - Điểm chuẩn [2022](nam) Học viện mình thế nào?
+      - [2022](nam) thì điểm cao không?
       - Năm 2022 điểm ngành nào cao nhất
       - Năm 2022 điểm ngành nào thấp nhất
       - Điểm chuẩn các ngành năm 2022
@@ -764,16 +1109,28 @@ nlu:
       - Điểm chuẩn ngành CNTT năm 2022
       - Điểm chuẩn ngành ĐTVT năm 2022
       - Năm 2022 bao nhiêu điểm thì đỗ vào trường mình
+      - Năm [2022](nam) điểm ngành nào cao nhất
+      - Năm [2022](nam) điểm ngành nào thấp nhất
+      - Điểm chuẩn các ngành năm [2022](nam)
+      - Năm [2022](nam) bao nhiêu điểm thì đỗ ngành ATTT
+      - Năm [2022](nam) bao nhiêu điểm thì đỗ ngành CNTT
+      - Năm [2022](nam) bao nhiêu điểm thì đỗ ngành ĐTVT
+      - Em muốn biết điểm chuẩn trường mình năm [2022](nam) 
+      - Điểm năm [2022](nam) có chênh lệch nhiều so với năm trước không
+      - Điểm chuẩn ngành ATTT năm [2022](nam)
+      - Điểm chuẩn ngành CNTT năm [2022](nam)
+      - Điểm chuẩn ngành ĐTVT năm [2022](nam)
+      - Năm [2022](nam) bao nhiêu điểm thì đỗ vào trường mình
 
   - intent: diemChuanNam2023
     examples: |
-      - Năm 2023 lấy bao nhiêu điểm?
-      - Điểm xét tuyển năm 2023 là mấy?
-      - Điểm đậu đại học năm 2023 khoảng bao nhiêu?
-      - Cho hỏi chuẩn 2023 là bao nhiêu điểm?
-      - 2023 có phải lấy điểm cao không?
-      - Điểm năm 2023 so với các năm trước thì sao?
-      - Có bảng điểm chuẩn năm 2023 không?
+      - Năm [2023](nam) lấy bao nhiêu điểm?
+      - Điểm xét tuyển năm [2023](nam) là mấy?
+      - Điểm đậu đại học năm [2023](nam) khoảng bao nhiêu?
+      - Cho hỏi chuẩn [2023](nam) là bao nhiêu điểm?
+      - [2023](nam) có phải lấy điểm cao không?
+      - Điểm năm [2023](nam) so với các năm trước thì sao?
+      - Có bảng điểm chuẩn năm [2023](nam) không?
       - Năm 2023 điểm ngành nào cao nhất
       - Năm 2023 điểm ngành nào thấp nhất
       - Điểm chuẩn các ngành năm 2023
@@ -786,16 +1143,28 @@ nlu:
       - Điểm chuẩn ngành CNTT năm 2023
       - Điểm chuẩn ngành ĐTVT năm 2023
       - Năm 2023 bao nhiêu điểm thì đỗ vào trường mình
+      - Năm [2023](nam) điểm ngành nào cao nhất
+      - Năm [2023](nam) điểm ngành nào thấp nhất
+      - Điểm chuẩn các ngành năm [2023](nam)
+      - Năm [2023](nam) bao nhiêu điểm thì đỗ ngành ATTT
+      - Năm [2023](nam) bao nhiêu điểm thì đỗ ngành CNTT
+      - Năm [2023](nam) bao nhiêu điểm thì đỗ ngành ĐTVT
+      - Em muốn biết điểm chuẩn trường mình năm [2023](nam)
+      - Điểm năm [2023](nam) có chênh lệch nhiều so với năm trước không
+      - Điểm chuẩn ngành ATTT năm [2023](nam)
+      - Điểm chuẩn ngành CNTT năm [2023](nam)
+      - Điểm chuẩn ngành ĐTVT năm [2023](nam)
+      - Năm [2023](nam) bao nhiêu điểm thì đỗ vào trường mình
 
   - intent: diemChuanNam2024
     examples: |
-      - Năm nay 2024 cần bao nhiêu điểm mới đậu?
-      - Mức điểm chuẩn 2024 là mấy vậy?
-      - Điểm năm 2024 đã công bố chưa?
-      - Điểm tuyển năm 2024 có cao hơn năm ngoái không?
-      - Chuẩn đầu vào năm 2024 là bao nhiêu?
-      - 2024 thi tầm mấy điểm thì vào được?
-      - Năm 2024 điểm có giảm không?
+      - Năm nay [2024](nam) cần bao nhiêu điểm mới đậu?
+      - Mức điểm chuẩn [2024](nam) là mấy vậy?
+      - Điểm năm [2024](nam) đã công bố chưa?
+      - Điểm tuyển năm [2024](nam) có cao hơn năm ngoái không?
+      - Chuẩn đầu vào năm [2024](nam) là bao nhiêu?
+      - [2024](nam) thi tầm mấy điểm thì vào được?
+      - Năm [2024](nam) điểm có giảm không?
       - Năm 2024 điểm ngành nào cao nhất
       - Năm 2024 điểm ngành nào thấp nhất
       - Điểm chuẩn các ngành năm 2024
@@ -808,44 +1177,95 @@ nlu:
       - Điểm chuẩn ngành CNTT năm 2024
       - Điểm chuẩn ngành ĐTVT năm 2024
       - Năm 2024 bao nhiêu điểm thì đỗ vào trường mình
+      - Năm [2024](nam) điểm ngành nào cao nhất
+      - Năm [2024](nam) điểm ngành nào thấp nhất
+      - Điểm chuẩn các ngành năm [2024](nam)
+      - Năm [2024](nam) bao nhiêu điểm thì đỗ ngành ATTT
+      - Năm [2024](nam) bao nhiêu điểm thì đỗ ngành CNTT
+      - Năm [2024](nam) bao nhiêu điểm thì đỗ ngành ĐTVT
+      - Em muốn biết điểm chuẩn trường mình năm [2024](nam)
+      - Điểm năm [2024](nam) có chênh lệch nhiều so với năm trước không
+      - Điểm chuẩn ngành ATTT năm [2024](nam)
+      - Điểm chuẩn ngành CNTT năm [2024](nam)
+      - Điểm chuẩn ngành ĐTVT năm [2024](nam)
+      - Năm [2024](nam) bao nhiêu điểm thì đỗ vào trường mình
 
   - intent: diemChuanNam2025
     examples: |
-      - Năm 2025 có thông tin điểm chuẩn chưa?
-      - Chuẩn bị thi 2025 thì cần bao nhiêu điểm?
-      - Dự đoán điểm chuẩn 2025 là bao nhiêu?
-      - Điểm năm 2025 sẽ cao không?
-      - Muốn vào năm 2025 thì phải thi bao nhiêu điểm?
-
-  - intent: diemChuanNganhATTT
-    examples: |
-      - Ngành ATTT yêu cầu điểm bao nhiêu?
-      - An toàn thông tin điểm đầu vào thế nào?
-      - Năm rồi ngành ATTT lấy bao nhiêu điểm nhỉ?
-      - Em muốn học ngành ATTT thì thi mấy điểm?
-      - Điểm vào ngành an toàn thông tin khoảng bao nhiêu?
-      - ATTT có cần điểm cao không?
-      - Điểm chuẩn của ngành ATTT là mấy vậy?
+      - Năm [2025](nam) có thông tin điểm chuẩn chưa?
+      - Chuẩn bị thi [2025](nam) thì cần bao nhiêu điểm?
+      - Dự đoán điểm chuẩn [2025](nam) là bao nhiêu?
+      - Điểm năm [2025](nam) sẽ cao không?
+      - Muốn vào năm [2025](nam) thì phải thi bao nhiêu điểm?
 
   - intent: diemChuanNganhCNTT
     examples: |
-      - CNTT mấy điểm thì được vào?
-      - Ngành công nghệ thông tin có điểm chuẩn bao nhiêu?
-      - Muốn vào CNTT thì phải được mấy điểm?
-      - Điểm ngành CNTT cao không?
-      - Em muốn biết điểm chuẩn ngành công nghệ thông tin
-      - Năm ngoái CNTT lấy bao nhiêu điểm nhỉ?
-      - CNTT năm nay tuyển từ bao nhiêu điểm?
+      - Ngành [CNTT](nganh) lấy bao nhiêu điểm vậy bạn?
+      - Cho em hỏi điểm chuẩn ngành [công nghệ thông tin](nganh)?
+      - Muốn vào ngành [CNTT](nganh) thì cần thi mấy điểm?
+      - Năm nay [CNTT](nganh) lấy điểm từ bao nhiêu?
+      - Năm ngoái [công nghệ thông tin](nganh) điểm cao không?
+      - Điểm chuẩn [CNTT](nganh) bao nhiêu nhỉ?
+      - [CNTT](nganh) cần bao nhiêu điểm?
+      - Em định đăng ký ngành [công nghệ thông tin](nganh), không biết cần thi mấy điểm?
+      - Điểm đầu vào ngành [CNTT](nganh) khoảng bao nhiêu?
+      - Ngành [công nghệ thông tin](nganh) có cần điểm cao không?
+      - Điểm chuẩn của [CNTT](nganh) là bao nhiêu?
+      - [Công nghệ thông tin](nganh) lấy bao nhiêu điểm để đậu?
+      - Muốn đỗ ngành [CNTT](nganh) thì thi bao nhiêu điểm?
+      - Trường mình năm ngoái lấy ngành [công nghệ thông tin](nganh) bao nhiêu điểm?
+      - Năm ngoái điểm ngành [CNTT](nganh) có cao lắm không?
+      - Em muốn hỏi điểm ngành [công nghệ thông tin](nganh) năm gần nhất?
+      - Học [CNTT](nganh) thì cần điểm tầm bao nhiêu?
+      - [Công nghệ thông tin](nganh), cần bao nhiêu điểm mới đậu?
+      - Cho em hỏi điểm tuyển sinh ngành [CNTT](nganh) năm nay là bao nhiêu?
+      - [CNTT](nganh), mấy điểm thì đậu?
+
+  - intent: diemChuanNganhATTT
+    examples: |
+      - Ngành [ATTT](nganh) yêu cầu điểm bao nhiêu?
+      - [An toàn thông tin](nganh) điểm đầu vào thế nào?
+      - Năm rồi ngành [ATTT](nganh) lấy bao nhiêu điểm nhỉ?
+      - Em muốn học ngành [ATTT](nganh) thì thi mấy điểm?
+      - Điểm vào ngành [an toàn thông tin](nganh) khoảng bao nhiêu?
+      - [ATTT](nganh) có cần điểm cao không?
+      - Điểm chuẩn của ngành [ATTT](nganh) là mấy vậy?
+      - Cho em hỏi điểm chuẩn ngành [an toàn thông tin](nganh) năm nay?
+      - [ATTT](nganh) cần bao nhiêu điểm thì đỗ?
+      - Em quan tâm ngành [ATTT](nganh), điểm chuẩn có cao không?
+      - Ngành [an toàn thông tin](nganh) năm nay có lấy điểm cao không?
+      - [An toàn thông tin](nganh) điểm chuẩn bao nhiêu?
+      - Điểm đầu vào ngành [ATTT](nganh) khoảng bao nhiêu?
+      - Học [an toàn thông tin](nganh) thì thi bao nhiêu điểm là vừa?
+      - Ngành [ATTT](nganh) có khó vào không?
+      - Cho hỏi ngành [ATTT](nganh) lấy bao nhiêu điểm?
+      - [ATTT](nganh), điểm sàn năm nay là bao nhiêu?
+      - Năm ngoái [an toàn thông tin](nganh) lấy điểm bao nhiêu?
+      - Em định nộp vào ngành [ATTT](nganh), điểm có cao không?
+      - Mấy điểm mới vô được ngành [an toàn thông tin](nganh)?
 
   - intent: diemChuanNganhDTVT
     examples: |
-      - Điện tử viễn thông cần bao nhiêu điểm để vào?
-      - DTVT năm nay lấy điểm như nào?
-      - Muốn vào DTVT thì thi được bao nhiêu?
-      - Ngành DTVT năm ngoái lấy khoảng bao nhiêu?
-      - Cho biết điểm ngành điện tử viễn thông?
-      - Điểm chuẩn ngành DTVT là bao nhiêu thế?
-      - Học ngành DTVT có cần điểm cao không?
+      - Ngành [điện tử viễn thông](nganh) cần bao nhiêu điểm để vào?
+      - [DTVT](nganh) năm nay lấy điểm như nào?
+      - Muốn vào [DTVT](nganh) thì thi được bao nhiêu?
+      - Ngành [DTVT](nganh) năm ngoái lấy khoảng bao nhiêu?
+      - Cho biết điểm ngành [điện tử viễn thông](nganh)?
+      - Điểm chuẩn ngành [DTVT](nganh) là bao nhiêu thế?
+      - Học ngành [DTVT](nganh) có cần điểm cao không?
+      - Em muốn hỏi điểm vào ngành [điện tử viễn thông](nganh)?
+      - [DTVT](nganh) cần thi mấy điểm để đỗ?
+      - Năm ngoái [điện tử viễn thông](nganh) lấy bao nhiêu điểm nhỉ?
+      - Ngành [DTVT](nganh), điểm chuẩn năm nay bao nhiêu?
+      - Cho em hỏi ngành [điện tử viễn thông](nganh) lấy bao nhiêu điểm?
+      - Ngành [DTVT](nganh) có lấy điểm sàn không?
+      - Em nộp vào [DTVT](nganh), không biết năm nay có cao không?
+      - Điểm đầu vào [điện tử viễn thông](nganh) như thế nào?
+      - [DTVT](nganh) có dễ đậu không?
+      - Em cần biết điểm xét tuyển ngành [điện tử viễn thông](nganh)?
+      - Trường mình lấy điểm ngành [DTVT](nganh) bao nhiêu?
+      - [Điện tử viễn thông](nganh), thi bao nhiêu điểm thì ổn?
+      - Muốn học [DTVT](nganh) thì cần điểm cao không?
 
   - intent: webVaFacebook_KMA
     examples: |
