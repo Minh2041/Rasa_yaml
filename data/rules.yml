@@ -116,15 +116,55 @@ rules:
       - intent: chuongTrinhHocATTT
       - action: utter_chuongTrinhHoc_ATTT
 
+  - rule: Chuyên ngành an toàn hệ thống thông tin
+    steps:
+      - intent: ChuyennganhATHTTT_ATTT
+      - action: utter_ChuyennganhATHTTT_ATTT
+
+  - rule: Chuyên ngành công nghệ phần mềm an toàn
+    steps: 
+      - intent: ChuyennganhCNPMAT_ATTT
+      - action: utter_ChuyennganhCNPMAT_ATTT
+
+  - rule: Chuyên ngành kỹ nghệ an toàn mạng
+    steps: 
+      - intent: ChuyennganhKNATM_ATTT
+      - action: utter_ChuyennganhKNATM_ATTT
+
   - rule: chương trình học CNTT
     steps:
       - intent: chuongTrinhHocCNTT
       - action: utter_chuongTrinhHoc_CNTT
 
+  - rule: chuyên ngành kỹ thuật phần mềm nhúng và di động
+    steps: 
+      - intent: ChuyennganhKTPMNVDD_CNTT
+      - action: utter_ChuyennganhKTPMNVDD_CNTT
+
+  - rule: chuyên ngành kỹ thuật phần mềm di dộng
+    steps:
+      - intent: ChuyenganhKTPMDD_CNTT
+      - action: utter_ChuyennganhKTPMDD_CNTT
+
+  - rule: chuyên ngành trí tuệ nhân tạo ứng dụng
+    steps:
+      - intent: ChuyennganhTTNTUD_CNTT
+      - action: utter_ChuyennganhTTNTUD_CNTT
+
   - rule: chương trình học DTVT
     steps:
       - intent: chuongTrinhHocDTVT
       - action: utter_chuongTrinhHoc_DTVT
+
+  - rule: chuyên ngành hệ thống nhúng và điều khiển tự động
+    steps: 
+      - intent: ChuyennganhHTNVDKTD_DTVT
+      - action: utter_ChuyennganhHTNVDKTD_DTVT
+
+  - rule: chuyên ngành hệ thống nhúng và thiết kế vi mạch
+    steps: 
+      - intent: ChuyennganhHTNVTKVM_DTVT
+      - action: utter_ChuyennganhHTNVTKVM_DTVT
 
   - rule: Người dùng hỏi học phí
     steps:
@@ -215,6 +255,16 @@ rules:
     steps:
       - intent: coTuyenHeQuanKhong
       - action: utter_coTuyenHeQuanKhong
+
+  - rule: yêu cầu khi vào trường
+    steps: 
+      - intent: yeuCauKhiVaoTruong
+      - action: utter_yeuCauKhiVaoTruong
+
+  - rule: thư viện    
+    steps:
+      - intent: thuVien
+      - action: utter_thuVien
 
   - rule: Phản hồi khi không hiểu người dùng
     steps:

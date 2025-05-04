@@ -19,8 +19,16 @@ intents:
   - thongTinNganhATTT
   - thongTinNganhDTVT
   - chuongTrinhHocCNTT
+  - ChuyennganhKTPMDD_CNTT
+  - ChuyennganhTTNTUD_CNTT
+  - ChuyennganhKTNVPMDD_CNTT
   - chuongTrinhHocATTT
+  - ChuyennganhATHTTT_ATTT
+  - ChuyennganhCNPMAT_ATTT
+  - ChuyennganhKNATM_ATTT
   - chuongTrinhHocDTVT
+  - ChuyennganhHTNVDKTD_DTVT
+  - ChuyennganhHTNVTKVM_DTVT
   - hocPhi
   - hocBong
   - kyTucXa
@@ -46,6 +54,8 @@ intents:
   - uuTienXetTuyen
   - chungChiTA
   - coTuyenHeQuanKhong
+  - yeuCauKhiVaoTruong
+  - thuVien
 
 responses:
   utter_chaoHoi:
@@ -249,6 +259,26 @@ responses:
         - Nắm bắt được các hiểm họa an toàn và cách phòng chống.
         - Có kiến thức và kỹ năng chuyên sâu để thiết kế, triển khai, vận hành và bảo vệ hệ thống thông tin khỏi các rủi ro an ninh mạng.
 
+  utter_ChuyennganhATHTTT_ATTT:
+    - text: |
+       Chuyên ngành An toàn hệ thống thông tin (đào tạo từ năm 2014 ).
+       Chương trình đạo tạo theo chuyên ngành An toàn hệ thống thông tin trang bị cho người học kiến thức, kỹ năng chuyên sâu để có thể: thiết kế, triển khai giải pháp đảm bảo an toàn cho một hệ thống thông tin; 
+       tư vấn giải pháp an toàn thông tin cho các cơ quan, tổ chức; vận hành các công cụ phần cứng, phần mềm nhằm đảm bảo an toàn cho hệ thống thông tin; và giải quyết các sự cố an toàn thông tin phát sinh trong quá trình vận hành hệ thống.
+
+  utter_ChuyennganhCNPMAT_ATTT:
+    - text: |
+        Chuyên ngành Công nghệ Phần mềm An toàn (đào tạo từ năm 2014).
+        Trang bị cho người học kiến thức từ cơ bản đến chuyên sâu về phát triển và quản lý phần mềm theo hướng an toàn. 
+        Sinh viên được học về quy trình xây dựng, bảo trì, đánh giá và kiểm thử phần mềm an toàn, cũng như các giải pháp công nghệ đảm bảo an toàn thông tin. 
+        Kỹ sư tốt nghiệp có khả năng tổ chức, triển khai và quản lý các dự án phần mềm an toàn, đồng thời vận dụng các nguyên lý và mô hình công nghệ phần mềm an toàn vào thực tiễn.
+
+  utter_ChuyennganhKNATM_ATTT:
+    - text: |
+       Chuyên ngành Kỹ nghệ An toàn mạng (đào tạo từ năm 2014). 
+       Cung cấp kiến thức và kỹ năng chuyên sâu trong lĩnh vực an toàn thông tin và bảo vệ hệ thống mạng. 
+       Sinh viên được trang bị năng lực triển khai các nghiệp vụ như phân tích mã độc, phát hiện lỗ hổng, giám sát và kiểm định an toàn hệ thống, cũng như thiết kế, phát triển và vận hành các giải pháp bảo mật. 
+       Chương trình còn giúp người học có khả năng tư vấn, xử lý sự cố và bảo vệ toàn diện không gian mạng.
+
   utter_chuongTrinhHoc_CNTT:
     - text: |
         Ngành Công nghệ Thông tin có thời gian đào tạo 4,5 năm với tổng cộng 163 tín chỉ. 
@@ -258,6 +288,24 @@ responses:
         - Phát triển ứng dụng tích hợp AI
         Mục tiêu đào tạo là giúp sinh viên có phẩm chất đạo đức tốt, năng lực nghiên cứu, phát triển sản phẩm và làm việc hiệu quả trong môi trường công nghệ hiện đại. Sinh viên được chuẩn bị để làm việc trong doanh nghiệp công nghệ, hoặc tiếp tục học sau đại học.
 
+  utter_ChuyennganhKTPMDD_CNTT:
+    - text: 
+        Chuyên ngành Kỹ thuật phần mềm di động (đào tạo từ năm 2024).
+        Giúp sinh viên nắm vững quy trình và phát triển các ứng dụng trên các nền tảng di động như Android, iOS cùng với nền tảng web dựa trên các công nghệ tiên tiến như:Blockchain, Web3, IPFS; đặc biệt là định hướng tính hợp các mô-đun an toàn, bảo mật thông tin trong phát triển ứng dụng
+
+  utter_ChuyennganhTTNTUD_CNTT:
+    - text:
+        Chuyên ngành Trí tuệ nhân tạo ứng dụng (đào tạo từ năm 2025).
+        Giúp sinh viên nắm vững các lĩnh vực công nghệ lõi của trí tuệ nhân tạo như:học máy, học sâu, thị giác máy tính, xử lý ngôn ngữ tự nhiên để có thể ứng dụng trong các lĩnh vực kinh tế xã hội. 
+        Chuyên ngành này có ba hướng nghiên cứu, ứng dụng chuyên sâu lựa chọn là:AI trong thiết kế vi mạch, AI trong kỹ nghệ phần mềm và AI trong an toàn, bảo mật thông tin.
+
+  utter_ChuyennganhKTPMNVDD_CNTT:
+    - text:
+        Chuyên ngành Kỹ thuật phần mềm nhúng và di động (đào tạo 2014 đến năm 2023).
+        Sinh viên theo hướng phát triển phần mềm nhúng mức thấp có thể làm việc trong các lĩnh vực như:Phát triển phần mềm trong các hệ thống nhúng dân dụng (máy bán hàng tự động, máy thanh toán thẻ, máy ảnh số, tivi thông minh, máy nghe nhạc, v.v.), Phát triển phần mềm nhúng trong các hệ thống, 
+        thiết bị truyền thông (modem, firewall, v.v.), Phát triển phần mềm nhúng trong công nghiệp (lập trình PLC trong dây truyền sản xuất tự động, mạng công nghiệp, v.v), Phát triển phần mềm nhúng trong các hệ thống giám sát và điều khiển (ngôi nhà thông minh, hệ thống báo động, hệ thống phòng cháy, v.v.), 
+        Lập trình đa phương tiện trong các thiết bị nhúng (thiết bị nghe nhạc, xem phim, cầm tay, đầu đọc mã vạch, v.v.).
+
   utter_chuongTrinhHoc_DTVT:
     - text: |
         Ngành Kỹ thuật Điện tử Viễn thông có thời gian đào tạo 4,5 năm với tổng cộng 168 tín chỉ. 
@@ -265,6 +313,18 @@ responses:
         - Hệ thống nhúng và điều khiển tự động
         - Thiết kế vi mạch
         Mục tiêu đào tạo là trang bị cho sinh viên kỹ năng thiết kế, triển khai, lập trình và tối ưu các hệ thống nhúng, mạch điện tử; có khả năng nghiên cứu, phát triển sản phẩm và làm chủ công nghệ hiện đại trong lĩnh vực điện tử viễn thông.
+
+  utter_ChuyennganhHTNVTKVM_DTVT:
+    - text: |
+        Chuyên ngành Hệ thống nhúng và Thiết kế vi mạch (đào tạo từ năm 2025).
+        Hệ thống nhúng là các hệ thống máy tính được tích hợp vào các thiết bị để thực hiện một nhiệm vụ cụ thể. 
+        Các hệ thống này thường gặp trong các thiết bị điện tử, ô tô, thiết bị y tế và nhiều lĩnh vực khác. Thiết kế vi mạch (VLSI - Very-Large-Scale Integration) là quá trình tạo ra các vi mạch với hàng triệu transistor trên một chip duy nhất, được sử dụng rộng rãi trong các thiết bị điện tử.
+
+  utter_ChuyennganhHTNVDKTD_DTVT:
+    - text: |
+        Chuyên ngành Hệ thống nhúng và điều khiển tự động (đào tạo từ năm 2015 đến 2024).
+        Chuyên ngành Hệ thống Nhúng và Điều Khiển Tự Động là một lĩnh vực nghiên cứu, thiết kế và phát triển các hệ thống phần cứng và phần mềm tích hợp. 
+        Các hệ thống này thường được nhúng vào các thiết bị hoặc hệ thống lớn hơn để thực hiện các chức năng cụ thể, như điều khiển, giám sát, và quản lý.
 
   utter_hocPhi:
     - text: |
@@ -407,6 +467,19 @@ responses:
     - text: |
         Trường có đào tạo hệ quân nhưng theo hệ cử tuyển, không phải xét tuyển. Vì vậy bạn không thể đăng kí vào học hệ quân sự. 
         Hiện tại, Học viện chỉ tuyển sinh đối với Hệ dân sự, với 3 chuyên ngành là : An toàn thông tin, Công nghệ thông tin và Điện tử viễn thông.
+  utter_yeuCauKhiVaoTruong:
+    - text: |
+        Đối với sinh viên KMA khi vào trường, sinh viên cần tuân thủ một số quy định về trang phục và tác phong. 
+        Cụ thể, sinh viên phải mang theo thẻ sinh viên để xuất trình khi được các anh cảnh vệ yêu cầu kiểm tra. Về trang phục, yêu cầu mặc quần dài hoặc váy qua đầu gối, đi giày hoặc dép có quai hậu để đảm bảo lịch sự và an toàn. 
+        Đây là những quy định nhằm giữ gìn hình ảnh nghiêm túc, kỷ luật trong môi trường học tập của nhà trường.
+
+  utter_thuVien:
+    - text: |
+        Thư viện của trường được xây dựng lại vào năm 2022 với cơ sở vật chất hiện đại, đáp ứng tốt nhu cầu học tập và tra cứu của sinh viên. 
+        Thư viện mở cửa vào buổi sáng từ 7h30 đến 16h30 từ thứ 2 đến thứ 6.Thời gian đăng ký mượn sách hoặc giáo trình là sáng từ 7h30 đến 11h, chiều từ 13h30 đến 16h30 . Tại đây có đầy đủ các thể loại sách tham khảo, giáo trình học tập cũng như các tài liệu chuyên ngành. 
+        Sinh viên có thể vào phòng đọc ở tầng 2, và phòng mượn sách giáo trình tại tầng 3 của tòa nhà TB2. Ngoài ra, thư viện còn trang bị phòng máy tính và phòng tự học yên tĩnh, tạo điều kiện thuận lợi cho việc ôn luyện, làm bài nhóm và nghiên cứu cá nhân.
+        
+
   utter_fallback:
     - text: |
         Xin lỗi, mình chưa hiểu ý của bạn. Bạn có thể hỏi rõ hơn được không ?
