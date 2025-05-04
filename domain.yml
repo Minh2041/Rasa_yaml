@@ -218,7 +218,7 @@ responses:
         Các chuyên ngành của ATTT bao gồm: 
         1. An toàn hệ thống thông tin.
         2. Công nghệ phần mềm an toàn.
-        3. Bảo đảm an toàn không gian mạng.
+        3. Kỹ nghệ an toàn mạng.
 
   utter_thongTinNganh_CNTT:
     - text: |
@@ -241,7 +241,7 @@ responses:
     - text: |
         Chương trình đào tạo ngành An toàn thông tin kéo dài 4,5 năm với tổng cộng 165 tín chỉ. Sinh viên sẽ được trang bị kiến thức đại cương, cơ sở ngành, chuyên sâu theo từng chuyên ngành như:
         - An toàn hệ thống thông tin
-        - Bảo đảm an toàn không gian mạng
+        - Kỹ nghệ an toàn mạng
         - Công nghệ phần mềm an toàn
 
         Mục tiêu đào tạo là giúp sinh viên:
@@ -277,7 +277,7 @@ responses:
     - text: |
         Hiện nay học viện có cấp học bổng khuyến khích học tập cho sinh viên, tính theo kỳ và xét dựa trên GPA (điểm trung bình hệ 4 của kỳ đó).
         Có các mức học bổng sau : 
-          - Loại khá : Số tiền học bổng = 15 tín chỉ * số tiền của 1 tín chỉ
+          - Loại khá : Số tiền học bổng = số tín chỉ * số tiền của 1 tín chỉ
           - Loại giỏi : Số tiền học bổng = Loại khá * 1.1
           - Loại xuất sắc : Số tiền học bổng = Loại khá * 1.2
         Điểm rèn luyện được đánh giá trên thang điểm 100 và sẽ được dùng như một tiêu chí đánh giá, xếp loại học bổng cùng với GPA. Điểm rèn luyện sinh viên có các mức sau :
@@ -395,7 +395,7 @@ responses:
 
   utter_chungChiTA:
     - text: |
-        Hiện tại, Học viện không yêu cầu chứng chỉ tiếng Anh hay đánh giá năng lực tiếng Anh đầu vào. Tuy nhiên, nếu có chứng chỉ tiếng Anh, bạn sẽ có lợi thế hơn trong việc xét tuyển.
+        Hiện tại, Học viện không yêu cầu chứng chỉ tiếng Anh hay đánh giá năng lực tiếng Anh đầu vào. Tuy nhiên, nếu có chứng chỉ tiếng Anh, bạn sẽ được miễn ba học phần tiếng anh từng kì và có lợi thế hơn trong việc xét tuyển.
         Cụ thể, các chứng chỉ được công nhận gồm : IELTS, TOEIC, TOEFL iBT. Quy định cộng cụ thể như sau : 
             + Chứng chỉ IELTS từ 5.5 - 6.0 hoặc TOEIC từ 650 đến dưới 750 hoặc TOEFL iBT từ 65 đến dưới 80 : 1,0 điểm;
 
@@ -407,6 +407,15 @@ responses:
     - text: |
         Trường có đào tạo hệ quân nhưng theo hệ cử tuyển, không phải xét tuyển. Vì vậy bạn không thể đăng kí vào học hệ quân sự. 
         Hiện tại, Học viện chỉ tuyển sinh đối với Hệ dân sự, với 3 chuyên ngành là : An toàn thông tin, Công nghệ thông tin và Điện tử viễn thông.
+        
+  utter_Diemchuancacnam:
+    - text: |
+        Điểm chuẩn của Học viện Kỹ thuật mật mã trong các năm gần đây như sau:
+        - Năm 2021: Công nghệ thông tin: 26.4, An toàn thông tin: 25.95, Kỹ thuật điện tử - viễn thông: 25.5
+        - Năm 2022: Công nghệ thông tin: 26.6, An toàn thông tin: 25.9, Kỹ thuật điện tử - viễn thông: 25.1
+        - Năm 2023: Công nghệ thông tin: 26.2, An toàn thông tin: 25.6, Kỹ thuật điện tử - viễn thông: 25.0
+        - Năm 2024: Công nghệ thông tin: 26.1, An toàn thông tin: 25.95, Kỹ thuật điện tử - viễn thông: 25.35
+        
   utter_fallback:
     - text: |
         Xin lỗi, mình chưa hiểu ý của bạn. Bạn có thể hỏi rõ hơn được không ?

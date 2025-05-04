@@ -18,27 +18,6 @@ nlu:
       - Hello
       - ê
       - alo
-      - chào nhé
-      - wassup
-      - Good morning
-      - Good afternoon
-      - Good day
-      - ơi
-      - a lô
-      - Trực không
-      - Dạ
-      - Em hỏi
-      - Ni hao
-      - Mình hỏi
-      - Bạn là ai
-      - Tên bạn là
-      - Cái gì đây
-      - Cô xin chào ad
-      - Chú xin chào ad
-      - Tôi xin chào
-      - Tôi chào bạn
-      - Tôi chào
-      - Mình chào
 
   - intent: tamBiet
     examples: |
@@ -58,28 +37,7 @@ nlu:
       - Kết thúc
       - Dừng trò chuyện 
       - Dừng lại
-      - Thôi nhé
-      - Mình xin phép
-      - Mình bận, nói chuyện sau
-      - Bận rồi
-      - bái bai
-      - Anh/chị đã rất hữu ích
-      - Bạn đã rất hữu ích
-      - Mình cảm ơn, mình chào ạ
-      - Tôi cảm ơn
-      - Tôi chào nhé
-      - Chat cũng hết rồi
-      - Thôi chat đến đây
-      - Chat thế thôi
-      - Chat thế này thôi, cảm ơn nhé
-      - Chat tạm thế này
-      - Thế thôi
-      - Thoát
-      - Thời gian chat hết
-      - Peace out
-      - Chú chat đến đây thôi
-      - Cô chat đến đây thôi
-      
+
   - intent: camOn
     examples: |
       - Cảm ơn bạn
@@ -99,21 +57,6 @@ nlu:
       - Cảm ơn đã giải đáp
       - Cảm ơn chatbot
       - Cảm ơn rất nhiều
-      - Thank you very much
-      - TYVM
-      - Hữu ích thật đó, cảm ơn nhé
-      - Thông minh thật, cảm ơn rất nhiều
-      - rất cảm ơn
-      - Chúc sức khỏe
-      - Chúc thật nhiều niềm vui
-      - Cảm ơn bạn đã luôn ở bên cạnh tôi
-      - Cảm ơn vì đã không ngại khó khăn
-      - Cảm ơn vì đã hỗ trợ chúng tôi
-      - Cảm ơn bạn đã làm cho mọi thứ trở nên dễ dàng
-      - Lời cảm ơn dành cho bạn
-      - Lời thán phục dành cho bạn
-      - Bạn làm mọi chuyện dễ hơn
-      - Tuyệt vời quá
 
   - intent: thongTinTongQuan
     examples: |
@@ -131,24 +74,6 @@ nlu:
       - Giới thiệu Học viện
       - Thông tin chung về KMA
       - Thông tin KMA
-      - Info KMA
-      - admin cho em thông tin trường
-      - Trường là gì
-      - Trường
-      - School
-      - Học viện kỹ thuật mật mã
-      - học viện kĩ thuật mật mã
-      - học viện KTMM
-      - kĩ thuật mật mã
-      - học viện ACTVN
-      - học viện actvn
-      - Hiểu biết về trường
-      - Bạn biết gì về trường
-      - Viết tắt ACTVN
-      - KMA viết tắt cho cái gì
-      - ACTVN viết tắt
-      - ACTVN
-      - KMA
 
   - intent: dieuKienXetTuyen
     examples: |
@@ -161,24 +86,6 @@ nlu:
       - Cần gì để xét vào trường
       - ĐK xét tuyển
       - Điều kiện
-      - ĐK
-      - Cho mình hỏi về điều kiện xét tuyển
-      - Vào trường có tiêu chí gì
-      - Làm thế nào vào được trường
-      - Đầu vào thế nào
-      - Tiêu chí vào
-      - Làm thế nào vào được trường
-      - Có bao nhiêu phương thức thi vào
-      - Phương thức xét tuyển
-      - Làm gì để xét vào trường
-      - Cho chú hỏi xét tuyển thế nào
-      - Cho cô xem xét tuyển như nào
-      - Phương thức xét tuyển thế nào
-      - Mình xin cách vào được KMA
-      - Phương thức như nào
-      - Học viện có yêu cầu riêng đối với từng tổ hợp xét tuyển không?
-      - Điều kiện xét tuyển như nào
-      - Xét tuyển điều kiện thế nào
 
   - intent: tuyenSinhNam2022
     examples: |
@@ -189,27 +96,6 @@ nlu:
       - Tuyển sinh 2022 gồm những phương thức nào?
       - Tuyển sinh năm 2022 điểm chuẩn bao nhiêu?
       - Cho em hỏi về tuyển sinh năm 2022
-      - Mình hỏi về tuyển sinh 2022
-      - Chú hỏi về tuyển sinh năm 2022
-      - Chỉ tiêu năm 2022
-      - Chỉ tiêu nhập học 2022
-      - Số nhập học năm 2022
-      - Nhập học năm 2022
-      - Cơ sở Hà Nội nhập học thế nào năm 2022
-      - Cơ sở Hà Nội chỉ tiêu năm 2022
-      - Học viện có chỉ tiêu thế nào 2022
-      - Chỉ tiêu năm 2022 như nào
-      - Mình muốn xem chỉ tiêu năm 2022
-      - Xem tuyển sinh năm 2022
-      - Có thông tin tuyển sinh năm 2022 không
-      - Lấy thông tin tuyển sinh năm 2022
-      - Xin tuyển sinh 2022
-      - Tuyển sinh 2022
-      - Nhập học 2022
-      - Mình xin tuyển sinh 2022
-      - Tôi xem tuyển sinh 2022
-      - Tôi xem 2022 tuyển thế nào
-      - 2022 chỉ tiêu ra sao
 
   - intent: tuyenSinhNam2023
     examples: |
@@ -220,28 +106,6 @@ nlu:
       - Tuyển sinh 2023 gồm những phương thức nào?
       - Tuyển sinh năm 2023 điểm chuẩn bao nhiêu?
       - Tôi muốn hỏi về tuyển sinh năm 2023
-      - Mình hỏi về tuyển sinh 2023
-      - Chú hỏi về tuyển sinh năm 2023
-      - Chỉ tiêu năm 2023
-      - Chỉ tiêu nhập học 2023
-      - Số nhập học năm 2023
-      - Nhập học năm 2023
-      - Cơ sở Hà Nội nhập học thế nào năm 2023
-      - Cơ sở Hà Nội chỉ tiêu năm 2023
-      - Học viện có chỉ tiêu thế nào 2023
-      - Chỉ tiêu năm 2023 như nào
-      - Mình muốn xem chỉ tiêu năm 2023
-      - Xem tuyển sinh năm 2023
-      - Có thông tin tuyển sinh năm 2023 không
-      - Lấy thông tin tuyển sinh năm 2023
-      - Xin tuyển sinh 2023
-      - Tuyển sinh 2023
-      - Nhập học 2023
-      - Mình xin tuyển sinh 2023
-      - Tôi xem tuyển sinh 2023
-      - Tôi xem 2023 tuyển thế nào
-      - 2023 chỉ tiêu ra sao
-      - Có sự khác biệt với tuyển sinh năm 2023
 
   - intent: tuyenSinhNam2024
     examples: |
@@ -253,27 +117,6 @@ nlu:
       - Tuyển sinh năm 2024 điểm chuẩn bao nhiêu?
       - Tôi muốn hỏi về tuyển sinh năm 2024
       - Năm 2024 có thay đổi gì trong xét tuyển?
-      - Mình hỏi về tuyển sinh 2024
-      - Chú hỏi về tuyển sinh năm 2024
-      - Chỉ tiêu năm 2024
-      - Chỉ tiêu nhập học 2024
-      - Số nhập học năm 2024
-      - Nhập học năm 2024
-      - Cơ sở Hà Nội nhập học thế nào năm 2024
-      - Cơ sở Hà Nội chỉ tiêu năm 2024
-      - Học viện có chỉ tiêu thế nào 2024
-      - Chỉ tiêu năm 2024 như nào
-      - Mình muốn xem chỉ tiêu năm 2024
-      - Xem tuyển sinh năm 2024
-      - Có thông tin tuyển sinh năm 2024 không
-      - Lấy thông tin tuyển sinh năm 2024
-      - Xin tuyển sinh 2024
-      - Tuyển sinh 2024
-      - Nhập học 2024
-      - Mình xin tuyển sinh 2024
-      - Tôi xem tuyển sinh 2024
-      - Tôi xem 2024 tuyển thế nào
-      - 2024 chỉ tiêu ra sao
 
   - intent: tuyenSinhNam2025
     examples: |
@@ -285,29 +128,6 @@ nlu:
       - Tuyển sinh năm 2025 điểm chuẩn bao nhiêu?
       - Tôi muốn hỏi về tuyển sinh năm 2025
       - Năm 2025 có thay đổi gì trong xét tuyển?
-      - Mình hỏi về tuyển sinh 2025
-      - Chú hỏi về tuyển sinh năm 2025
-      - Chỉ tiêu dự kiến năm 2025
-      - Chỉ tiêu nhập học 2025
-      - Số nhập học năm 2025
-      - Nhập học năm 2025
-      - Cơ sở Hà Nội nhập học thế nào năm 2025
-      - Cơ sở Hà Nội chỉ tiêu năm 2025
-      - Học viện có chỉ tiêu thế nào 2025
-      - Chỉ tiêu năm 2025 như nào
-      - Mình muốn xem chỉ tiêu năm 2025
-      - Xem tuyển sinh năm 2025
-      - Có thông tin tuyển sinh năm 2025 không
-      - Lấy thông tin tuyển sinh năm 2025
-      - Xin tuyển sinh 2025
-      - Tuyển sinh dự kiến 2025
-      - Nhập học dự kiến 2025
-      - Mình xin tuyển sinh 2025
-      - Tôi xem tuyển sinh 2025
-      - Tôi xem 2025 tuyển dự kiến bao nhiêu
-      - 2025 dự kiến chỉ tiêu ra sao
-      - Dự kiến bao nhiêu chỉ tiêu năm 2025
-    
 
   - intent: phuongThucXetTuyen
     examples: |
@@ -322,27 +142,6 @@ nlu:
       - Xét tuyển
       - Có những phương thức tuyển sinh nào
       - Phương thức tuyển sinh
-      - Phương thức xét tuyển như nào
-      - PTXT thế nào
-      - Hiện nay, Học viện Kỹ thuật Mật mã sử dụng bao nhiêu phương thức xét tuyển
-      - Mỗi ngành học của Học viện xét tuyển theo tổ hợp môn nào
-      - Tổ hợp A00 (Toán, Lý, Hóa) có phải là tổ hợp chính được sử dụng không
-      - Tổ hợp A01 (Toán, Lý, Anh) có phải là tổ hợp chính được sử dụng không
-      - Có được xét tuyển thẳng
-      - Toán, Tiếng anh, Tin học có được sử dụng làm xét tuyển
-      - Học viện có xét tuyển thẳng theo quy chế của Bộ GD&ĐT
-      - Có phương thức xét học bạ THPT
-      - Cho tôi xem các phương thức xét tuyển vào trường
-      - Chú xem các phương thức xét tuyển vào trường
-      - Cô xin info các phương thức xét tuyển vào trường
-      - Xét tuyển thế nào
-      - Toán, Vật lý, Tin học có dùng làm xét tuyển
-      - Trường có dùng tổ hợp A00 để xét tuyển
-      - Trường có dùng tổ hợp A01 để xét tuyển
-      - Học viện có bao nhiêu phương thức
-      - Học viện có mấy phương thức
-      - Phương thức xét tuyển sinh vào trường
-      - Tuyển vào thế nào
 
   - intent: cacNganhDaoTao
     examples: |
@@ -357,28 +156,6 @@ nlu:
       - Ngành đào tạo
       - Các ngành của trường
       - Ngoài ATTT còn những ngành gì nữa
-      - Những ngành nào thuộc khối công nghệ kỹ thuật đang được đào tạo tại Học viện?
-      - Có ngành gì
-      - Đào tạo ngành
-      - Học về gì
-      - Học viện đào tạo ngành gì
-      - Học viện đào tạo ATTT không
-      - Học viện đào tạo CNTT không
-      - Học viện đào tạo ĐTVT không
-      - Bao nhiêu ngành đào tạo
-      - Đào tạo bao nhiêu ngành
-      - Bn ngành đào tạo
-      - Cho mình xem bao nhiêu ngành
-      - Tôi xin bao nhiêu ngành đào tạo
-      - Tôi xem ngành có bn
-      - Chú xem bao nhiêu ngành
-      - Cô xem bao nhiêu ngành
-      - Bao gồm những ngành nào
-      - Học viện đào tạo bao nhiêu ngành
-      - Học viện bao nhiêu ngành
-      - Ngành nghề gì
-      - Ngoài ngành ATTT ra còn dạy về ngành gì nữa
-      - Ngoài ATTT thì còn gì nữa
 
   - intent: thongTinNganhCNTT
     examples: |
@@ -394,27 +171,6 @@ nlu:
       - Ngành công nghệ thông tin có gì hay?
       - CNTT là ngành gì vậy?
       - Công nghệ thông tin đào tạo những gì?
-      - Thông tin về CNTT
-      - CNTT chuyên ngành học gì
-      - công nghệ thông tin có bao nhiêu chuyên ngành
-      - Ngành công nghệ thông tin tại KMA có gì đặc biệt?
-      - Ngành CNTT ở KMA là gì?
-      - Học viện Kỹ thuật Mật mã đào tạo ngành Công nghệ thông tin như thế nào?
-      - Ngành CNTT ở KMA có đào tạo về trí tuệ nhân tạo không
-      - Ngành CNTT ở KMA đào tạo ra sao
-      - Cho chú hỏi về ngành CNTT ở trường mình
-      - Cho cô xem về ngành CNTT ở trường mình
-      - Info về ngành CNTT ở trường
-      - Có đào tạo kỹ thuật phần mềm di động không?
-      - Học viện Kỹ thuật Mật mã đào tạo ngành Công nghệ thông tin như thế nào?
-      - Cho tôi biết về ngành CNTT tại Học viện Kỹ thuật Mật mã.
-      - Ngành CNTT tại KMA có đào tạo về trí tuệ nhân tạo/AI không?
-      - xin cái info về cntt
-      - cntt ở trường có dạy về web
-      - cntt có dạy về AI không
-      - cntt có dạy về nhúng
-      - cntt đào tạo như thế nào
-      - Có bao nhiêu nhánh vào cntt
 
   - intent: thongTinNganhATTT
     examples: |
@@ -428,30 +184,6 @@ nlu:
       - Học ngành ATTT sẽ học gì?
       - Ngành an toàn thông tin có khó không?
       - Ngành ATTT học những gì?
-      - Thông tin về ATTT
-      - ATTT chuyên ngành học gì
-      - an toàn thông tin có bao nhiêu chuyên ngành
-      - Ngành an toàn thông tin tại KMA có gì đặc biệt?
-      - Ngành ATTT ở KMA là gì?
-      - Học viện Kỹ thuật Mật mã đào tạo ngành An toàn thông tin như thế nào?
-      - Ngành ATTT ở KMA có đào tạo về bảo mật hệ thống không
-      - Ngành ATTT ở KMA đào tạo ra sao
-      - Cho chú hỏi về ngành ATTT ở trường mình
-      - Cho cô xem về ngành ATTT ở trường mình
-      - Info về ngành ATTT ở trường
-      - Có đào tạo kỹ thuật an toàn mạng không?
-      - KMA đào tạo gì về ATTT?
-      - Cho tôi biết về ngành ATTT tại Học viện Kỹ thuật Mật mã.
-      - Ngành ATTT có bao nhiêu chuyên ngành
-      - xin cái info về ATTT
-      - ATTT theo bao nhiêu phân nhánh
-      - ATTT có bao nhiêu nhánh
-      - Mình sẽ có những nhánh nào về ATTT
-      - Có bao nhiêu nhánh vào ATTT
-      - Học ATTT là học về gì
-      - Học ATTT có hack được web
-      - Học AT có làm hacker
-      - Có bao nhiêu nhánh trong at
 
   - intent: thongTinNganhDTVT
     examples: |
@@ -465,29 +197,6 @@ nlu:
       - Ngành DTVT đào tạo ra sao?
       - Học ĐTVT thì ra làm gì?
       - Ngành điện tử viễn thông học như thế nào?
-      - Thông tin về ĐTVT
-      - ĐTVT chuyên ngành học gì
-      - điện tử có bao nhiêu chuyên ngành
-      - Ngành ĐTVT tại KMA có gì đặc biệt?
-      - Ngành ĐTVT ở KMA là gì?
-      - Học viện Kỹ thuật Mật mã đào tạo ngành điện tử viễn thông như thế nào?
-      - Ngành điện tử viễn thông ở KMA có đào tạo về robot không
-      - Ngành điện tử ở KMA đào tạo ra sao
-      - Cho chú hỏi về ngành ĐTVT ở trường mình
-      - Cho cô xem về ngành ĐTVT ở trường mình
-      - Info về ngành ĐTVT ở trường
-      - Có đào tạo về robot không
-      - KMA đào tạo gì về ĐTVT?
-      - Cho tôi biết về ngành ĐTVT tại Học viện Kỹ thuật Mật mã.
-      - Ngành ĐTVT có bao nhiêu chuyên ngành
-      - xin cái info về ĐTVT
-      - Ngành ĐTVT có đào tạo về vi mạch xử lí
-      - Học ĐTVT có hướng thiết kế thiết bị mạng
-      - Mình xin các hướng theo ĐTVT
-      - ĐTVT theo bao nhiêu phân nhánh
-      - ĐTVT có bao nhiêu nhánh
-      - Mình sẽ có những nhánh nào về ĐTVT
-      - Có bao nhiêu nhánh vào ĐTVT
 
   - intent: chuongTrinhHocCNTT
     examples: |
@@ -704,6 +413,23 @@ nlu:
       - Dự đoán điểm chuẩn 2025 là bao nhiêu?
       - Điểm năm 2025 sẽ cao không?
       - Muốn vào năm 2025 thì phải thi bao nhiêu điểm?
+      - Điểm chuẩn năm 2025 có thay đổi không?
+      - Điểm chuẩn năm 2025 có giống các năm trước không?
+      - Cho em hỏi là điểm chuẩn năm 2025 có thay đổi không ạ?
+      - Điểm chuẩn năm 2025 có cao không ad?
+      - Mức điểm tiêu chuẩn đầu vào năm 2025 là bao nhiêu?
+      - Điểm chuẩn năm 2025
+      - Năm 2025 điểm có cao không?
+      - Ad đoán xem điểm chuẩn năm 2025 là bao nhiêu?
+      - Thi năm 2025 thì cần mấy điểm để vào ngành hot?
+      - Nghe nói năm 2025 điểm sẽ cao hơn, đúng không ạ?
+      - Em lo năm 2025 điểm chuẩn sẽ khó hơn
+      - Năm 2025 em định thi, không biết cần bao nhiêu điểm là an toàn?
+      - Có thông tin gì về điểm chuẩn 2025 chưa ad?
+      - Điểm chuẩn đại học năm 2025 có khác biệt gì không?
+      - Điểm chuẩn 2025 có dễ thở hơn không?
+      - điểm chuẩn năm nay là bao nhiêu ạ
+       
 
   - intent: diemChuanNganhATTT
     examples: |
@@ -714,6 +440,47 @@ nlu:
       - Điểm vào ngành an toàn thông tin khoảng bao nhiêu?
       - ATTT có cần điểm cao không?
       - Điểm chuẩn của ngành ATTT là mấy vậy?
+      - Cho em hỏi là ngành An toàn Thông tin trường mình lấy bao nhiêu vậy ạ?
+      - Năm trước điểm ATTT bao nhiêu thế?
+      - Ngành An toàn thông tin có dễ đậu không ạ?
+      - Điểm chuẩn ngành này là bao nhiêu năm vừa rồi?
+      - Bao nhiêu điểm mới đậu được ngành ATTT vậy?
+      - Em định thi ngành ATTT, cần điểm bao nhiêu?
+      - Điểm vào ngành ATTT có cao hơn các ngành khác không?
+      - Điểm đầu vào của ngành An toàn thông tin bao nhiêu thế ạ?
+      - Cho em xin thông tin điểm chuẩn ngành ATTT với ạ!
+      - Em muốn biết ngành ATTT năm ngoái lấy bao nhiêu điểm?
+      - An toàn thông tin là ngành điểm cao hay thấp?
+      - Điểm chuẩn của ngành ATTT thay đổi qua các năm thế nào?
+      - Năm nay dự đoán ngành ATTT lấy bao nhiêu điểm vậy ạ?
+      - Trường có công bố điểm chuẩn ngành ATTT chưa vậy?
+      - Học ATTT cần điểm cao không?
+      - Bao nhiêu điểm thì chắc chắn đậu ngành An toàn thông tin?
+      - Năm ngoái ngành ATTT lấy bao nhiêu điểm chuẩn thế ạ?
+      - Em thấy ngành ATTT hot quá, điểm chuẩn có cao không?
+      - Mức điểm an toàn để vào ngành An toàn thông tin là bao nhiêu?
+      - Em định chọn ATTT, cần thi tầm mấy điểm để an toàn ạ?
+      - ATTT là ngành có điểm chuẩn cao trong trường không?
+      - Em sợ điểm thấp không đậu được ATTT, không biết cần bao nhiêu?
+      - Ngành An toàn thông tin có lấy trên 25 điểm không ạ?
+      - Cho em hỏi điểm chuẩn ngành ATTT năm 2023 là bao nhiêu?
+      - Em quan tâm ngành ATTT, điểm đầu vào là bao nhiêu vậy?
+      - Nếu em được 24 điểm thì có vào được ngành ATTT không?
+      - Ngành ATTT lấy tổ hợp điểm nào và bao nhiêu điểm vậy?
+      - Ngành ATTT lấy điểm theo khối nào và mốc bao nhiêu?
+      - Trường mình năm ngoái ngành An toàn thông tin lấy điểm cao nhất à?
+      - Có bảng điểm chuẩn ngành ATTT năm trước không ạ?
+      - Em nên đạt bao nhiêu điểm để đủ vào ngành ATTT?
+      - Ngành này điểm chuẩn năm nào cũng cao phải không ạ?
+      - Năm ngoái em rớt ATTT vì thiếu 0.5 điểm, không biết năm nay sao?
+      - Em thi 26 điểm thì có hy vọng vào ngành An toàn thông tin không?
+      - Năm nào ngành ATTT cũng trên 25 điểm đúng không ạ?
+      - Em phân vân giữa ATTT và CNTT vì sợ điểm cao quá
+      - Có ngành nào liên quan đến ATTT mà điểm thấp hơn không?
+      - Cho em biết điểm chuẩn chính xác của ngành ATTT trường mình nha!
+      - Điểm vào ATTT năm nay có giảm không anh/chị?
+      - Điểm chuẩn ngành ATTT
+      - Điểm chuẩn ngành ATTT từ năm 2022 đến năm 2024?
 
   - intent: diemChuanNganhCNTT
     examples: |
@@ -724,6 +491,53 @@ nlu:
       - Em muốn biết điểm chuẩn ngành công nghệ thông tin
       - Năm ngoái CNTT lấy bao nhiêu điểm nhỉ?
       - CNTT năm nay tuyển từ bao nhiêu điểm?
+      - Ngành CNTT lấy bao nhiêu điểm vậy?
+      - CNTT điểm chuẩn có cao không?
+      - Năm trước ngành công nghệ thông tin lấy mấy điểm?
+      - Điểm vào ngành CNTT năm ngoái là bao nhiêu?
+      - Em muốn thi ngành CNTT thì cần bao nhiêu điểm?
+      - Công nghệ thông tin có điểm đầu vào cao không?
+      - Ngành CNTT tuyển sinh điểm như thế nào?
+      - Điểm chuẩn CNTT năm rồi là bao nhiêu?
+      - Thi CNTT cần bao nhiêu điểm?
+      - Em thi CNTT thì nên đạt bao nhiêu điểm?
+      - Ngành CNTT của trường lấy tầm mấy điểm vậy?
+      - Em định vào CNTT, cần khoảng bao nhiêu điểm là đậu?
+      - Điểm chuẩn ngành CNTT có thay đổi nhiều không?
+      - Năm 2024 ngành CNTT lấy mấy điểm vậy?
+      - CNTT lấy điểm chuẩn theo khối nào và bao nhiêu?
+      - Có thể cho biết điểm ngành CNTT các năm gần đây không?
+      - Năm ngoái CNTT lấy điểm cao nhất à?
+      - Điểm chuẩn ngành CNTT trường mình cao không ạ?
+      - Em được 24 điểm thì có cơ hội vào CNTT không?
+      - CNTT có dễ đậu không?
+      - Ngành công nghệ thông tin có cần điểm cao không?
+      - Bao nhiêu điểm thì an toàn để vào CNTT?
+      - CNTT có lấy trên 25 điểm không?
+      - Em phân vân CNTT vì sợ điểm cao quá
+      - CNTT với ATTT ngành nào điểm chuẩn cao hơn?
+      - Có điểm chuẩn CNTT từng năm không ad?
+      - Ngành công nghệ thông tin điểm đầu vào là bao nhiêu vậy?
+      - Điểm chuẩn CNTT năm nay là bao nhiêu?
+      - Ngành công nghệ thông tin trường mình năm ngoái lấy bao nhiêu điểm?
+      - Em sợ không đủ điểm vào CNTT
+      - CNTT có phải là ngành hot nên điểm cao không?
+      - CNTT có nhiều bạn chọn không? Điểm chuẩn có cao vì thế không?
+      - Em học khối A1 thì thi CNTT cần mấy điểm?
+      - Mức điểm để đậu CNTT là bao nhiêu?
+      - Điểm ngành CNTT có thay đổi qua từng năm không?
+      - Trường có công bố điểm chuẩn CNTT năm rồi không?
+      - Có bảng điểm chuẩn ngành CNTT không ạ?
+      - CNTT là ngành lấy điểm cao nhất của trường đúng không?
+      - Em cần thi bao nhiêu để có cửa vào ngành CNTT?
+      - Em nên đặt mục tiêu mấy điểm nếu muốn vào CNTT?
+      - Ngành CNTT thường lấy bao nhiêu điểm vậy ad?
+      - Điểm chuẩn ngành CNTT có giảm không ạ?
+      - Muốn vào ngành công nghệ thông tin thì cần điểm thế nào?
+      - Cho em hỏi điểm CNTT năm ngoái với ạ
+      - Điểm đầu vào CNTT có khắt khe không ad?
+      - CNTT có lấy tổ hợp D01 không? Điểm chuẩn bao nhiêu?
+      - Đỉểm chuẩn ngành CNTT từ năm 2022 đến năm 2024?
 
   - intent: diemChuanNganhDTVT
     examples: |
@@ -734,6 +548,27 @@ nlu:
       - Cho biết điểm ngành điện tử viễn thông?
       - Điểm chuẩn ngành DTVT là bao nhiêu thế?
       - Học ngành DTVT có cần điểm cao không?
+      - Ngành điện tử viễn thông có điểm đầu vào bao nhiêu?
+      - DTVT cần thi mấy điểm mới đậu?
+      - Điểm chuẩn ngành điện tử viễn thông năm rồi là bao nhiêu?
+      - Điểm ngành DTVT có cao không vậy?
+      - DTVT điểm chuẩn năm ngoái bao nhiêu?
+      - Ngành điện tử viễn thông điểm có cao không ạ?
+      - Điểm ngành DTVT thường rơi vào khoảng nào?
+      - Em được 23 điểm, có vào được DTVT không?
+      - DTVT lấy điểm tổ hợp nào và khoảng bao nhiêu điểm?
+      - Điện tử viễn thông có lấy trên 25 điểm không?
+      - Ngành DTVT có điểm sàn bao nhiêu?
+      - Cho em xin điểm trúng tuyển ngành DTVT năm trước
+      - Năm ngoái DTVT lấy điểm bao nhiêu nhỉ?
+      - Điểm chuẩn ngành DTVT có thay đổi qua các năm không?
+      - Muốn vào điện tử viễn thông thì cần điểm thế nào?
+      - Ngành DTVT có lấy tổ hợp A00 không? Điểm chuẩn bao nhiêu?
+      - DTVT năm nay có điểm chuẩn tăng không ad?
+      - Em định thi vào DTVT thì nên đạt bao nhiêu điểm là chắc?
+      - DTVT có phải là ngành lấy điểm không quá cao không?
+      - Học DTVT cần thi khối nào và khoảng mấy điểm?
+
 
   - intent: webVaFacebook_KMA
     examples: |
@@ -752,6 +587,42 @@ nlu:
       - Có nên liên hệ qua web hay Facebook?
       - Link tuyển sinh trường là gì?
       - Trường có group Facebook cho tân sinh viên không?
+      - Web trường mình là gì vậy ad?
+      - Trường có web chính thức không?
+      - Ad cho em xin link web trường với
+      - Web tuyển sinh KMA đâu vậy?
+      - Trường có page FB không ạ?
+      - Fanpage trường tên gì thế?
+      - Em muốn vào đúng fanpage trường, ad cho link với
+      - KMA có fanpage nào uy tín không?
+      - FB của KMA là cái nào vậy ad?
+      - Em thấy nhiều fanpage KMA quá, đâu là chính thức?
+      - Web trường có thông tin tuyển sinh không?
+      - Link web học viện kỹ thuật mật mã đâu vậy?
+      - Có group nào dành cho KMAer không?
+      - Trường có group FB chính thức không?
+      - Tân sinh viên nên theo dõi kênh nào?
+      - Em muốn được cập nhật tin tuyển sinh KMA
+      - Zalo OA của trường là gì?
+      - KMA có Zalo để tư vấn tuyển sinh không?
+      - Trường có Zalo chính thức không ad?
+      - TikTok của trường có nội dung tuyển sinh không?
+      - Trường có kênh TikTok chia sẻ học tập không?
+      - Em cần link TikTok trường để tham khảo
+      - Có link nào tổng hợp các kênh chính thức của KMA không?
+      - Có trang nào của trường cập nhật nhanh không?
+      - Web trường có hay cập nhật tin mới không?
+      - Em nhắn page rồi mà chưa thấy rep
+      - Liên hệ trường qua Facebook được không?
+      - Trường thường trả lời qua kênh nào nhanh nhất?
+      - KMA có Instagram không ad?
+      - Kênh chính thức của KMA gồm những gì?
+      - em có thể tham khảo thông tin về trường ở đâu ạ
+      - tik tok học viện
+      - tik tok trường
+      - facebook học viện
+      - facebook trường
+
 
   - intent: hocCoKhoKhong
     examples: |
@@ -770,10 +641,34 @@ nlu:
       - Em học trung bình có theo được không?
       - Có ai rớt năm nhất không?
       - Có phải học Toán nhiều không?
+      - Nghe bảo học hành áp lực lắm phải không?
+      - Có phải học nhiều môn khó không ad?
+      - Trường bắt học căng không?
+      - Học ở KMA có stress không?
+      - Em học bình thường liệu có theo nổi không?
+      - Lịch học có kín tuần không vậy?
+      - Ngành này có phải học lập trình nhiều không?
+      - Học có căng k ad?
+      - Ở đây học có áp lực k ạ?
+      - Chương trình nặng k ad?
+      - Học ở KMA có khó k?
+      - Học có chill k ad?
+      - Học hành sao ad, có gắt k?
+      - Có áp lực điểm k?
+      - Đi học có mệt k?
+      - Căng ko ad?
+      - Học ổn ko?
+      - Có bị dí bài nhiều k?
+      - Trường có bắt học chăm k?
+      - Lịch học dày ko?
+      - Học có stress k ạ?
+      - Nghe bảo học nặng, đúng k ad?
+      - Có dễ qua môn k?
+      - Có môn nào khó k?
+      - Điểm cao mới trụ được hả ad?
 
   - intent: maNganh
     examples: |
-      - Cho em hỏi mã ngành của ATTT ạ
       - Cho em hỏi mã ngành của ATTT ạ
       - Mã ngành CNTT là gì?
       - Ngành DTVT có mã số bao nhiêu?
@@ -789,6 +684,43 @@ nlu:
       - Có thể cho em bảng mã ngành không?
       - Mã ngành Công nghệ thông tin?
       - Mã ngành năm 2025 có thay đổi không?
+      - Mã ngành là gì vậy ad?
+      - Mã ngành để điền NV là số mấy?
+      - Ad cho xin mã ngành ATTT với
+      - CNTT có mã ngành gì ad?
+      - Mã ngành DTVT là bao nhiêu nhỉ?
+      - Ngành Truyền thông và Mạng máy tính mã mấy?
+      - Có danh sách mã ngành không ad?
+      - Trường có bao nhiêu mã ngành tất cả?
+      - Mã ngành năm ngoái với năm nay giống không?
+      - Mỗi ngành có mã riêng đúng k?
+      - Em cần mã để ghi hồ sơ
+      - Mã tuyển sinh ngành Kỹ thuật Mật mã là gì?
+      - KMA có mã ngành tổng hay từng ngành riêng?
+      - Có file mã ngành không ad?
+      - Đăng ký NV có cần mã ngành không?
+      - Mã ngành có quan trọng không ad?
+      - Mã ngành có đổi theo từng năm không?
+      - Nhập NV online có cần điền mã ngành không?
+      - DTVT viết tắt là gì trong mã ngành?
+      - Trường mình có mã ngành riêng không hay theo bộ?
+      - Mã ng ATTT là j z ad?
+      - Cho e xin mã ng CNTT vs ạ
+      - Ngành DTVT mã mấy vậy ạ?
+      - Mã ng trg mình là số mấy ạ?
+      - E cần mã ng để điền NV
+      - Mã ng xét tuyển là gì z ad?
+      - Cho e bảng mã ng các ngành đi ạ
+      - Trg có mấy mã ng v ad?
+      - CNTT mã là bn vậy ad?
+      - Mã ngành = mã xét tuyển đúng k ạ?
+      - Mã ngành KMA là j thế ad?
+      - Cho e mã ngành của ngành TT & MM
+      - Cần mã ng để đăng ký nv online á ad
+      - Có mã ng năm 2025 chưa ad?
+      - Cho e xin mã tuyển sinh các ngành đi ạ
+      - Mỗi ngành có mã riêng đúng k ad?
+      - ATTT mã gì thế?
 
   - intent: chuanBiGiKhiNhapHoc
     examples: |
@@ -805,6 +737,16 @@ nlu:
       - Nhập học online hay offline?
       - Có cần in giấy báo trúng tuyển không?
       - Có phải xác nhận nhập học không?
+      - Nhập học cần gì z ad?
+      - E phải đem theo giấy tờ j ạ?
+      - Cần công chứng giấy tờ k ad?
+      - Có cần CMND/CCCD bản gốc k?
+      - Giấy báo trúng tuyển có cần in ra ko?
+      - E nên đóng học phí trc hay sau nhỉ?
+      - Nhập học có cần mang theo bằng tốt nghiệp THPT bản gốc k?
+      - Có cần ảnh 3x4 k ạ?
+      - E cần chuẩn bị bao nhiêu ảnh thẻ v ad?
+      - Có phải mặc đồng phục khi đi nhập học k?
 
   - intent: cachTinhGPA
     examples: |
@@ -821,6 +763,23 @@ nlu:
       - GPA tính theo tín chỉ đúng không?
       - Môn tự chọn có tính vào GPA không?
       - Trường có dùng GPA hệ 4.0 không?
+      - GPA tính như nào vậy?
+      - GPA có tính theo học kỳ k?
+      - Điểm thi có tính vào GPA k?
+      - Làm sao để cải thiện GPA?
+      - GPA tính ra sao đấy?
+      - GPA của trường mình có giống các trường khác ko?
+      - GPA mà 2.0 thì có sao ko?
+      - GPA càng cao có lợi không?
+      - Cách tính GPA trường mình có khác trường khác ko?
+      - GPA hệ 4.0 là gì vậy ad?
+      - GPA có ảnh hưởng đến việc xin học bổng ko?
+      - Môn tự chọn có tính GPA ko ad?
+      - GPA tính như thế nào mà dễ hiểu nhất?
+      - GPA của môn tự chọn tính như môn chính ko?
+      - GPA có thay đổi theo từng môn học không?
+      - GPA tốt thì có ảnh hưởng gì đến ra trường không?
+      - GPA xấu có sao không?
 
   - intent: cachXetHocLuc
     examples: |
@@ -838,6 +797,31 @@ nlu:
       - Có cách nào cải thiện học lực không?
       - Xếp loại học lực cuối khóa như thế nào?
       - Học lực có quan trọng không?
+      - Học lực giỏi là GPA bao nhiêu?
+      - GPA 2.5 có đc loại khá ko?
+      - Bao nhiêu điểm thì đc trung bình khá?
+      - Xếp học lực xong có ảnh hưởng gì ko?
+      - Học lực xếp theo điểm hay GPA vậy?
+      - Học lực có cần tính lại mỗi kỳ ko?
+      - Thế nào là học lực xuất sắc?
+      - GPA phải đạt bao nhiêu để xuất sắc?
+      - Học lực của em ko tốt, làm sao cải thiện?
+      - Học lực giỏi có cần GPA 3.5 ko?
+      - Học lực có ảnh hưởng đến học bổng ko?
+      - Xếp loại học lực cuối năm có giống kỳ ko?
+      - Học lực có quan trọng khi ra trường ko?
+      - Học lực đc đánh giá từ đâu?
+      - Có tiêu chuẩn cụ thể khi xét học lực ko?
+      - Học lực thấp có ảnh hưởng ko?
+      - Điểm thi ảnh hưởng đến học lực ko?
+      - Học lực kém có phải học lại ko?
+      - GPA dưới 2.0 có bị yếu ko?
+      - Có cách nào cải thiện học lực nhanh ko?
+      - Xếp loại học lực xong có phải làm báo cáo ko?
+      - Học lực giảm có ảnh hưởng đến tốt nghiệp ko?
+      - Học lực tốt có giúp việc làm ko?
+      - Các mức học lực nào vậy?
+
 
   - intent: toHopMon
     examples: |
@@ -856,7 +840,33 @@ nlu:
       - Ngành ATTT có tổ hợp môn gì?
       - Xét tuyển có tổ hợp môn Tiếng Anh không?
       - Tổ hợp môn năm nay có gì thay đổi không?
-
+      - Tổ hợp môn nào được trường xét tuyển năm nay?
+      - Ê, khối A03 có oke cho ngành CNTT hông?
+      - Ngành An toàn thông tin xét tổ hợp môn gì?
+      - Có tổ hợp nào chỉ gồm Toán và Hóa không?
+      - Tui học ban cơ bản thì tổ hợp nào hợp z?
+      - Trường có xét tổ hợp D09 không?
+      - Danh sách tổ hợp môn của trường xem ở đâu?
+      - Ngành Kỹ thuật phần mềm xét tổ hợp môn nào?
+      - Tổ hợp môn năm nay có gì khác năm trước không?
+      - Khối A04 có được xét cho ngành AI hông?
+      - Có tổ hợp nào bao gồm môn Văn ở trường không?
+      - Tui muốn biết tổ hợp môn ngành Công nghệ thông tin!
+      - Trường có xét khối D14 không?
+      - Tổ hợp D11 có ai xài ở trường hem?
+      - Các tổ hợp môn phổ biến của trường là gì?
+      - Ngành Kỹ thuật xét tổ hợp gì z?
+      - Có tổ hợp nào chỉ cần Toán, Anh, Lý không?
+      - Trường có xét tổ hợp D12 không?
+      - Khối A05 có được trường accept hông?
+      - Tổ hợp môn nào phù hợp với học sinh ban tự nhiên?
+      - Ngành Trí tuệ nhân tạo xét tổ hợp gì?
+      - Có tổ hợp nào có môn Tiếng Hàn ở trường không?
+      - Tui tìm tổ hợp môn của trường ở đâu z?
+      - Tổ hợp môn có môn Địa lý thì ngành nào xét?
+      - Trường có xét khối D15 không?
+      - Ngành ATTT xét tổ hợp gì, kể tui nghe đi!
+      - 
   - intent: uuTienXetTuyen
     examples: |
       - Trường có ưu tiên gì trong xét tuyển không?
@@ -873,6 +883,36 @@ nlu:
       - Trường có xét tuyển riêng cho học sinh giỏi không?
       - Em thuộc diện ưu tiên 1 thì có lợi gì?
       - Ưu tiên khu vực và đối tượng được tính ra sao?
+      - Trường có chính sách ưu tiên xét tuyển nào cho năm 2025?
+      - Ê, tui ở vùng sâu thì cộng mấy điểm z?
+      - Em là học sinh giỏi cấp tỉnh thì có được ưu tiên gì không?
+      - Thí sinh diện chính sách được hỗ trợ ra sao?
+      - Tui có IELTS 6.0 thì được cộng điểm hem?
+      - Trường có ưu tiên xét tuyển thẳng cho học sinh đạt giải quốc tế không?
+      - Em thuộc khu vực 1 thì được cộng bao nhiêu điểm?
+      - Có ưu tiên gì cho con thương binh không?
+      - Tui đạt giải ba HSG quốc gia thì xét thẳng được hông?
+      - Chính sách ưu tiên khu vực được tính như thế nào?
+      - Trường có cộng điểm cho học sinh giỏi cấp thành phố không?
+      - Ê, con liệt sĩ thì được ưu tiên j z?
+      - Thí sinh ở vùng nông thôn có được cộng điểm ưu tiên không?
+      - Em thuộc diện ưu tiên 2 thì có lợi ích gì?
+      - Trường có xét tuyển riêng cho thí sinh đạt giải khoa học kỹ thuật không?
+      - Tui ở khu vực 2-NT thì cộng điểm thế nào?
+      - Có ưu tiên xét tuyển cho học sinh dân tộc thiểu số không?
+      - Ê, giải nhì cấp tỉnh có được cộng điểm xét tuyển hông?
+      - Chính sách ưu tiên đối tượng được áp dụng ra sao?
+      - Trường có hỗ trợ gì cho thí sinh thuộc diện khó khăn không?
+      - Em có chứng chỉ TOEFL thì được cộng mấy điểm z?
+      - Thí sinh đạt giải khuyến khích quốc gia có được ưu tiên gì?
+      - Khu vực ưu tiên năm 2025 có thay đổi gì không?
+      - Tui là con anh hùng lực lượng vũ trang thì ưu tiên j?
+      - Trường có ưu tiên xét tuyển thẳng cho thí sinh IELTS cao không?
+      - Em học trường dân tộc nội trú thì được cộng điểm ra sao?
+      - HSG cấp tỉnh có được xét tuyển riêng hông z?
+      - Chính sách ưu tiên cho thí sinh khuyết tật nặng là gì?
+      - Thí sinh ở xã biên giới có được ưu tiên khu vực không?
+      - Ê, tui có giải khoa học kỹ thuật quốc gia thì được j z?
 
   - intent: chungChiTA
     examples: |
@@ -888,6 +928,37 @@ nlu:
       - Có thể thay thế điểm thi bằng chứng chỉ tiếng Anh không?
       - Những chứng chỉ tiếng Anh nào được công nhận?
       - Em có cần nộp chứng chỉ ngoại ngữ không?
+      - Trường có yêu cầu chứng chỉ tiếng Anh để xét tuyển không?
+      - Ê, tui có IELTS 5.5 thì được ưu tiên j hông?
+      - Chứng chỉ TOEFL iBT có được trường công nhận không?
+      - Em có Cambridge B2 thì có được miễn môn tiếng Anh không?
+      - Tui cần chứng chỉ Anh văn nào để xét tuyển z?
+      - Trường có chấp nhận chứng chỉ APTIS không?
+      - IELTS bao nhiêu điểm thì được ưu tiên xét tuyển?
+      - Có cần nộp chứng chỉ tiếng Anh khi đăng ký không?
+      - Ê, TOEIC 600 điểm có được tính ưu tiên hông?
+      - Chứng chỉ tiếng Anh có giúp cộng điểm xét tuyển không?
+      - Trường có miễn học phần tiếng Anh cho sinh viên có IELTS không?
+      - Chứng chỉ VSTEP có được trường chấp nhận không?
+      - Tui có B1 châu Âu thì được ưu tiên j z?
+      - Em có thể dùng chứng chỉ tiếng Anh thay điểm thi được không?
+      - Trường yêu cầu chứng chỉ tiếng Anh đầu vào mức nào?
+      - Có cần chứng chỉ tiếng Anh để tốt nghiệp trường không?
+      - Ê, chứng chỉ Pearson PTE có oke ở trường hông?
+      - Chứng chỉ tiếng Anh nào được công nhận để xét tuyển?
+      - Em có IELTS 6.0 thì có được ưu tiên xét ngành CNTT không?
+      - Trường có yêu cầu nộp chứng chỉ ngoại ngữ khi nhập học không?
+      - Tui có TOEFL thì được miễn học Anh văn hông z?
+      - Chứng chỉ tiếng Anh có ảnh hưởng đến xét tuyển thẳng không?
+      - IELTS 7.0 có được cộng điểm ưu tiên không?
+      - Ê, trường có chấp nhận chứng chỉ Duolingo hông?
+      - Em cần chứng chỉ tiếng Anh nào để được miễn học phần?
+      - Trường có ưu tiên xét tuyển cho thí sinh có chứng chỉ CEFR không?
+      - Chứng chỉ TOEIC có được dùng để thay điểm thi tiếng Anh không?
+      - Tui có B2 VSTEP thì được ưu tiên j z?
+      - Trường có yêu cầu trình độ tiếng Anh cụ thể cho ngành AI không?
+      - Chứng chỉ tiếng Anh có cần nộp bản gốc khi xét tuyển không?
+      - có chứng chỉ có được miễn thi môn không
 
   - intent: coTuyenHeQuanKhong
     examples: |
@@ -904,6 +975,36 @@ nlu:
       - Trường có đào tạo sĩ quan không?
       - Đăng ký hệ quân sự cần làm gì?
       - Trường có tổ chức tuyển sinh riêng cho quân đội không?
+      - Trường có tuyển sinh hệ quân sự cho năm 2025 không?
+      - Ê, tui muốn học hệ quân đội, trường có slot hông?
+      - Hệ quân sự ở trường đào tạo những ngành nào?
+      - Trường có thuộc khối trường quân đội không?
+      - Tui đăng ký hệ quân sự thì cần giấy tờ j z?
+      - Học hệ quân sự có khác gì hệ dân sự không?
+      - Trường có đào tạo cán bộ cho Bộ Quốc phòng không?
+      - Có tiêu chuẩn sức khỏe riêng cho hệ quân sự không?
+      - Ê, trường có xét tuyển riêng cho quân đội hông?
+      - Ngành An toàn thông tin có hệ quân sự không?
+      - Trường có liên kết đào tạo với quân đội Lào không?
+      - Hệ quân sự có cần sơ tuyển như trường quân đội không?
+      - Tui muốn học sĩ quan, trường có đào tạo hông z?
+      - Quy trình đăng ký hệ quân sự ở trường thế nào?
+      - Trường có tổ chức kiểm tra thể lực cho hệ quân sự không?
+      - Hệ quân sự có được miễn học phí không?
+      - Ê, học hệ quân sự ra làm ở đâu z?
+      - Trường có đào tạo hệ quân sự cho ngành Công nghệ thông tin không?
+      - Thí sinh nữ có được đăng ký hệ quân sự không?
+      - Hệ quân sự có yêu cầu độ tuổi cụ thể không?
+      - Tui cần chuẩn bị j để xét tuyển hệ quân sự z?
+      - Trường có chương trình đào tạo sĩ quan chỉ huy không?
+      - Hệ quân sự có cần thi môn riêng không?
+      - Ê, hệ quân sự có được cấp quân hàm khi ra trường hông?
+      - Trường có xét tuyển thẳng cho hệ quân sự không?
+
+  - intent: Diemchuancacnam
+    examples: |
+     - điểm chuẩn 4 năm gần đây
+     - điểm chuẩn cac năm 2021, 2022, 2023, 2024
 
 synonyms:
   trường:
@@ -912,16 +1013,12 @@ synonyms:
     - KMA
     - Học viện Kỹ thuật mật mã
     - trường mình
-    - ACTVN
-    - Academy of Cryptographic Techniques
 
   ATTT:
     - An toàn thông tin
     - attt
     - An toàn
     - AT
-    - At
-    - at
 
   CNTT:
     - Công nghệ thông tin
@@ -929,7 +1026,6 @@ synonyms:
     - IT
     - CT
     - Công nghệ
-    - Ct
 
   DTVT:
     - ĐTVT
@@ -937,7 +1033,6 @@ synonyms:
     - DT
     - dtvt
     - Điện tử viễn thông
-    - Đt
 
   "2025":
     - Năm nay
@@ -947,5 +1042,3 @@ synonyms:
 
   "2023":
     - Năm kia
-  "2022":
-    - Năm kia nữa

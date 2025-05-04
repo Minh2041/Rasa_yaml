@@ -1,6 +1,226 @@
 version: "3.1"
 
 rules:
+  - rule: Người dùng chào hỏi
+    steps:
+      - intent: chaoHoi
+      - action: utter_chaoHoi
+
+  - rule: Người dùng tạm biệt
+    steps:
+      - intent: tamBiet
+      - action: utter_tamBiet
+
+  - rule: Người dùng cảm ơn
+    steps:
+      - intent: camOn
+      - action: utter_camOn
+
+  - rule: Người dùng hỏi thông tin tổng quan
+    steps:
+      - intent: thongTinTongQuan
+      - action: utter_thongTinTongQuan
+
+  - rule: Người dùng hỏi điều kiện xét tuyển
+    steps:
+      - intent: dieuKienXetTuyen
+      - action: utter_dieuKienXetTuyen
+
+  - rule: Người dùng hỏi tuyển sinh năm 2022
+    steps:
+      - intent: tuyenSinhNam2022
+      - action: utter_tuyenSinhNam2022
+
+  - rule: Người dùng hỏi tuyển sinh năm 2023
+    steps:
+      - intent: tuyenSinhNam2023
+      - action: utter_tuyenSinhNam2023
+
+  - rule: Người dùng hỏi tuyển sinh năm 2024
+    steps:
+      - intent: tuyenSinhNam2024
+      - action: utter_tuyenSinhNam2024
+
+  - rule: Người dùng hỏi tuyển sinh năm 2025
+    steps:
+      - intent: tuyenSinhNam2025
+      - action: utter_tuyenSinhNam2025
+
+  - rule: Người dùng hỏi điểm chuẩn các năm
+    steps:
+      - intent: diemChuanCacNam
+      - action: utter_diemChuanCacNam
+
+  - rule: Người dùng hỏi điểm chuẩn năm 2022
+    steps:
+      - intent: diemChuanNam2022
+      - action: utter_diemChuanNam2022
+
+  - rule: Người dùng hỏi điểm chuẩn năm 2023
+    steps:
+      - intent: diemChuanNam2023
+      - action: utter_diemChuanNam2023
+
+  - rule: Người dùng hỏi điểm chuẩn năm 2024
+    steps:
+      - intent: diemChuanNam2024
+      - action: utter_diemChuanNam2024
+
+  - rule: Người dùng hỏi điểm chuẩn năm 2025
+    steps:
+      - intent: diemChuanNam2025
+      - action: utter_diemChuanNam2025
+
+  - rule: Người dùng hỏi điểm chuẩn ngành ATTT
+    steps:
+      - intent: diemChuanNganhATTT
+      - action: utter_diemChuanNganhATTT
+
+  - rule: Người dùng hỏi điểm chuẩn ngành CNTT
+    steps:
+      - intent: diemChuanNganhCNTT
+      - action: utter_diemChuanNganhCNTT
+
+  - rule: Người dùng hỏi điểm chuẩn ngành DTVT
+    steps:
+      - intent: diemChuanNganhDTVT
+      - action: utter_diemChuanNganhDTVT
+
+  - rule: Người dùng hỏi phương thức xét tuyển
+    steps:
+      - intent: phuongThucXetTuyen
+      - action: utter_phuongThucXetTuyen
+
+  - rule: Trả lời câu hỏi về các ngành đào tạo
+    steps:
+      - intent: cacNganhDaoTao
+      - action: utter_cacNganhDaoTao
+
+  - rule: thông tin ngành ATTT
+    steps:
+      - intent: thongTinNganhATTT
+      - action: utter_thongTinNganh_ATTT
+
+  - rule: thông tin ngành CNTT
+    steps:
+      - intent: thongTinNganhCNTT
+      - action: utter_thongTinNganh_CNTT
+
+  - rule: thông tin ngành DTVT
+    steps:
+      - intent: thongTinNganhDTVT
+      - action: utter_thongTinNganh_DTVT
+
+  - rule: chương trình học ATTT
+    steps:
+      - intent: chuongTrinhHocATTT
+      - action: utter_chuongTrinhHoc_ATTT
+
+  - rule: chương trình học CNTT
+    steps:
+      - intent: chuongTrinhHocCNTT
+      - action: utter_chuongTrinhHoc_CNTT
+
+  - rule: chương trình học DTVT
+    steps:
+      - intent: chuongTrinhHocDTVT
+      - action: utter_chuongTrinhHoc_DTVT
+
+  - rule: Người dùng hỏi học phí
+    steps:
+      - intent: hocPhi
+      - action: utter_hocPhi
+
+  - rule: Người dùng hỏi học bổng
+    steps:
+      - intent: hocBong
+      - action: utter_hocBong
+
+  - rule: Người dùng hỏi ký túc xá
+    steps:
+      - intent: kyTucXa
+      - action: utter_kyTucXa
+
+  - rule: Người dùng hỏi câu lạc bộ
+    steps:
+      - intent: cauLacBo
+      - action: utter_cauLacBo
+
+  - rule: Người dùng hỏi tiếng Anh đầu vào
+    steps:
+      - intent: tiengAnhDauVao
+      - action: utter_tiengAnhDauVao
+
+  - rule: Người dùng hỏi cơ hội việc làm
+    steps:
+      - intent: coHoiViecLam
+      - action: utter_coHoiViecLam
+
+  - rule: Người dùng hỏi trường có phải quân đội không
+    steps:
+      - intent: coPhaiTruongQuanDoiKhong
+      - action: utter_coPhaiTruongQuanDoiKhong
+
+  - rule: Người dùng hỏi điểm chuẩn các năm
+    steps:
+      - intent: diemChuanCacNam
+      - action: utter_diemChuanCacNam
+
+  - rule: Người dùng hỏi web và fanpage
+    steps:
+      - intent: webVaFacebook_KMA
+      - action: utter_webVaFacebook_KMA
+
+  - rule: Người dùng hỏi học có khó không
+    steps:
+      - intent: hocCoKhoKhong
+      - action: utter_hocCoKhoKhong
+
+  - rule: Người dùng hỏi mã ngành
+    steps:
+      - intent: maNganh
+      - action: utter_maNganh
+
+  - rule: Người dùng hỏi chuẩn bị gì khi nhập học
+    steps:
+      - intent: chuanBiGiKhiNhapHoc
+      - action: utter_chuanBiGiKhiNhapHoc
+
+  - rule: Người dùng hỏi cách tính GPA
+    steps:
+      - intent: cachTinhGPA
+      - action: utter_cachTinhGPA
+
+  - rule: Người dùng hỏi cách xét học lực
+    steps:
+      - intent: cachXetHocLuc
+      - action: utter_cachXetHocLuc
+
+  - rule: Người dùng hỏi tổ hợp môn xét tuyển
+    steps:
+      - intent: toHopMon
+      - action: utter_toHopMon
+
+  - rule: Người dùng hỏi chính sách ưu tiên xét tuyển
+    steps:
+      - intent: uuTienXetTuyen
+      - action: utter_uuTienXetTuyen
+
+  - rule: Người dùng hỏi về chứng chỉ tiếng Anh
+    steps:
+      - intent: chungChiTA
+      - action: utter_chungChiTA
+
+  - rule: Người dùng hỏi về hệ quân sự
+    steps:
+      - intent: coTuyenHeQuanKhong
+      - action: utter_coTuyenHeQuanKhong
+
+  - rule: Người dùng hỏi về điểm chuẩn các năm
+    steps:
+      - intent: Diemchuancacnam
+      - action: utter_Diemchuancacnam
+
   - rule: Phản hồi khi không hiểu người dùng
     steps:
       - intent: nlu_fallback
